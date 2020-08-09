@@ -1,0 +1,268 @@
+[
+{
+  "model": "results.pollingstation",
+  "pk": "F120601A",
+  "fields": {
+    "name": "Fundamental Baptist Church Bohyen",
+    "voter_pop": 868,
+    "address": "Adjacent Bohyen Central Mosque",
+    "electoral_area": 1,
+    "constituency": 1,
+    "region": 2,
+    "created_on": "2020-07-08T23:34:13.078Z",
+    "updated_on": "2020-07-09T01:21:41.281Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120601B",
+  "fields": {
+    "name": "Fundamental Baptist Church Bohyen",
+    "voter_pop": 926,
+    "address": "Adjacent Bohyen Central Mosque",
+    "electoral_area": 1,
+    "constituency": 1,
+    "region": 2,
+    "created_on": "2020-07-08T23:35:33.036Z",
+    "updated_on": "2020-07-09T01:21:41.273Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120601C",
+  "fields": {
+    "name": "Fundamental Baptist Church Bohyen",
+    "voter_pop": 661,
+    "address": "Adjacent Bohyen Central Mosque",
+    "electoral_area": 1,
+    "constituency": 1,
+    "region": 2,
+    "created_on": "2020-07-08T23:36:49.388Z",
+    "updated_on": "2020-07-09T01:21:41.265Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120602A",
+  "fields": {
+    "name": "M/A Upper Primary Bohyen",
+    "voter_pop": 740,
+    "address": "Bus station",
+    "electoral_area": 1,
+    "constituency": 1,
+    "region": 2,
+    "created_on": "2020-07-08T23:41:07.511Z",
+    "updated_on": "2020-07-09T01:21:41.257Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120602B",
+  "fields": {
+    "name": "M/A Upper Primary Bohyen",
+    "voter_pop": 717,
+    "address": "Bus station",
+    "electoral_area": 1,
+    "constituency": 1,
+    "region": 2,
+    "created_on": "2020-07-08T23:54:01.284Z",
+    "updated_on": "2020-07-09T01:21:41.249Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120603",
+  "fields": {
+    "name": "Fundamental Baptist School Bohyen",
+    "voter_pop": 473,
+    "address": null,
+    "electoral_area": 1,
+    "constituency": 1,
+    "region": 2,
+    "created_on": "2020-07-09T00:17:09.287Z",
+    "updated_on": "2020-07-09T01:21:41.241Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120604A",
+  "fields": {
+    "name": "Ampabame Clinic",
+    "voter_pop": 542,
+    "address": "Ampabame",
+    "electoral_area": 2,
+    "constituency": 1,
+    "region": 2,
+    "created_on": "2020-07-09T21:31:00.995Z",
+    "updated_on": "2020-07-09T21:31:00.995Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120604B",
+  "fields": {
+    "name": "Ampabame Clinic",
+    "voter_pop": 511,
+    "address": "Ampabame",
+    "electoral_area": 2,
+    "constituency": 1,
+    "region": 2,
+    "created_on": "2020-07-09T21:32:58.958Z",
+    "updated_on": "2020-07-09T21:32:58.958Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120605",
+  "fields": {
+    "name": "M/A JHS Ampabame",
+    "voter_pop": 293,
+    "address": null,
+    "electoral_area": 2,
+    "constituency": 1,
+    "region": 2,
+    "created_on": "2020-07-09T21:36:11.059Z",
+    "updated_on": "2020-07-09T21:36:11.059Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120606",
+  "fields": {
+    "name": "Methodist Church Ampabame",
+    "voter_pop": 688,
+    "address": null,
+    "electoral_area": 2,
+    "constituency": 1,
+    "region": 2,
+    "created_on": "2020-07-09T21:37:43.324Z",
+    "updated_on": "2020-07-09T21:37:43.324Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120607",
+  "fields": {
+    "name": "Ampabame Town Council",
+    "voter_pop": 754,
+    "address": null,
+    "electoral_area": 2,
+    "constituency": 1,
+    "region": 2,
+    "created_on": "2020-07-09T21:40:23.444Z",
+    "updated_on": "2020-07-09T21:40:23.444Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120608",
+  "fields": {
+    "name": "M/A Primary School Bohyen",
+    "voter_pop": 703,
+    "address": null,
+    "electoral_area": 1,
+    "constituency": 1,
+    "region": 2,
+    "created_on": "2020-07-09T00:19:52.967Z",
+    "updated_on": "2020-07-09T01:21:41.234Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120609A",
+  "fields": {
+    "name": "Methodist Church Bohyen",
+    "voter_pop": 528,
+    "address": null,
+    "electoral_area": 1,
+    "constituency": 1,
+    "region": 2,
+    "created_on": "2020-07-09T00:21:22.514Z",
+    "updated_on": "2020-07-09T01:21:41.221Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120609B",
+  "fields": {
+    "name": "Methodist Church Bohyen",
+    "voter_pop": 526,
+    "address": null,
+    "electoral_area": 1,
+    "constituency": 1,
+    "region": 2,
+    "created_on": "2020-07-09T00:23:37.338Z",
+    "updated_on": "2020-07-09T01:21:41.213Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120610",
+  "fields": {
+    "name": "R/C Church Ampabame",
+    "voter_pop": 483,
+    "address": null,
+    "electoral_area": 2,
+    "constituency": 1,
+    "region": 2,
+    "created_on": "2020-07-09T21:42:16.999Z",
+    "updated_on": "2020-07-09T21:42:16.999Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120611A",
+  "fields": {
+    "name": "Pentecost Church Bohyen Central",
+    "voter_pop": 585,
+    "address": null,
+    "electoral_area": 2,
+    "constituency": 1,
+    "region": 2,
+    "created_on": "2020-07-09T21:43:56.925Z",
+    "updated_on": "2020-07-09T21:43:56.925Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120611B",
+  "fields": {
+    "name": "Pentecost Church Bohyen Central",
+    "voter_pop": 587,
+    "address": null,
+    "electoral_area": 2,
+    "constituency": 1,
+    "region": 2,
+    "created_on": "2020-07-09T21:45:15.301Z",
+    "updated_on": "2020-07-09T21:45:42.406Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120612",
+  "fields": {
+    "name": "Bohyen Sakasaka Park",
+    "voter_pop": 915,
+    "address": "Adjacent the post office",
+    "electoral_area": 1,
+    "constituency": 1,
+    "region": 2,
+    "created_on": "2020-07-09T00:26:42.549Z",
+    "updated_on": "2020-07-09T01:21:41.205Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120613",
+  "fields": {
+    "name": "Presby JHS Bohyen",
+    "voter_pop": 875,
+    "address": null,
+    "electoral_area": 1,
+    "constituency": 1,
+    "region": 2,
+    "created_on": "2020-07-09T00:32:34.166Z",
+    "updated_on": "2020-07-09T01:21:41.173Z"
+  }
+}
+]

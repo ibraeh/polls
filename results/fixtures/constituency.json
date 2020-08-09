@@ -1,0 +1,22 @@
+[
+{
+  "model": "results.constituency",
+  "pk": 1,
+  "fields": {
+    "name": "Bantama",
+    "region": 2,
+    "created_on": "2020-07-08T23:13:49.475Z",
+    "updated_on": "2020-07-08T23:13:49.475Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 2,
+  "fields": {
+    "name": "Ayawaso West Wuogon",
+    "region": 1,
+    "created_on": "2020-07-08T23:14:53.681Z",
+    "updated_on": "2020-07-08T23:14:53.681Z"
+  }
+}
+]

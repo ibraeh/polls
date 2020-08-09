@@ -1,0 +1,146 @@
+[
+{
+  "model": "results.region",
+  "pk": 1,
+  "fields": {
+    "name": "Greater Accra",
+    "created_on": "2020-07-08T23:10:43.130Z",
+    "updated_on": "2020-07-08T23:11:01.280Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 2,
+  "fields": {
+    "name": "Ashanti",
+    "created_on": "2020-07-08T23:11:28.938Z",
+    "updated_on": "2020-07-08T23:11:28.938Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 3,
+  "fields": {
+    "name": "Volta",
+    "created_on": "2020-07-08T23:11:56.168Z",
+    "updated_on": "2020-07-08T23:11:56.168Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 4,
+  "fields": {
+    "name": "Upper East",
+    "created_on": "2020-07-08T23:12:05.465Z",
+    "updated_on": "2020-07-08T23:12:05.466Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 5,
+  "fields": {
+    "name": "Upper West",
+    "created_on": "2020-07-08T23:12:13.383Z",
+    "updated_on": "2020-07-08T23:12:13.383Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 6,
+  "fields": {
+    "name": "Oti",
+    "created_on": "2020-07-08T23:12:38.943Z",
+    "updated_on": "2020-07-08T23:12:38.943Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 7,
+  "fields": {
+    "name": "Bono Region",
+    "created_on": "2020-07-09T14:56:26.164Z",
+    "updated_on": "2020-07-09T14:56:26.164Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 8,
+  "fields": {
+    "name": "Bono East Region",
+    "created_on": "2020-07-09T14:56:43.863Z",
+    "updated_on": "2020-07-09T14:56:43.863Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 9,
+  "fields": {
+    "name": "Ahafo Region",
+    "created_on": "2020-07-09T14:56:53.789Z",
+    "updated_on": "2020-07-09T14:56:53.789Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 10,
+  "fields": {
+    "name": "Central",
+    "created_on": "2020-07-09T14:57:08.440Z",
+    "updated_on": "2020-07-09T14:57:08.440Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 11,
+  "fields": {
+    "name": "Western Region",
+    "created_on": "2020-07-09T14:57:15.536Z",
+    "updated_on": "2020-07-09T14:57:47.339Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 12,
+  "fields": {
+    "name": "Eastern",
+    "created_on": "2020-07-09T14:57:53.941Z",
+    "updated_on": "2020-07-09T14:57:53.942Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 13,
+  "fields": {
+    "name": "Northern",
+    "created_on": "2020-07-09T14:58:34.097Z",
+    "updated_on": "2020-07-09T14:58:34.097Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 14,
+  "fields": {
+    "name": "Savannah",
+    "created_on": "2020-07-09T14:58:51.883Z",
+    "updated_on": "2020-07-09T14:58:51.883Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 15,
+  "fields": {
+    "name": "North East",
+    "created_on": "2020-07-09T14:59:00.062Z",
+    "updated_on": "2020-07-09T14:59:00.062Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 16,
+  "fields": {
+    "name": "Western North",
+    "created_on": "2020-07-09T14:59:17.333Z",
+    "updated_on": "2020-07-09T14:59:17.333Z"
+  }
+}
+]

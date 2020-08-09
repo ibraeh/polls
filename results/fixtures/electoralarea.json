@@ -1,0 +1,62 @@
+[
+{
+  "model": "results.electoralarea",
+  "pk": 1,
+  "fields": {
+    "name": "Bohyen",
+    "constituency": 1,
+    "created_on": "2020-07-08T23:16:18.981Z",
+    "updated_on": "2020-07-08T23:16:18.981Z"
+  }
+},
+{
+  "model": "results.electoralarea",
+  "pk": 2,
+  "fields": {
+    "name": "Ampabame",
+    "constituency": 1,
+    "created_on": "2020-07-08T23:16:40.646Z",
+    "updated_on": "2020-07-08T23:16:40.646Z"
+  }
+},
+{
+  "model": "results.electoralarea",
+  "pk": 3,
+  "fields": {
+    "name": "Abrepo",
+    "constituency": 1,
+    "created_on": "2020-07-08T23:16:57.857Z",
+    "updated_on": "2020-07-08T23:18:41.374Z"
+  }
+},
+{
+  "model": "results.electoralarea",
+  "pk": 4,
+  "fields": {
+    "name": "Atafoa Mpatasie",
+    "constituency": 1,
+    "created_on": "2020-07-08T23:17:27.587Z",
+    "updated_on": "2020-07-08T23:17:27.587Z"
+  }
+},
+{
+  "model": "results.electoralarea",
+  "pk": 5,
+  "fields": {
+    "name": "Amanfrom",
+    "constituency": 1,
+    "created_on": "2020-07-08T23:17:46.306Z",
+    "updated_on": "2020-07-08T23:17:46.306Z"
+  }
+},
+{
+  "model": "results.electoralarea",
+  "pk": 6,
+  "fields": {
+    "name": "Ohwim/Hwidiem",
+    "constituency": 1,
+    "created_on": "2020-07-08T23:18:28.344Z",
+    "updated_on": "2020-07-08T23:18:28.344Z"
+  }
+}
+]
