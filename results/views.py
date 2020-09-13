@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from highcharts.views import HighChartsMultiAxesView, HighChartsStackedView,HighChartsBarView, HighChartsPieView, HighChartsHeatMapView
+from highcharts.views import HighChartsMultiAxesView,HighChartsBarView, HighChartsPieView, HighChartsHeatMapView
 import random
 from results.models import *
 
@@ -254,7 +254,7 @@ class Piechartview(HighChartsPieView):
 
 
 
-class ColumnChartView(HighChartsStackedView):
+class ColumnChartView(HighChartsBarView):
 	title='General Election'
 	subtitle='Presidential'
 	# annotations={
