@@ -1,0 +1,105 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Peralta" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'rest_framework/css/bootstrap.min.css' %}">
+    <script type="text/javascript" src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+
+	<title>stations</title>
+</head>
+<body>
+	{%regroup context_variable by name as station_list%}
+	<!-- {% for name, pstation in station_list%}
+		{%for ps in pstation%}
+			<p>{{ps}}</p>
+		{%endfor%}
+	{%endfor%} -->
+	<div class="container-fluid">
+		<table class="table table-striped" style="border-style: 1px">
+			<caption><h2>Results from Polling Stations</h2></caption>
+			<thead>
+				<!-- <tr>
+					<th>Polling Station Name</th>
+					<th>Code</th>
+					<th>Voter Population</th>
+					<th>NDC</th>
+					<th>NPP</th>
+					<th>CPP</th>
+					<th>Rejected</th>
+					<th>Valid Votes</th>
+					<th>Vote Cast</th>
+					<th>Available</th>
+					<th>Verified</th>
+					<th>Voting Status</th>
+				</tr> -->
+			</thead>
+			{% for name, pstation in station_list%}
+
+			<tbody>
+				
+				<tr><td><h3 class="text-primary">{{name}}</h3> </td></tr>
+				
+				<tr>
+					<th>Polling Station Name</th>
+					<th>Code</th>
+					<th>Voter Pop</th>
+					<th>NDC</th>
+					<th>NPP</th>
+					<th>CPP</th>
+					<th>Rejected</th>
+					<th>Valid Votes</th>
+					<th>Vote Cast</th>
+					<th>Available</th>
+					<th>Verified</th>
+					<th>Voting Status</th>
+					<th>Date/Time</th>
+				</tr>
+
+				{%for ps in pstation%}
+				<tr>
+					<td>{%if ps.pollingstation__name is not None %}{{ps.pollingstation__name}} {%endif%}</td>
+					<td>{%if ps.pollingstation__pscode is not None %}{{ps.pollingstation__pscode}} {%endif%}</td>
+					<td>{%if ps.pollingstation__voter_pop is not None %}{{ps.pollingstation__voter_pop}} {%endif%}</td>
+
+					<td>{%if ps.pollingstation__presidentialpollresult__NDC  is not None %}{{ps.pollingstation__presidentialpollresult__NDC}} {%endif%}</td>
+					<td>{%if ps.pollingstation__presidentialpollresult__NPP  is not None %}{{ps.pollingstation__presidentialpollresult__NPP}} {%endif%}</td>
+					<td>{%if ps.pollingstation__presidentialpollresult__CPP  is not None %}{{ps.pollingstation__presidentialpollresult__CPP}} {%endif%}</td>
+					<td>{%if ps.pollingstation__presidentialpollresult__rejected  is not None %}{{ps.pollingstation__presidentialpollresult__rejected}} {%endif%}</td>
+					<td>{%if ps.pollingstation__presidentialpollresult__valid_votes  is not None %}{{ps.pollingstation__presidentialpollresult__valid_votes}} {%endif%}</td>
+					<td>{%if ps.pollingstation__presidentialpollresult__vote_cast  is not None %}{{ps.pollingstation__presidentialpollresult__vote_cast}} {%endif%}</td>
+					<td>{%if ps.pollingstation__presidentialpollresult__available  is not None %}{{ps.pollingstation__presidentialpollresult__available|yesno:"Yes,No,None"}} {%endif%}</td>
+					<td>{%if ps.pollingstation__presidentialpollresult__verified  is not None %}{{ps.pollingstation__presidentialpollresult__verified|yesno:"Yes,No,None"}} {%endif%}</td>
+					<td>{%if ps.pollingstation__presidentialpollresult__voting_status  is not None %}{{ps.pollingstation__presidentialpollresult__voting_status|yesno:"Good,Bad,None"}} {%endif%}</td>
+					<td>{%if ps.pollingstation__presidentialpollresult__created_on  is not None %}{{ps.pollingstation__presidentialpollresult__created_on}} {%endif%}</td>
+				</tr>
+				{%endfor%}
+			</tbody>
+			{%endfor%}
+		</table>
+
+
+	</div>
+
+
+
+
+	<!-- {%regroup context_variable by name as ps_list%}
+	<ul>
+	{% for name, ps in ps_list%}
+	<li>
+	<p>{{name}}</p>
+		<ul>
+			{%for p in ps%}
+				<li>{{p.pollingstation__name}}</li>
+			{%endfor%}
+		</ul>
+	</li>
+	{%endfor%}
+	</ul> -->
+<!-- {% for entry in context_variable%}
+		<p>{{entry}}</p>
+	{%endfor%} -->
+</body>
+</html>

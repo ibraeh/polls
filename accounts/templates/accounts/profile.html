@@ -1,17 +1,24 @@
-{%load static%}
-<!DOCTYPE html>
-<html>
-<head>
-	<title>profile</title>
-</head>
-<body>
-	<h1>Welcome to profile page</h1>
+{% extends "base.html" %}
+{% block title %}
+Profile
+
+{% endblock title%}
+{%block scripts%}
+		
+{%endblock scripts%}
+
+{% block content %}
+<div class="container-fluid">
+<h1>Welcome to profile page</h1>
 	{% if user.username %}
 <p>Welcome {{ user.username }}!</p>
 {% else %}
 <p>Welcome anonymous user!
 You need to <a href="{%url 'login'%}">login</a></p>
 {% endif %}
-<p><a href="{% url 'logout' %}">Logout</a></p>
-</body>
-</html>
+<!-- <p><a href="{% url 'logout' %}">Logout</a></p>
+<p><a href="{% url 'dashboard' %}">Dashboard</a></p> -->
+</div>
+{% endblock content %}
+
+

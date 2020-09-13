@@ -1,0 +1,99 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta  charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}Election {% endblock %}</title>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Peralta" rel="stylesheet"> -->
+    <link rel="stylesheet" href="{% static 'accounts/css/highcharts.css' %}">
+    <link rel="stylesheet" href="{% static 'rest_framework/css/bootstrap.min.css' %}">
+    <!-- <link rel="stylesheet" href="{% static 'accounts/css/highcharts.css' %}"> -->
+
+    <script type="text/javascript" src="{% static 'accounts/js/jquery-3.4.1.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'rest_framework/js/bootstrap.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'accounts/js/highcharts.js' %}"></script>
+    <!-- <link rel="stylesheet" href="{% static 'css/app.css' %}"> -->
+
+    {%block scripts%} {%endblock scripts%}
+  </head>
+  <body>
+    <div class="container-fluid">
+    <!-- code suppressed for brevity -->
+
+    <nav class="navbar navbar-default" role="navigation">
+    <div id="header" >
+    <!-- <span class="logo">Bookmarks</span> -->
+
+      {% if request.user.is_authenticated %}
+          <ul class="menu nav navbar-nav"  >
+            <li {% if section == "home" %}class="selected"{% endif %}>
+            <a href="{% url "home" %}">Home</a>
+            </li>
+            <li {% if section == "dashboard" %}class="selected"{% endif %}>
+            <a href="{% url "dashboard" %}">My dashboard</a>
+            </li>
+            <li {% if section == "images" %}class="selected"{% endif %}>
+            <a href="{%url 'presidential'%}">Presidential</a>
+            </li>
+            <li {% if section == "people" %}class="selected"{% endif %}>
+            <a href="#">Parliamentary</a>
+            </li>
+            <li  {% if section == "pollingstation" %}class="selected"{% endif %}>
+            <a href="{% url "pollingstation" %}">Polling Stations</a>
+            </li> 
+            <li  {% if section == "region" %}class="selected"{% endif %}>
+            <a href="{% url "region" %}">Region</a>
+            </li>      
+            <li  {% if section == "logout" %}class="selected"{% endif %}>
+            <a href="{% url "logout" %}">Logout</a>
+            </li>
+            <li  {% if section == "password_change" %}class="selected"{% endif %}>
+            <a href="{% url "password_change" %}">Change Password</a>
+            </li>
+            
+          </ul>
+          {%else%}
+          <form class="form-inline ml-auto">
+            <a href="{% url 'home' %}" class="btn btn-outline-secondary">Home</a>
+          <a href="{% url 'login' %}" class="btn btn-outline-secondary">Log in</a>
+          <a href="{% url 'signup' %}" class="btn btn-primary ml-2">Sign up</a>
+        </form>
+          <!-- <ul class="menu nav navbar-nav">
+            <li {% if section == "home" %}class="selected"{% endif %}>
+            <a href="{% url "home" %}">Home</a>
+            </li>
+            <li  {% if section == "signup" %}class="selected"{% endif %}>
+            <a href="{% url "signup" %}">Sign Up</a>
+            </li>
+            <li  {% if section == "login" %}class="selected"{% endif %}>
+            <a href="{% url "login" %}">Login</a>
+            </li>
+          </ul> -->
+      {% endif %}
+      
+        <!-- <ul class="nav navbar-nav">
+        <span class="user" >
+          {% if request.user.is_authenticated %}
+          Hello {{ request.user.first_name }},
+          <a href="{% url "logout" %}">Logout</a>
+          {% else %}
+          <a href="{% url "login" %}">Log-in</a>
+          {% endif %}
+         </span>
+        </ul> -->
+     
+      
+
+    </div>
+  </nav>
+
+    
+    {% block content %}
+    {% endblock %}
+   
+
+    </div>
+  </body>
+</html>

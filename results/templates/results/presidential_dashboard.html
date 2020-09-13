@@ -1,0 +1,352 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>highcharts</title>
+	<link href="https://fonts.googleapis.com/css?family=Peralta" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="{% static 'rest_framework/css/bootstrap.min.css' %}"> -->
+    <script type="text/javascript" src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+    <!-- <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script> -->
+    <script type="text/javascript" src="{% static 'js/highcharts.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/highcharts/modules/drilldown.js' %}"></script>
+    <!-- <script type="text/javascript" src="{% static 'js/highcharts/modules/heatmap.js' %}"></script> -->
+    <script type="text/javascript" src="{% static 'js/highcharts/modules/exporting.js' %}"></script>
+    <!-- <script type="text/javascript" src="{% static 'js/highcharts/modules/annotations.js' %}"></script> -->
+</head>
+<body>
+
+<div id="container" style="min-width: 310px; height: 1000px; margin: 0 auto"></div>
+	
+</div>
+
+<script type="text/javascript">
+$('document').ready(function(){
+
+// results();
+// async function results(){
+// 	const response= await fetch("{% url 'results:barview' %}");
+// 	const data= response.json();
+// 	$('#container').highcharts(data);
+// }
+
+
+		// $(function () {
+		// $.getJSON("{% url 'results:columnchartview' %}", function(data) {
+		// 	//console.log(data);
+		// $('#container').highcharts(data);
+		// });
+		// });
+
+
+
+		$('#container').highcharts({
+			chart:{
+				type:'column'
+			},
+			credits:{
+				enabled:false
+			},
+			title:{
+				text:'General Election'
+			},
+			subtitle:{
+				text:'Dec 2020'
+			},
+			tooltip:{
+				enabled:true,
+
+			},
+			legend:{
+				enabled:true
+			},
+			exporting:{
+
+			},
+			colors:[
+				'#7CB5EC', '#D3D3D3', '#90ED7D', '#F7A35C', '#8085E9',
+				'#F15C80', '#E4D354', '#BDB76B', '#8D4653', '#91E8E1',
+				'#000000','#0000FF','#FF00FF','#808080','#008000',
+				'#00FF00','#800000','#000080','#808000','#800080',
+				'#FF0000','#C0C0C0','#008080','#FFFFFF','#BC8F8F','#D2691E','#D2B48C','#778899','#F0FFF0','#008080','#808000','#008000','#FF7F50','#FF6347','#FFD700','#8B0000','#FFDAB9'
+			],
+			plotOptions:{
+
+			},
+			xAxis:{
+				// categories:['Ahafo','Ashanti','Bono','Bono East','Central','Eastern','Greater Accra','North East',	'Northern', 'Oti','Savannah','Upper East','Upper West','Volta',	'Western','Western North'],
+				type:'category'
+			},
+			yAxis:{
+				title:{
+					text:''
+				},
+			},
+			series:[{
+				name:'Region',
+				colorByPoint:true,
+				data:[
+					{
+						name:'Ahafo',
+						y:5,
+						drilldown:'ahafo'
+					},
+					{
+						name:'Ashanti',
+						y:5,
+						drilldown:'ashanti'
+					},
+					{
+						name:'Bono',
+						y:5,
+						drilldown:'bono'
+					},
+					{
+						name:'Bono East',
+						y:5,
+						drilldown:'bonoeast'
+					},
+					{
+						name:'Central',
+						y:5,
+						drilldown:'central'
+					},
+					{
+						name:'Eastern',
+						y:5,
+						drilldown:'eastern'
+					},
+					{
+						name:'Greater Accra',
+						y:5,
+						drilldown:'greateraccra'
+					},
+					{
+						name:'North East',
+						y:5,
+						drilldown:'northeast'
+					},
+					{
+						name:'Northern',
+						y:5,
+						drilldown:'northern'
+					},
+					{
+						name:'Oti',
+						y:5,
+						drilldown:'oti'
+					},
+					{
+						name:'Savannah',
+						y:5,
+						drilldown:'savannah'
+					},
+					{
+						name:'Upper East',
+						y:5,
+						drilldown:'uppereast'
+					},
+					{
+						name:'Upper West',
+						y:5,
+						drilldown:'upperwest'
+					},
+					{
+						name:'Volta',
+						y:5,
+						drilldown:'volta'
+					},
+					{
+						name:'Western',
+						y:5,
+						drilldown:'western'
+					},
+					{
+						name:'Western North',
+						y:5,
+						drilldown:'westernnorth'
+					},
+				]
+			}], // series end
+			// Drilldown of each region, Districts, constituency
+			drilldown:{
+				series:[
+					// districts
+					{
+						name:'Districts',
+						id:'ahafo',
+						data:[
+							{name:'Asunafo North', y:4,drilldown:'asunafonorth'}, 
+							{name:'Asunafo South', y:4,drilldown:'asunafosouth'},
+							{name:'Asutifi North', y:4,drilldown:'asutifinorth'},
+							['Asutifi South',4],
+							['Tano North',4],['Tano South',4]
+						],
+						keys: ['name', 'y', 'drilldown']
+					},
+					{
+						name:'Districts',
+						id:'ashanti',
+						data:[
+							{name:'Adansi North',y:4,drilldown:'adansinorth'},
+							{name:'Adansi South',y:4,drilldown:'adansisouth'}
+						],
+						keys: ['name', 'y', 'drilldown']
+					},
+					{
+						name:'Districts',
+						id:'bono',
+						data:[
+							['Banda',4],['Berekum East',4]
+						]
+					},
+					{
+						name:'Districts',
+						id:'bonoeast',
+						data:[
+							['Atebubu-Amantin',4],['Kintampo North',4]
+						]
+					},
+					{
+						name:'Districts',
+						id:'central',
+						data:[
+							['Abura/Asebu/Kwamankese',4],['Agona East',4]
+						]
+					},
+					{
+						name:'Districts',
+						id:'eastern',
+						data:[
+							['Akuapim North',4],['Akuapim South',4]
+						]
+					},
+					{
+						name:'Districts',
+						id:'greateraccra',
+						data:[
+							['Accra',4],['Ada East',4],['Ada West',4]
+						]
+					},
+					{
+						name:'Districts',
+						id:'northeast',
+						data:[
+							['Bunkpurugu-Nyankpanduri',4]
+						]
+					},
+					{
+						name:'Districts',
+						id:'northern',
+						data:[
+							['Gushiegu',4],['Karaga',4]
+						]
+					},
+					{
+						name:'Districts',
+						id:'oti',
+						data:[
+							['Biakoye',4],['Jasikan',4]
+						]
+					},
+					{
+						name:'Districts',
+						id:'savannah',
+						data:[
+							['Bole',4],['Central Gonja',4]
+						]
+					},
+					{
+						name:'Districts',
+						id:'uppereast',
+						data:[
+							['Bawku',4],['Bawku West',4]
+						]
+					},
+					{
+						name:'Districts',
+						id:'upperwest',
+						data:[
+							['Daffiama-Bussie-Issa',4],['Jirapa',4]
+						]
+					},
+					{
+						name:'Districts',
+						id:'volta',
+						data:[
+							['Adaklu',4],['Afadjato South',4]
+						]
+					},
+					{
+						name:'Districts',
+						id:'western',
+						data:[
+							['Ahanta West',4],['Bia East',4],['Ellembele',4]
+						]
+					},
+					{
+						name:'Districts',
+						id:'westernnorth',
+						data:[
+							['Aowin',4],['Bia West',4]
+						]
+					},
+					//------------------------
+					// Constituencies
+					{
+						name:'Constituencies',
+						id:'asunafonorth',
+						data:[
+							{
+								name:'Asunafo North',
+								y:5
+							},
+						]
+					},
+					{
+						name:'Constituencies',
+						id:'asunafosouth',
+						data:[
+							{
+								name:'Asunafo South',
+								y:5
+							},
+						]
+					},
+					{
+						name:'Constituencies',
+						id:'asutifinorth',
+						data:[
+							{
+								name:'Asunafo North',
+								y:5
+							},
+						]
+					},
+					{},
+					{},
+					{},
+					{},
+					{},
+					{},
+
+					//---------------------
+					//Electoral areas
+					{},
+					{},
+					{},
+					{},
+					{},
+					{},
+					{},
+
+				]
+
+			}
+		}, 
+		function(){}
+		);
+
+});
+</script> 
+</body>
+</html>

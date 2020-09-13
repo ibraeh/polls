@@ -1,0 +1,274 @@
+{% extends "base.html" %}
+{% block title %}Presidential{% endblock %}
+
+{%block scripts%}
+
+		
+{%endblock scripts%}
+
+{%block content%}
+<div>
+	
+</div>
+	<!-- <h1>Chart</h1> -->
+	
+<div id="container" style="min-width: 420px; margin: 0 auto;"></div>
+	
+
+<script type="text/javascript">
+
+		$(function(){
+
+		var imagesrc=function(imgsrc){
+				// console.log(imgsrc);
+				return "<img style= 'width:40px; height:40px;' src='"+imgsrc+"' />";
+		};
+		const ndc={{polls.p_ndc}};
+		const npp={{polls.p_npp}};
+		const cpp={{polls.p_cpp}};
+		// console.log(ndc,'..',npp, ',,,',cpp);
+
+
+		//Highchart start
+		$('#container').highcharts({ 
+			chart:{
+				type:'bar',
+				// plotBackgroundImage:'/media/images/apple.png',
+
+			},
+			credits:{
+				enabled:false,
+				text:'Aim J Tech',
+				// href:'www.aimj.com',
+				position:{
+					align:'right',
+					// verticalAlign:'bottom',
+					x:-10,
+					y:-2
+				}
+
+			},
+			title:{
+				text:'General Election',
+				// align:'left',
+				// x:60
+			},
+			subtitle:{
+				text:'Presidential',
+				// align:'right',
+				// y:15
+			},
+			tooltip:{
+				enabled:true,
+				animation:true,
+				crosshairs:true,
+				useHTML:true,
+				headerFormat:'<b>Polls</b><br>',
+				pointFormat:"{series.name}: <b>{point.percentage:.1f}%</b><br>",
+				formatter:function(){
+					var img='';
+					if (this.series.name=='NDC') {
+						img='/media/images/ndc.png';
+					}
+					else if (this.series.name=='NPP') {
+						img='/media/images/npp.png';
+					}
+					else if (this.series.name=='CPP') {
+						img='/media/images/cpp.jpeg';
+					}
+					return "<span><img style='width:10px; height:10px;margin:0px;'src='"+img +"' /> </span>"+this.series.name+":" + "<b>"+(this.percentage).toFixed(1)+" % </b>";
+				},
+				// position: {
+	                // align: "center",
+	                // x: -10,
+	                // verticalAlign: "bottom",
+	                // y: -5
+            	// },
+            	positioner:function(labelWidth, labelHeight, point){
+            		return {x:point.PlotX+20, y:point.plotY-30};
+            	},
+            	style: {
+	                // cursor: "pointer",
+	                // color: "#909090",
+	                fontSize: "9px",
+	                overflow:'auto'
+            	}
+			},
+			legend:{
+				enabled:true,
+				title:{
+					text:"<span style='align:right;color:red;'>Political Parties</span>"
+				},
+				borderRadius:1,
+				borderWidth:0.5
+				
+			},
+			exporting:{
+				enabled:false,
+				// allowHTML:true,
+				url:'http://localhost:8000/'
+			},
+			colors:{
+
+			},
+			labels:{
+				//enabled:false
+			},
+			plotOptions:{
+				bar:{
+					stacking:'percent',
+					dataLabels:{
+						enabled:true,
+						color:'#F4F4F4',
+						useHTML:true,
+						// format:"{series.name}: <b>{point.percentage:.1f}%</b><br>{point.y:,.0f}<br>"+"<img style='width:20px; height:20px'src='/media/images/banana.png' />",
+						formatter:function(){
+							// return series.name
+							return "<span style='float:left;margin:3px;'>"+this.series.userOptions.image+"</span>"+" <strong>"+Highcharts.numberFormat(this.percentage, 1)+"%</strong>"+ '<br>'+Highcharts.numberFormat(this.y,0)+" votes<br>";
+						},
+						style:{
+							fontSize:'15px',
+							fontFamily: "Verdana,Times New Roman, Times,  Arial,serif",
+							overflow:'auto'
+						}
+					}
+				},
+				// series:{
+				// 	showCheckbox:true
+				// }
+			}, //--plotOptions end
+			xAxis:{
+				categories:[''],
+				// type:'category',
+				labels:{
+					enabled:true,
+					// useHTML:true
+				}
+
+			}, //--xAxis end
+			yAxis:{
+				title:{
+					text:''
+				},
+				plotLines:[
+					{
+						value:50,
+						width:4,
+						color:'red',
+						useHTML:true,
+						label:{
+							text:'<b>50% Mark </b>',
+							rotation:0,
+							style:{
+
+							}
+						}
+					},
+					
+				], //--plotLines end
+				labels:{
+						enabled:false
+					},
+				tickInterval:50,
+				height:185
+			}, //--yAxis end
+			series:[
+			
+				{
+					// name:imagesrc('/media/images/ndc.png'),
+					name:'NDC',
+					data:[ndc],
+					color:'#008000',
+					id:'mahama',
+					// selected:true,
+					visible:true,
+					image:imagesrc('/media/images/mahama.jpeg')
+				},
+				{
+					// name:imagesrc('/media/images/npp.png'),
+					name:'NPP',
+					data:[npp],
+					color:'#0000FF',
+					id:'nana',
+					// selected:true,
+					visible:true,
+					image:imagesrc('/media/images/nana.jpeg')
+				},
+				{
+					// name:imagesrc('/media/images/apple.jpeg'),
+					name:'CPP',
+					data:[cpp],
+					//color:'',
+					id:'samia',
+					// selected:false,
+					visible:false,
+					image:imagesrc('/media/images/ghana.png')
+				},
+			
+				
+			] 
+			//--Series end
+
+
+
+		}, 
+		// function () {
+		// 	var chart = $( '#container' ).highcharts();
+		// 	// chart.setTitle( {text: prompt('Enter the new title')} );
+		// 	var d=chart.get('mahama');
+		// 	// console.log(this);
+		// 	// console.log(d);
+		// }
+		); //Highchart end
+		
+
+	});
+	
+</script>
+
+<div>
+	{% regroup context_variable by region__name as region_list %}
+	<table class="table table-striped table-bordered">
+		<thead>
+			<!-- <tr>
+				<th>Constituencies</th>
+				<th>NDC</th>
+				<th>NPP</th>
+				<th>CPP</th>
+			</tr> -->
+			<!-- <caption><h1>Results from Constituencies</h1></caption> -->
+
+		</thead>
+		{% for region__name, const in region_list%}
+			
+		<tbody>
+			
+			<tr> <td colspan="4"><h3>{{region__name}} Region </h3></td>	</tr>
+			<tr>
+				<th>CONSTITUENCY</th>
+				<th>NDC</th>
+				<th>NPP</th>
+				<th>CPP</th>
+			</tr>
+			
+
+			{%for cons in const%}
+				
+				
+				
+					
+			<tr>
+				<td>{{cons.name}} </td>
+				<td id='ndc' class="" >{%if cons.ndc is not None %}{{cons.ndc}} {%endif%}</td>
+				<td id='npp' class="">{%if cons.npp is not None %}{{cons.npp}} {%endif%}</td>
+				<td id='cpp' class="">{%if cons.cpp is not None %}{{cons.cpp}} {%endif%}</td>
+			</tr>
+					
+			{%endfor%}
+			
+		</tbody>
+		{%endfor %}
+	</table>
+</div>
+{%endblock content%}
+

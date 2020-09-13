@@ -1,0 +1,266 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Presidental Results</title>
+	<link href="https://fonts.googleapis.com/css?family=Peralta" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="{% static 'rest_framework/css/bootstrap.min.css' %}"> -->
+    <script type="text/javascript" src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+    <!-- <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script> -->
+    <script type="text/javascript" src="{% static 'js/highcharts.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/highcharts/modules/drilldown.js' %}"></script>
+    <!-- <script type="text/javascript" src="{% static 'js/highcharts/modules/heatmap.js' %}"></script> -->
+    <script type="text/javascript" src="{% static 'js/highcharts/modules/exporting.js' %}"></script>
+    <!-- <script type="text/javascript" src="{% static 'js/highcharts/modules/annotations.js' %}"></script> -->
+</head>
+<body>
+	<div>
+		
+		{{polls.p_ndc}}
+		{{polls.p_npp}}
+		{{polls.p_cpp}}
+		{%for p in polls%}
+		 <p>{{p}}</p>
+		{%endfor%}
+	</div>
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+<script type="text/javascript">
+	$(function(){
+
+		var imagesrc=function(imgsrc){
+				// console.log(imgsrc);
+				return "<img style= 'width:40px; height:40px;' src='"+imgsrc+"' />";
+		};
+		
+
+
+		//Highchart start
+		$('#container').highcharts({ 
+			chart:{
+				type:'bar',
+				// plotBackgroundImage:'/media/images/apple.png',
+
+			},
+			credits:{
+				enabled:false,
+				text:'Aim J Tech',
+				// href:'www.aimj.com',
+				position:{
+					align:'right',
+					// verticalAlign:'bottom',
+					x:-10,
+					y:-2
+				}
+
+			},
+			title:{
+				text:'General Election',
+				// align:'left',
+				// x:60
+			},
+			subtitle:{
+				text:'Presidential',
+				// align:'right',
+				// y:15
+			},
+			tooltip:{
+				enabled:true,
+				animation:true,
+				crosshairs:true,
+				useHTML:true,
+				headerFormat:'<b>Polls</b><br>',
+				pointFormat:"{series.name}: <b>{point.percentage:.1f}%</b><br>",
+				formatter:function(){
+					var img='';
+					if (this.series.name=='NDC') {
+						img='/media/images/ndc.png';
+					}
+					else if (this.series.name=='NPP') {
+						img='/media/images/npp.png';
+					}
+					else if (this.series.name=='CPP') {
+						img='/media/images/cpp.jpeg';
+					}
+					return "<span><img style='width:10px; height:10px;margin:0px;'src='"+img +"' /> </span>"+this.series.name+":" + "<b>"+(this.percentage).toFixed(1)+" % </b>";
+				},
+				// position: {
+	                // align: "center",
+	                // x: -10,
+	                // verticalAlign: "bottom",
+	                // y: -5
+            	// },
+            	positioner:function(labelWidth, labelHeight, point){
+            		return {x:point.PlotX+20, y:point.plotY-30};
+            	},
+            	style: {
+	                // cursor: "pointer",
+	                // color: "#909090",
+	                fontSize: "9px",
+	                overflow:'auto'
+            	}
+			},
+			legend:{
+				enabled:true,
+				title:{
+					text:"<span style='align:right;color:red;'>Political Parties</span>"
+				},
+				borderRadius:1,
+				borderWidth:0.5
+				
+			},
+			exporting:{
+				enabled:false,
+				// allowHTML:true,
+				url:'http://localhost:8000/'
+			},
+			colors:{
+
+			},
+			labels:{
+				//enabled:false
+			},
+			plotOptions:{
+				// series:{
+				// 	stacking:'normal'
+				// },
+				bar:{
+					stacking:'percent',
+					dataLabels:{
+						enabled:true,
+						color:'#F4F4F4',
+						useHTML:true,
+						// format:"{series.name}: <b>{point.percentage:.1f}%</b><br>{point.y:,.0f}<br>"+"<img style='width:20px; height:20px'src='/media/images/banana.png' />",
+						formatter:function(){
+							// return series.name
+							return "<span style='float:left;margin:3px;'>"+this.series.userOptions.image+"</span>"+" <strong>"+Highcharts.numberFormat(this.percentage, 1)+"%</strong>"+ '<br>'+Highcharts.numberFormat(this.y,0)+" votes<br>";
+						},
+						style:{
+							fontSize:'15px',
+							fontFamily: "Verdana,Times New Roman, Times,  Arial,serif",
+							overflow:'auto'
+						}
+					}
+				},
+				// series:{
+				// 	showCheckbox:true
+				// }
+			}, //--plotOptions end
+			xAxis:{
+				// categories:['Results'],
+				type:'category',
+				labels:{
+					enabled:true,
+					// useHTML:true
+				}
+
+			}, //--xAxis end
+			yAxis:{
+				title:{
+					text:''
+				},
+				plotLines:[
+					{
+						value:50,
+						width:4,
+						color:'red',
+						useHTML:true,
+						label:{
+							text:'<b>50% Mark </b>',
+							rotation:0,
+							style:{
+
+							}
+						}
+					},
+					
+				], //--plotLines end
+				labels:{
+						enabled:false
+					},
+				tickInterval:50,
+				height:185
+			}, //--yAxis end
+			series:[
+				{
+				// colorByPoint:true,
+				// data:[
+				// 	{
+				// 		name:'NDC',
+				// 		y:{{polls.p_ndc}},
+				// 		color:'#008000',
+				// 		id:'mahama',
+				// 		visible:true,
+				// 		image:imagesrc('/media/images/mahama.jpeg')
+
+				// 	},
+				// 	{
+				// 		name:'NPP',
+				// 		y:{{polls.p_npp}},
+				// 		color:'#0000FF',
+				// 		id:'nana',
+				// 		visible:true,
+				// 		image:imagesrc('/media/images/nana.jpeg')
+				// 	},
+				// 	{
+				// 		name:'CPP',
+				// 		y:{{polls.p_cpp}},
+				// 		color: '',
+				// 		id:'samia',
+				// 		visible:false,
+				// 		image:imagesrc('/media/images/ghana.png')
+				// 	},
+
+				// ]
+				{
+					// name:imagesrc('/media/images/ndc.png'),
+					name:'NDC',
+					data:[{{polls.p_ndc}}],
+					color:'#008000',
+					id:'mahama',
+					// selected:true,
+					visible:true,
+					image:imagesrc('/media/images/mahama.jpeg')
+				},
+				{
+					// name:imagesrc('/media/images/npp.png'),
+					name:'NPP',
+					data:[],
+					color:'#0000FF',
+					id:'nana',
+					// selected:true,
+					visible:true,
+					image:imagesrc('/media/images/nana.jpeg')
+				},
+				{
+					// name:imagesrc('/media/images/apple.jpeg'),
+					name:'CPP',
+					data:[],
+					//color:'',
+					id:'samia',
+					// selected:false,
+					visible:false,
+					image:imagesrc('/media/images/ghana.png')
+				}
+			}
+			 ] //--Series end
+
+
+
+		}, 
+		function () {
+			var chart = $( '#container' ).highcharts();
+			// chart.setTitle( {text: prompt('Enter the new title')} );
+			var d=chart.get('mahama');
+			// console.log(this);
+			// console.log(d);
+		}
+		); //Highchart end
+		
+
+	});
+
+</script>
+
+</body>
+</html>

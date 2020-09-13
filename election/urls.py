@@ -17,11 +17,14 @@ from django.contrib import admin
 from django.urls import path,include
 from django.conf import settings
 from django.conf.urls.static import static
+from accounts import views
 
 urlpatterns = [
+    path('',views.Home, name='home'),
     path('admin/', admin.site.urls),
     path('accounts/', include('django.contrib.auth.urls')),
     path('accounts/', include('accounts.urls')),
+    path('results/', include('results.urls')),
     path('api-auth/', include('rest_framework.urls')),
     path('api/', include('results.api.urls')),
     path('rest-registration/', include('rest_registration.api.urls')),

@@ -1,0 +1,88 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- <link href="https://fonts.googleapis.com/css?family=Peralta" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="{% static 'rest_framework/css/bootstrap.min.css' %}"> -->
+    <link rel="stylesheet" href="{% static 'accounts/css/highcharts.css' %}">
+    <script type="text/javascript" src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+    <!-- <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script> -->
+    <script type="text/javascript" src="{% static 'js/highcharts.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/highcharts/modules/drilldown.js' %}"></script>
+    <!-- <script type="text/javascript" src="{% static 'js/highcharts/modules/heatmap.js' %}"></script> -->
+    <!-- <script type="text/javascript" src="{% static 'js/highcharts/modules/exporting.js' %}"></script> -->
+    <!-- <script type="text/javascript" src="{% static 'js/highcharts/modules/annotations.js' %}"></script> -->
+</head>
+<body>
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<script type="text/javascript">
+	(function(){
+		var imagesrc=function(imgsrc){
+				// console.log(imgsrc);
+				return "<img style= 'width:40px; height:40px;' src='"+imgsrc+"' />";
+		};
+
+		$('#container').highcharts({
+			chart:{
+				type:'bar'
+			},
+			title:{
+				text:'General Election'
+			},
+			subtitle:{
+				text:'Presidential'
+			},
+			tooltip:{
+				enabled:true
+			},
+			plotOptions:{
+				bar:{
+					stacking:'percent'
+				}
+			},
+			xAxis:{
+				type:'category'
+			},
+			yAxis:{
+
+			},
+			series:[{
+				name:'',
+				data:[
+					{
+						name:'NDC',
+						y:{{polls.p_ndc}},
+						color:'#008000',
+						id:'mahama',
+						visible:true,
+						image:imagesrc('/media/images/mahama.jpeg')
+					},
+					{
+						name:'NPP',
+						y:{{polls.p_npp}},
+						color:'#0000FF',
+						id:'nana',
+						visible:true,
+						image:imagesrc('/media/images/nana.jpeg')
+					},
+					{
+						name:'CPP',
+						y:{{polls.p_cpp}},
+						// color: '',
+						id:'samia',
+						visible:false,
+						image:imagesrc('/media/images/ghana.png')
+					}
+				]
+			}]
+
+
+
+
+		});
+	});
+</script>
+
+</body>
+</html>

@@ -4,21 +4,37 @@ from django.db.models import Sum
 
 # Class for the 16 regions in Ghana
 class Region(models.Model):
-	name=models.CharField(max_length=20, null=False, unique=True)
+	name=models.CharField(max_length=20, null=False, unique=True, db_index=True)
 	created_on = models.DateTimeField(auto_now_add=True, db_index=True)
 	updated_on = models.DateTimeField(auto_now=True)
 
 
-
 	class Meta:
-		pass
+		ordering=['name']
 
 	def __str__(self):
 		return self.name
 
+
+# Class for districts
+class District(models.Model):
+	name=models.CharField(max_length=40, null=False, unique=True, db_index=True)
+	region=models.ForeignKey('Region',on_delete=models.SET_NULL,blank=True,null=True)
+	created_on = models.DateTimeField(auto_now_add=True, db_index=True)
+	updated_on = models.DateTimeField(auto_now=True)
+
+	class Meta:
+		ordering=['region', 'name']
+
+	def __str__(self):
+		return self.name
+
+
+
 # Class for the constituencies
 class Constituency(models.Model):
-	name=models.CharField(max_length=50, null=False, unique=True)
+	name=models.CharField(max_length=50, null=False, unique=True, db_index=True)
+	district=models.ForeignKey('District',on_delete=models.SET_NULL,blank=True,null=True)
 	region=models.ForeignKey('Region',on_delete=models.SET_NULL,blank=True,null=True)
 	created_on = models.DateTimeField(auto_now_add=True, db_index=True)
 	updated_on = models.DateTimeField(auto_now=True)
@@ -27,7 +43,7 @@ class Constituency(models.Model):
 	class Meta:
 		verbose_name='Constituency'
 		verbose_name_plural='Constituencies'
-		ordering=['region', 'name']
+		ordering=['region','district', 'name']
 
 
 	def __str__(self):
@@ -49,12 +65,13 @@ class ElectoralArea(models.Model):
 # Class for the polling stations
 class PollingStation(models.Model):
 	name=models.CharField(max_length=50, null=False,verbose_name='Polling Station Name', db_index=True)
-	pscode=models.CharField(primary_key=True, max_length=8, null=False, blank=False,unique=True,verbose_name='Polling Station Code')
+	pscode=models.CharField(primary_key=True, max_length=8, null=False, blank=False,unique=True,verbose_name='Polling Station Code', db_index=True)
 	voter_pop=models.PositiveSmallIntegerField(null=False, blank=False, verbose_name='Voter Population')
 	address=models.CharField(max_length=255, null=True, blank=True)
-	electoral_area=models.ForeignKey('ElectoralArea',on_delete=models.SET_NULL,blank=True,null=True)
-	constituency=models.ForeignKey('Constituency',on_delete=models.SET_NULL,blank=True,null=True)
-	region=models.ForeignKey('Region',on_delete=models.SET_NULL,blank=True,null=True)
+	electoral_area=models.ForeignKey('ElectoralArea',on_delete=models.SET_NULL,blank=True,null=True, db_index=True)
+	constituency=models.ForeignKey('Constituency',on_delete=models.SET_NULL,blank=True,null=True, db_index=True)
+	district=models.ForeignKey('District',on_delete=models.SET_NULL,blank=True,null=True, db_index=True)
+	region=models.ForeignKey('Region',on_delete=models.SET_NULL,blank=True,null=True, db_index=True)
 	created_on = models.DateTimeField(auto_now_add=True, db_index=True)
 	updated_on = models.DateTimeField(auto_now=True)
 
@@ -84,6 +101,7 @@ class PresidentialPollResult(models.Model):
 	CPP=models.PositiveSmallIntegerField(blank=True, default=0)
 	rejected=models.PositiveSmallIntegerField( blank=True, default=0)
 	pink_sheet=models.FileField(upload_to='uploads/%Y/%m/%d/', help_text='Snap and upload image of the sheet')
+	sheet=models.ImageField(upload_to='uploads/%Y/%m/%d/', help_text='Take picture of the sheet', blank=True)
 	available = models.BooleanField(default=True)
 	verified = models.BooleanField(default=False)
 	valid_votes=models.PositiveSmallIntegerField(default=0)
@@ -94,8 +112,6 @@ class PresidentialPollResult(models.Model):
 
 	class Meta:
 		ordering=['pscode']
-
-
 
 	def save(self, *args, **kwargs):
 		self.valid_votes = ((self.NDC)+(self.NPP) +(self.CPP))
@@ -109,27 +125,13 @@ class PresidentialPollResult(models.Model):
 		else:
 			self.voting_status=False
 
-		# if not self.available:
-		# 	self.available=self.available
-			
-		# if not self.verified:
-		# 	self.verified=False
-			# self.available=True
-
-			# if self.vote_cast.__le__(PollingStation.voter_pop) :
-			# 	self.over_voting=False
-			# else:
-			# 	self.over_voting=True
-
 		super(PresidentialPollResult, self).save(*args, **kwargs)
 
-		# if not self.vote_cast:
-		# 	self.vote_cast = ((self.NDC)+(self.NPP) +(self.CPP) + (self.rejected))
-		# 	super(PresidentialPollResult, self).save(*args, **kwargs)
-
-
+		
 	def __str__(self):
 		return f"{self.pscode} Polls"
+
+
 
 
 class ParliamentaryPollResult(models.Model):

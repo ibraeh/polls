@@ -1,0 +1,83 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Peralta" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'rest_framework/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'accounts/css/highcharts.css' %}">
+    
+    <script type="text/javascript" src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+
+	<title>Constituency</title>
+</head>
+<body>
+	<!-- <h1>Results table</h1> -->
+	<!-- {{context_variable|length}} -->
+	<p style="margin: 10px">Last checked: {%now "jS F Y H:i"%}</p>
+	<!-- {% for entry in context_variable%}
+		<p>{{entry}}</p>
+	{%endfor%} -->
+	{% regroup context_variable by region__name as region_list %}
+	<div class="container">
+	<table class="table table-striped table-bordered">
+		<thead>
+			<!-- <tr>
+				<th>Constituencies</th>
+				<th>NDC</th>
+				<th>NPP</th>
+				<th>CPP</th>
+			</tr> -->
+			<caption><h1>Results from Constituencies</h1></caption>
+		</thead>
+		{% for region__name, const in region_list%}
+			{%with total=const.name.count %}
+		<tbody>
+			<tr> <td colspan="4"><h2>{{region__name}} Region </h2></td>	</tr>
+			<tr>
+				<th>CONSTITUENCY </th>
+				<th>NDC</th>
+				<th>NPP</th>
+				<th>CPP</th>
+			</tr>
+			{%endwith%}
+
+			{%for cons in const%}
+						
+			<tr>
+				<td>{{cons.name}} </td>
+				<td>{%if cons.ndc is not None %}{{cons.ndc}} {%endif%}</td>
+				<td>{%if cons.npp is not None %}{{cons.npp}} {%endif%}</td>
+				<td>{%if cons.cpp is not None %}{{cons.cpp}} {%endif%}</td>
+			</tr>
+
+			{%endfor%}
+		</tbody>
+		{%endfor %}
+	</table>
+</div>
+
+
+
+
+
+
+	<!-- <ul>
+		{% for region__name, const in region_list%}
+		<p>{{region__name}}</p> 
+		<li>
+			{{region__name}}
+			<ul>
+				{%for cons in const%}
+				<li>{{cons.name}}</li>
+				{%endfor%}
+			</ul>
+		</li>
+		
+		
+		{%endfor %}
+	</ul>
+	 -->
+</body>
+</html>

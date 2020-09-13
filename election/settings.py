@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
-import os
 import dj_database_url
 
 
@@ -23,12 +22,16 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'n%!s8!ha0w^be$fn-mi#9m$^d6m89su2ux$_!fv^99phy=k*kt'
+# SECRET_KEY = 'n%!s8!ha0w^be$fn-mi#9m$^d6m89su2ux$_!fv^99phy=k*kt'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
 
-ALLOWED_HOSTS = []
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'n%!s8!ha0w^be$fn-mi#9m$^d6m89su2ux$_!fv^99phy=k*kt')
+DEBUG = bool(os.environ.get('DJANGO_DEBUG', '') != 'False')
+print('The key: ',SECRET_KEY)
+print('The debug: ',DEBUG)
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -46,6 +49,8 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'rest_registration',
     'corsheaders',
+    'highcharts',
+    'bootstrap4',
 ]
 
 MIDDLEWARE = [
@@ -138,6 +143,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT= os.path.join(BASE_DIR, 'static/')
+STATICFILES_DIRS=[
+    os.path.join(BASE_DIR, 'static/accounts'),
+]
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 

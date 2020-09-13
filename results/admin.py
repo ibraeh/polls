@@ -1,8 +1,8 @@
 from django.contrib import admin
 
-from results.models import Region, Constituency, ElectoralArea, PollingStation,  Agent, PresidentialPollResult, Vote
+from results.models import Region, District,Constituency, ElectoralArea, PollingStation,  Agent, PresidentialPollResult, Vote
 
-admin.site.register([Vote,  Agent])
+admin.site.register([Vote,  Agent, District])
 
 # Polling station 
 class PollinStationAdmin(admin.ModelAdmin):
@@ -21,7 +21,7 @@ admin.site.register(PollingStation, PollinStationAdmin)
 #Poll results
 @admin.register(PresidentialPollResult)
 class PollResultAdmin(admin.ModelAdmin):
-	list_display = ['pscode','NDC', 'NPP','CPP', 'rejected', 'valid_votes', 'vote_cast','available' , 'verified','voting_status']
+	list_display = ['pscode','NDC', 'NPP','CPP', 'rejected', 'valid_votes', 'vote_cast','available']
 	list_filter = ['created_on','pscode']
 	#list_editable=['voter_pop','pscode']
 	#autocomplete_fields = ['pscode']
@@ -31,9 +31,10 @@ class PollResultAdmin(admin.ModelAdmin):
 # Constituency
 @admin.register(Constituency)
 class ConstituencyAdmin(admin.ModelAdmin):
-	list_display = ['name','region']
+	list_display = ['name','district']
 	list_filter = ['created_on']
 	#list_editable=['voter_pop','pscode']
+	# list_display_links = ('name')
 
 
 
