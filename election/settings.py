@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'rest_registration',
     'corsheaders',
-    'highcharts',
+    # 'highcharts',
     'bootstrap4',
 ]
 
