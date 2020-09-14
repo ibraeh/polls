@@ -242,10 +242,10 @@ class Piechartview(HighChartsPieView):
 			             'drilldown': 'linux-versions'
 			             },
 			             {'name':'PNC',
-			             	'y':1.01,
+			             	'y':0,
 			             },
 			             {'name':'PPP',
-			             	'y':1.01,
+			             	'y':0,
 			             }
 			        	]
 				}
