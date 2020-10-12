@@ -1,0 +1,249 @@
+[
+{
+  "model": "results.presidentialpollresult",
+  "pk": "A1234567",
+  "fields": {
+    "NDC": 20,
+    "NPP": 20,
+    "CPP": 10,
+    "rejected": 5,
+    "pink_sheet": "uploads/2020/08/23/red_shoe.jpg",
+    "sheet": "picture",
+    "available": true,
+    "verified": false,
+    "valid_votes": 50,
+    "vote_cast": 55,
+    "voting_status": true,
+    "created_on": "2020-08-23T15:31:50.958Z",
+    "updated_on": "2020-08-23T15:31:50.959Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120601A",
+  "fields": {
+    "NDC": 210,
+    "NPP": 200,
+    "CPP": 100,
+    "rejected": 10,
+    "pink_sheet": "uploads/2020/08/05/casual.jpg",
+    "sheet": "picture",
+    "available": true,
+    "verified": false,
+    "valid_votes": 510,
+    "vote_cast": 520,
+    "voting_status": true,
+    "created_on": "2020-08-05T15:34:59.344Z",
+    "updated_on": "2020-08-16T21:44:55.203Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120601B",
+  "fields": {
+    "NDC": 30,
+    "NPP": 20,
+    "CPP": 21,
+    "rejected": 7,
+    "pink_sheet": "uploads/2020/08/05/furniture.jpg",
+    "sheet": "picture",
+    "available": true,
+    "verified": false,
+    "valid_votes": 71,
+    "vote_cast": 78,
+    "voting_status": true,
+    "created_on": "2020-08-05T15:36:17.106Z",
+    "updated_on": "2020-08-19T23:04:51.587Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120601C",
+  "fields": {
+    "NDC": 211,
+    "NPP": 180,
+    "CPP": 17,
+    "rejected": 2,
+    "pink_sheet": "uploads/2020/08/05/sparkle_shoe.jpg",
+    "sheet": "picture",
+    "available": true,
+    "verified": false,
+    "valid_votes": 408,
+    "vote_cast": 410,
+    "voting_status": true,
+    "created_on": "2020-08-05T15:37:30.393Z",
+    "updated_on": "2020-08-19T23:07:05.368Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120602A",
+  "fields": {
+    "NDC": 340,
+    "NPP": 300,
+    "CPP": 32,
+    "rejected": 2,
+    "pink_sheet": "uploads/2020/08/05/red_tea.jpg",
+    "sheet": "picture",
+    "available": true,
+    "verified": false,
+    "valid_votes": 672,
+    "vote_cast": 674,
+    "voting_status": true,
+    "created_on": "2020-08-05T17:52:24.122Z",
+    "updated_on": "2020-08-26T11:08:02.396Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120602B",
+  "fields": {
+    "NDC": 400,
+    "NPP": 10,
+    "CPP": 5,
+    "rejected": 1,
+    "pink_sheet": "uploads/2020/08/31/breeze_dLzHSaq.jpg",
+    "sheet": "picture",
+    "available": true,
+    "verified": false,
+    "valid_votes": 415,
+    "vote_cast": 416,
+    "voting_status": true,
+    "created_on": "2020-08-31T12:24:32.523Z",
+    "updated_on": "2020-09-10T13:26:17.297Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120603",
+  "fields": {
+    "NDC": 56,
+    "NPP": 49,
+    "CPP": 32,
+    "rejected": 2,
+    "pink_sheet": "uploads/2020/08/05/red_tea_CtISdyP.jpg",
+    "sheet": "picture",
+    "available": true,
+    "verified": false,
+    "valid_votes": 137,
+    "vote_cast": 139,
+    "voting_status": true,
+    "created_on": "2020-08-05T17:59:29.021Z",
+    "updated_on": "2020-08-26T11:08:39.964Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120604A",
+  "fields": {
+    "NDC": 500,
+    "NPP": 800,
+    "CPP": 50,
+    "rejected": 5,
+    "pink_sheet": "uploads/2020/09/07/bandeaux_SRGT25Y.jpg",
+    "sheet": "",
+    "available": true,
+    "verified": false,
+    "valid_votes": 1350,
+    "vote_cast": 1355,
+    "voting_status": false,
+    "created_on": "2020-09-07T11:17:20.626Z",
+    "updated_on": "2020-09-07T11:17:20.626Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120604B",
+  "fields": {
+    "NDC": 30,
+    "NPP": 20,
+    "CPP": 10,
+    "rejected": 0,
+    "pink_sheet": "uploads/2020/08/31/breeze.jpg",
+    "sheet": "picture",
+    "available": true,
+    "verified": false,
+    "valid_votes": 60,
+    "vote_cast": 60,
+    "voting_status": true,
+    "created_on": "2020-08-31T10:30:41.022Z",
+    "updated_on": "2020-08-31T10:30:41.022Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120605",
+  "fields": {
+    "NDC": 100,
+    "NPP": 50,
+    "CPP": 10,
+    "rejected": 5,
+    "pink_sheet": "uploads/2020/08/31/breeze_4a4gMUf.jpg",
+    "sheet": "picture",
+    "available": true,
+    "verified": false,
+    "valid_votes": 160,
+    "vote_cast": 165,
+    "voting_status": true,
+    "created_on": "2020-08-31T10:47:52.478Z",
+    "updated_on": "2020-08-31T10:47:52.478Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120606",
+  "fields": {
+    "NDC": 40,
+    "NPP": 20,
+    "CPP": 10,
+    "rejected": 5,
+    "pink_sheet": "uploads/2020/09/05/bandeaux.jpg",
+    "sheet": "",
+    "available": true,
+    "verified": false,
+    "valid_votes": 70,
+    "vote_cast": 75,
+    "voting_status": true,
+    "created_on": "2020-09-05T13:31:56.477Z",
+    "updated_on": "2020-09-05T13:31:56.477Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120608",
+  "fields": {
+    "NDC": 100,
+    "NPP": 20,
+    "CPP": 2,
+    "rejected": 0,
+    "pink_sheet": "uploads/2020/09/07/bandeaux.jpg",
+    "sheet": "",
+    "available": true,
+    "verified": false,
+    "valid_votes": 122,
+    "vote_cast": 122,
+    "voting_status": true,
+    "created_on": "2020-09-07T11:13:57.757Z",
+    "updated_on": "2020-09-07T11:13:57.757Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120613",
+  "fields": {
+    "NDC": 45,
+    "NPP": 35,
+    "CPP": 25,
+    "rejected": 5,
+    "pink_sheet": "uploads/2020/09/11/bandeaux.jpg",
+    "sheet": "",
+    "available": true,
+    "verified": false,
+    "valid_votes": 105,
+    "vote_cast": 110,
+    "voting_status": true,
+    "created_on": "2020-09-11T18:02:10.395Z",
+    "updated_on": "2020-09-11T18:02:10.395Z"
+  }
+}
+]

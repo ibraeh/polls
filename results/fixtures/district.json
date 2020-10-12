@@ -1,0 +1,372 @@
+[
+{
+  "model": "results.district",
+  "pk": 1,
+  "fields": {
+    "name": "Asunafo North",
+    "region": 9,
+    "created_on": "2020-08-23T03:05:31.322Z",
+    "updated_on": "2020-08-23T03:05:31.322Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 2,
+  "fields": {
+    "name": "Asunafo South",
+    "region": 9,
+    "created_on": "2020-08-23T03:05:47.428Z",
+    "updated_on": "2020-08-23T03:05:47.428Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 3,
+  "fields": {
+    "name": "Asutifi North",
+    "region": 9,
+    "created_on": "2020-08-23T03:06:04.935Z",
+    "updated_on": "2020-08-23T03:06:04.935Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 4,
+  "fields": {
+    "name": "Asutifi South",
+    "region": 9,
+    "created_on": "2020-08-23T03:06:29.398Z",
+    "updated_on": "2020-08-23T03:06:29.398Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 5,
+  "fields": {
+    "name": "Tano North",
+    "region": 9,
+    "created_on": "2020-08-23T03:06:50.549Z",
+    "updated_on": "2020-08-23T03:06:50.549Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 6,
+  "fields": {
+    "name": "Tano South",
+    "region": 9,
+    "created_on": "2020-08-23T03:07:00.438Z",
+    "updated_on": "2020-08-23T03:07:00.438Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 7,
+  "fields": {
+    "name": "Adansi North",
+    "region": 2,
+    "created_on": "2020-08-23T03:07:43.432Z",
+    "updated_on": "2020-08-23T03:07:43.432Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 8,
+  "fields": {
+    "name": "Adansi South",
+    "region": 2,
+    "created_on": "2020-08-23T03:08:04.077Z",
+    "updated_on": "2020-08-23T03:08:04.077Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 9,
+  "fields": {
+    "name": "Banda",
+    "region": 7,
+    "created_on": "2020-08-23T03:08:37.663Z",
+    "updated_on": "2020-08-23T03:08:37.663Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 10,
+  "fields": {
+    "name": "Berekum East",
+    "region": 7,
+    "created_on": "2020-08-23T03:08:55.928Z",
+    "updated_on": "2020-08-23T03:08:55.928Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 11,
+  "fields": {
+    "name": "Atebubu-Amantin",
+    "region": 8,
+    "created_on": "2020-08-23T03:09:42.652Z",
+    "updated_on": "2020-08-23T03:09:42.652Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 12,
+  "fields": {
+    "name": "Kintampo North",
+    "region": 8,
+    "created_on": "2020-08-23T03:10:03.345Z",
+    "updated_on": "2020-08-23T03:10:03.345Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 13,
+  "fields": {
+    "name": "Abura/Asebu/Kwamankese",
+    "region": 10,
+    "created_on": "2020-08-23T03:10:55.733Z",
+    "updated_on": "2020-08-23T03:10:55.733Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 14,
+  "fields": {
+    "name": "Agona East",
+    "region": 10,
+    "created_on": "2020-08-23T03:11:15.664Z",
+    "updated_on": "2020-08-23T03:11:15.664Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 15,
+  "fields": {
+    "name": "Akuapim North",
+    "region": 12,
+    "created_on": "2020-08-23T03:11:35.539Z",
+    "updated_on": "2020-08-23T03:11:35.539Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 16,
+  "fields": {
+    "name": "Akuapim South",
+    "region": 12,
+    "created_on": "2020-08-23T03:11:57.589Z",
+    "updated_on": "2020-08-23T03:11:57.589Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 17,
+  "fields": {
+    "name": "Accra",
+    "region": 1,
+    "created_on": "2020-08-23T03:12:29.758Z",
+    "updated_on": "2020-08-23T03:12:29.758Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 18,
+  "fields": {
+    "name": "Ada East",
+    "region": 1,
+    "created_on": "2020-08-23T03:12:44.749Z",
+    "updated_on": "2020-08-23T03:12:44.749Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 19,
+  "fields": {
+    "name": "Ada West",
+    "region": 1,
+    "created_on": "2020-08-23T03:12:58.828Z",
+    "updated_on": "2020-08-23T03:12:58.828Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 20,
+  "fields": {
+    "name": "Gushiegu",
+    "region": 13,
+    "created_on": "2020-08-23T03:13:32.046Z",
+    "updated_on": "2020-08-23T03:13:32.047Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 21,
+  "fields": {
+    "name": "Karaga",
+    "region": 13,
+    "created_on": "2020-08-23T03:13:44.159Z",
+    "updated_on": "2020-08-23T03:13:44.159Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 22,
+  "fields": {
+    "name": "Bunkpurugu-Nyankpanduri",
+    "region": 15,
+    "created_on": "2020-08-23T03:14:22.457Z",
+    "updated_on": "2020-08-23T03:14:59.564Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 23,
+  "fields": {
+    "name": "Biakoye",
+    "region": 6,
+    "created_on": "2020-08-23T03:15:41.445Z",
+    "updated_on": "2020-08-23T03:15:41.445Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 24,
+  "fields": {
+    "name": "Jasikan",
+    "region": 6,
+    "created_on": "2020-08-23T03:15:58.393Z",
+    "updated_on": "2020-08-23T03:15:58.393Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 25,
+  "fields": {
+    "name": "Bole",
+    "region": 14,
+    "created_on": "2020-08-23T03:16:15.895Z",
+    "updated_on": "2020-08-23T03:16:15.895Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 26,
+  "fields": {
+    "name": "Central Gonja",
+    "region": 14,
+    "created_on": "2020-08-23T03:16:35.912Z",
+    "updated_on": "2020-08-23T03:16:35.912Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 27,
+  "fields": {
+    "name": "Bawku",
+    "region": 4,
+    "created_on": "2020-08-23T03:17:01.528Z",
+    "updated_on": "2020-08-23T03:17:01.528Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 28,
+  "fields": {
+    "name": "Bawku West",
+    "region": 4,
+    "created_on": "2020-08-23T03:17:29.950Z",
+    "updated_on": "2020-08-23T03:17:29.950Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 29,
+  "fields": {
+    "name": "Daffiama-Bussie-Issa",
+    "region": 5,
+    "created_on": "2020-08-23T03:18:39.348Z",
+    "updated_on": "2020-08-23T03:18:39.348Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 30,
+  "fields": {
+    "name": "Jirapa",
+    "region": 5,
+    "created_on": "2020-08-23T03:18:54.129Z",
+    "updated_on": "2020-08-23T03:18:54.129Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 31,
+  "fields": {
+    "name": "Adaklu",
+    "region": 3,
+    "created_on": "2020-08-23T03:19:18.680Z",
+    "updated_on": "2020-08-23T03:19:35.396Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 32,
+  "fields": {
+    "name": "Afadjato South",
+    "region": 3,
+    "created_on": "2020-08-23T03:19:49.542Z",
+    "updated_on": "2020-08-23T03:19:58.072Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 33,
+  "fields": {
+    "name": "Ahanta West",
+    "region": 11,
+    "created_on": "2020-08-23T03:20:35.637Z",
+    "updated_on": "2020-08-23T03:20:35.637Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 34,
+  "fields": {
+    "name": "Ellembele",
+    "region": 11,
+    "created_on": "2020-08-23T03:20:52.388Z",
+    "updated_on": "2020-08-23T03:20:52.388Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 35,
+  "fields": {
+    "name": "Aowin",
+    "region": 16,
+    "created_on": "2020-08-23T03:21:15.882Z",
+    "updated_on": "2020-08-23T03:21:15.883Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 36,
+  "fields": {
+    "name": "Bia West",
+    "region": 16,
+    "created_on": "2020-08-23T03:21:32.753Z",
+    "updated_on": "2020-08-23T03:21:32.753Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 37,
+  "fields": {
+    "name": "Bia East",
+    "region": 11,
+    "created_on": "2020-08-23T03:22:08.052Z",
+    "updated_on": "2020-08-23T03:22:08.053Z"
+  }
+}
+]

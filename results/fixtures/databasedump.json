@@ -1,0 +1,7745 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "results",
+    "model": "agent"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "results",
+    "model": "constituency"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "results",
+    "model": "electoralarea"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "results",
+    "model": "pollingstation"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "results",
+    "model": "region"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "results",
+    "model": "vote"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "results",
+    "model": "pollresult"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "accounts",
+    "model": "profile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "authtoken",
+    "model": "token"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "results",
+    "model": "parliamentarypollresult"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "results",
+    "model": "presidentialpollresult"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "results",
+    "model": "district"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "01kz9l88pl5tabs73zcel5irqpujmxip",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-14T11:34:27.977Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "01zwi94syl99nv90fyaan7xd4rxklic6",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T12:31:44.204Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "21v2n2ckpou80qj2lnreb0r3wdt34gzt",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T17:29:33.105Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3glmu9wst2tt2g9izq5qhyxbrpsuknsz",
+  "fields": {
+    "session_data": "Njk1ZWNhOGU4MGEwNjFiY2Y5MjEyNzBlN2RkOTdjOGQ4NzUxMTM0Yjp7Il9hdXRoX3VzZXJfaWQiOiIyNyIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiNTc3Y2E4NGYyMGVmMjBmMGUzZTMwMzJmMzdhZGIxZWU3OTU3MDMwZiJ9",
+    "expire_date": "2020-09-21T10:57:36.762Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3ifdzekyrdxgspsots1ketmtlh76q8gg",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-19T13:30:21.338Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3pbvu1nkcj1krtfzince760wfux90bxl",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-16T17:41:57.237Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "48n0wo5940k3mcglbhuedv3utoxukko6",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-26T14:49:18.943Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4a47sqm8vfe79hfdtsne3gkzatrd124n",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-14T11:11:58.721Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4wjs0n8zxvfa69ztxrji76xoqufi9hxf",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-16T17:03:22.936Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "50t5my117atcmftp7iwwzqc3oq1jn0ip",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-17T00:35:13.600Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "52j4f5v58f16j5whsnfstetvrqbkzshr",
+  "fields": {
+    "session_data": "YjNjN2I4ZmQ5NTUxMzUwNzI0N2Q0ZGE3YWNmNDIyZmQxYmU5MGNmMTp7Il9hdXRoX3VzZXJfaWQiOiIxNyIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiMTc0MTE2NjA3OTAxOWEwOTMyZDJjNjU1Y2UwODI0NzhmZmViMmM3MCJ9",
+    "expire_date": "2020-09-16T17:23:04.580Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5e98d22zbarzbjjd2k747n5jcj6jx5xw",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-16T22:06:11.541Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5kh4j24lqmj1o6pxr00j6hlfp18rb45b",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T17:27:54.426Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5ov1nonece4gd36rspl3a43wwt77kd4m",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-25T10:37:10.027Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6swjmyjnusxqmp9dwu54zega24bm8nmq",
+  "fields": {
+    "session_data": "N2VmZjJkNGE5ZWJhNTQ1M2RlNDI1YjQxYWRlNTBhMjEwOTNjYmRkZjp7Il9hdXRoX3VzZXJfaWQiOiIyNSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiNDA5NmNiZGEzMGU3Yjg2MjBhMWZiMWVlY2RhYjUzYzk0NGYxYjVlNCJ9",
+    "expire_date": "2020-09-14T20:15:42.994Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "79gq85t47hg05z1wwtk4q1dkuo86s8h5",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-26T17:02:32.062Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7kg8h8cck0fumrcigmh41onos90g9udr",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-16T23:56:01.731Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7nq75pqb2lnus5nj3l7cgab41xewaies",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-14T11:31:15.452Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8ahltrei03yklu9x0qkpx6uh9rdtdmqp",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T11:01:20.259Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8fl34k3t80rxo97n0syzbjxw1x6kcb3o",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-14T20:03:48.235Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "930sa6xkkhdc68mr5adwuz1i8mxok5nj",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-16T17:03:29.353Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "a8k1eq8u1ttuz782ya7hxzmoosgo7f5u",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T11:58:23.840Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "apk4b3zvqr8q34cm1c7rmw2hhc3vgq76",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T12:31:11.190Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "bh980r6s4v86mo5mwqjqykek0hi3dmym",
+  "fields": {
+    "session_data": "MzI0ZDk3NzcxMGMxYjZiMWNiY2FhMTc4NjkwYmRjNmUyMDgzNjQzMzp7Il9hdXRoX3VzZXJfaWQiOiIyOCIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiODdlMzZlOGYyYzU2ZTIwMzk2Y2FhOTY1NjNlZjkwOGRjNjZiMjEwYiJ9",
+    "expire_date": "2020-09-25T10:51:35.997Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "bi90fuqs7p0673czqrurryf655orxvs7",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-14T11:35:56.414Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "bv7nufcshvsdy58gy05dl9j48up9gicy",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T12:31:44.274Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "d3f13ja8yeit2rwveabel1hkt22362i5",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-17T17:57:26.320Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "djuxhf23bd54d42n7rhjqa9t8794xmfb",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-26T16:59:58.723Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dx2auqaz8u3h1sdokt86tbex49sbw8qc",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-16T17:02:54.250Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "e6x0dd8uaqgef3tkedxhu601w81mkyww",
+  "fields": {
+    "session_data": "YjNjN2I4ZmQ5NTUxMzUwNzI0N2Q0ZGE3YWNmNDIyZmQxYmU5MGNmMTp7Il9hdXRoX3VzZXJfaWQiOiIxNyIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiMTc0MTE2NjA3OTAxOWEwOTMyZDJjNjU1Y2UwODI0NzhmZmViMmM3MCJ9",
+    "expire_date": "2020-09-16T17:16:37.067Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "e8wugd03uy5p8xzhza01d3yttmpyh9nd",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-14T11:46:14.233Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ebz1sfimjjf49zwl33lsnprzuhf3gspu",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-14T11:35:06.923Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fxegxcwbb80ujwoal8wy9p6q2binipos",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-25T10:32:15.822Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fzrygavxg2nykbcx1z98ihrwa9r8x6uu",
+  "fields": {
+    "session_data": "Njk1ZWNhOGU4MGEwNjFiY2Y5MjEyNzBlN2RkOTdjOGQ4NzUxMTM0Yjp7Il9hdXRoX3VzZXJfaWQiOiIyNyIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiNTc3Y2E4NGYyMGVmMjBmMGUzZTMwMzJmMzdhZGIxZWU3OTU3MDMwZiJ9",
+    "expire_date": "2020-09-21T10:56:38.456Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gddtgm2vkmvm2trxkb9nkr4nqzxi18iz",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-16T17:59:29.826Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ghz0aj19m9hl2zjw4gjzw8pvbram9795",
+  "fields": {
+    "session_data": "ODk5OGU0NGY1NjFhODg2NWNjOGYwYmRkZTczNDQzOTMzOTg0YWEwOTp7Il9hdXRoX3VzZXJfaWQiOiIyNCIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiMzc4M2QwMjUzNTQxMjNjMTgzN2NkM2QyYjgzMzBhNzQ0NzE2MDI0OCJ9",
+    "expire_date": "2020-09-14T12:21:24.175Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gm3bz57dhnhehs493l5zlte8ynqfulj3",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T12:46:28.782Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gyno14nayu5ae2h8e9qxpi6unzwpkxub",
+  "fields": {
+    "session_data": "Y2M5MGRjMGU3MGZmMGYzN2Q1NTBlZTU3MGYyODQ1OTgxMzFjNjAyNzp7Il9hdXRoX3VzZXJfaWQiOiIyMCIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiZmE4OWMyMzM2OGI1MTc0MjI1MmFhODdiM2MxNTRjMTIyYWMzOTA0ZiJ9",
+    "expire_date": "2020-09-14T12:03:18.687Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "h4ha1kpxhxa3869gyzycya6sq31e51zn",
+  "fields": {
+    "session_data": "NWQ5OWQ5NGU0MTVhNDAyYjdiYzAwZmE1MjQ2YWNiZGZkNjViOTAzYjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyMWZiZDI3M2I0ZDlmYWE5YzEwZGJhODVjNDg2ZWE1OTRjYzdlMjBjIn0=",
+    "expire_date": "2020-08-24T13:06:55.951Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hnt97wqn5magyzdl36obq758gwkjglz7",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-19T17:27:55.645Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hu4qriv0m4gilm292yuhip5vqqbdsqwq",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-26T01:49:27.919Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ima21k80c3l82qp8qa6jwwfr8cjg5txc",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T12:31:05.296Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "j3ans8oo9ry37id0ogdjcx99v8zme2ng",
+  "fields": {
+    "session_data": "YjNjN2I4ZmQ5NTUxMzUwNzI0N2Q0ZGE3YWNmNDIyZmQxYmU5MGNmMTp7Il9hdXRoX3VzZXJfaWQiOiIxNyIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiMTc0MTE2NjA3OTAxOWEwOTMyZDJjNjU1Y2UwODI0NzhmZmViMmM3MCJ9",
+    "expire_date": "2020-09-16T17:17:25.666Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jiuiq7zzvka8lolny8n3tz0c4z9oklxb",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T12:31:05.431Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "k274ob97njq5yyulhvlv9nuk33hrgykw",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-16T17:04:40.578Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "krtzqzfsfibuesgtelcyzr17c05fci6z",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-26T17:01:24.404Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kutsy8hdoy7se7848pqan59cciswjjra",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T17:22:37.033Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "l23h5o6zff8n44qc1x44pqi6lsken9us",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T12:42:54.014Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "laoro6vb6aq8dye6ek6xbujlwrk7ckm0",
+  "fields": {
+    "session_data": "NWQ5OWQ5NGU0MTVhNDAyYjdiYzAwZmE1MjQ2YWNiZGZkNjViOTAzYjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyMWZiZDI3M2I0ZDlmYWE5YzEwZGJhODVjNDg2ZWE1OTRjYzdlMjBjIn0=",
+    "expire_date": "2020-08-26T17:43:52.823Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lioxok8ummf0ehhkqbu0dx8h1ueejqlt",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T12:29:17.395Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lsxc0sckb5s2e8s56xu5ljxs9rxxhqiu",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-18T15:43:15.319Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "m65zv9mwz05r0hd8fx7piu1rqkcr955p",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T11:57:42.509Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "m9n20t1mh8hs481dryul9jkyj9ne2f3y",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-25T17:25:21.000Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "myvtm02m9fzzmpjkm769y58leew8m22a",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-21T11:09:55.714Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "n4tus3z3n5k316z4e4nw9q8emzlaud79",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T11:58:07.197Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "noclhw9ed7jfkn4kz5lw68cowy4j8r7y",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T12:31:11.293Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "nqggk6h344bsf8najscy2567jwt1kfb4",
+  "fields": {
+    "session_data": "YjNjN2I4ZmQ5NTUxMzUwNzI0N2Q0ZGE3YWNmNDIyZmQxYmU5MGNmMTp7Il9hdXRoX3VzZXJfaWQiOiIxNyIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiMTc0MTE2NjA3OTAxOWEwOTMyZDJjNjU1Y2UwODI0NzhmZmViMmM3MCJ9",
+    "expire_date": "2020-09-28T12:02:31.622Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ns1ntu5ge2e9jj7auxv4wrlra7tdvd9k",
+  "fields": {
+    "session_data": "YjNjN2I4ZmQ5NTUxMzUwNzI0N2Q0ZGE3YWNmNDIyZmQxYmU5MGNmMTp7Il9hdXRoX3VzZXJfaWQiOiIxNyIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiMTc0MTE2NjA3OTAxOWEwOTMyZDJjNjU1Y2UwODI0NzhmZmViMmM3MCJ9",
+    "expire_date": "2020-09-16T17:45:57.881Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ns3cjn49auk3ct7fak33ccoo673wilft",
+  "fields": {
+    "session_data": "MzZkNjk2YmJjMzc5NGM2MTZlOGE5YzRkNDYwNmFlYzFkMTNiYTMzMTp7Il9hdXRoX3VzZXJfaWQiOiIyNiIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiZmM3MzMxYjM0NmE0MzljOGU5ZTBkMWZlMzM1MjdiZTFmOTY5NGI0YSJ9",
+    "expire_date": "2020-09-16T17:08:29.443Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "nzxwucp88wvhaxac3rx55eh1z1qrty5y",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-14T11:33:35.553Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "o65dqdlsslgal88xk5eyfrhxz7sq4kvp",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-25T17:36:59.165Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "osd4kwi4gh2eiyloopiqom5nhu6d5ex4",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T11:05:22.439Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pegbnqggegw5jxe80ss4i0hylqk4strp",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T17:26:23.578Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qxawnc42vn68na75fppbrtmikz6z3ehk",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T12:42:54.388Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "r2h7h8rjeoyw2g9j80jkv6soa8ttmy3f",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T12:03:46.052Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "r57gbe1wbieh98uho0laoxnmna3tk2jn",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T17:35:24.740Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rb71vhkdnyy7onoy00yeqr1i6lpweuk3",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-14T11:32:46.923Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "udkv6ke9otpb6rpyfh9r6sixzvjtk6he",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-25T15:22:01.167Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ues1bq26ciofu4xsyrdxynhglquwimty",
+  "fields": {
+    "session_data": "YTE1MGVlN2Y2MDcxMmY4ZmZlZGYxNzZmYzZkOGIzNzM2MTYwMWM2Yzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiYWNjb3VudHMuYXV0aGVudGljYXRpb24uUGhvbmVOdW1iZXJBdXRoQmFja2VuZCIsIl9hdXRoX3VzZXJfaGFzaCI6IjgzYjBiYTY0NTU0MDRkNmZlMDJiMDMxMDUzNjE3MWQ4MDNhZTBhYzUifQ==",
+    "expire_date": "2020-08-20T18:00:47.905Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "uoo70c0smnag47uykhww51fpeccvopuv",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T10:56:33.738Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "v6jlcdmmwef2b00wrkngsstituda87c9",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-15T11:34:44.186Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "va4svq1nq9a681o2ww77eymv1qtukzgs",
+  "fields": {
+    "session_data": "MzI0ZDk3NzcxMGMxYjZiMWNiY2FhMTc4NjkwYmRjNmUyMDgzNjQzMzp7Il9hdXRoX3VzZXJfaWQiOiIyOCIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiODdlMzZlOGYyYzU2ZTIwMzk2Y2FhOTY1NjNlZjkwOGRjNjZiMjEwYiJ9",
+    "expire_date": "2020-09-25T12:37:25.710Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vlb2dq77tkt3c62awx927fndftvvhroz",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-14T11:47:45.976Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "w4zofmx4c0rucjgwcddhg9aptvumlnh4",
+  "fields": {
+    "session_data": "MzZkNjk2YmJjMzc5NGM2MTZlOGE5YzRkNDYwNmFlYzFkMTNiYTMzMTp7Il9hdXRoX3VzZXJfaWQiOiIyNiIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiZmM3MzMxYjM0NmE0MzljOGU5ZTBkMWZlMzM1MjdiZTFmOTY5NGI0YSJ9",
+    "expire_date": "2020-09-16T17:14:33.458Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wai4mb2uu0hvtz5ab4p33w0d29kg65b9",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-14T11:45:51.362Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wuqd0vmcda2yyhjrzxvg97y7jod980u2",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-19T17:31:29.246Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wx9ciuhgcqpg8f3ymkws30y1bv0857k1",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-25T18:00:43.493Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "x87ezwy3afjauqmostnbgua3279ex6w6",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T11:58:57.894Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xkpnjh4w5kjlv8k2674nounfinn8nkjj",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T12:30:37.424Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xlzuig974xchetziuv3t88c9cneg0i2u",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T12:29:17.175Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xzyrkbvav0af9q7v7l71kaszkr5bz2k9",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-18T15:46:47.032Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yiwknc8ww4sa12vaqphtkgwvknwkgbqb",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-14T11:46:26.025Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yplb62w4srl8sxckinblg9jzj16h1924",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-14T11:48:27.170Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "z25dsdxt8dvmxs3xlvhg2aosg9e2bfek",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-19T13:27:16.460Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zf8eofhi0q88weajg76vlukbqwt6win9",
+  "fields": {
+    "session_data": "NzU1MzUwODgwYjZkOTQ5MmVhMmI2NTFhYTliY2Q5MjIyZDFkNmVkMjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxNGU2MzIwNTZjZTkyZWIyMTFkODA5ZGM2ODkyNTI3NGM0MmQzYTBjIn0=",
+    "expire_date": "2020-09-14T10:46:32.239Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zn6d666uz81tuxh93pu44h3be6xfrc4j",
+  "fields": {
+    "session_data": "N2I0YWI1ZWUzNThkYzgzYjA0Yzk0YTA1MjNkOGQzOTBlYjEzOTg1Yjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4M2IwYmE2NDU1NDA0ZDZmZTAyYjAzMTA1MzYxNzFkODAzYWUwYWM1In0=",
+    "expire_date": "2020-08-23T12:30:37.223Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 1,
+  "fields": {
+    "name": "Greater Accra",
+    "created_on": "2020-07-08T23:10:43.130Z",
+    "updated_on": "2020-07-08T23:11:01.280Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 2,
+  "fields": {
+    "name": "Ashanti",
+    "created_on": "2020-07-08T23:11:28.938Z",
+    "updated_on": "2020-07-08T23:11:28.938Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 3,
+  "fields": {
+    "name": "Volta",
+    "created_on": "2020-07-08T23:11:56.168Z",
+    "updated_on": "2020-07-08T23:11:56.168Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 4,
+  "fields": {
+    "name": "Upper East",
+    "created_on": "2020-07-08T23:12:05.465Z",
+    "updated_on": "2020-07-08T23:12:05.466Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 5,
+  "fields": {
+    "name": "Upper West",
+    "created_on": "2020-07-08T23:12:13.383Z",
+    "updated_on": "2020-07-08T23:12:13.383Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 6,
+  "fields": {
+    "name": "Oti",
+    "created_on": "2020-07-08T23:12:38.943Z",
+    "updated_on": "2020-07-08T23:12:38.943Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 7,
+  "fields": {
+    "name": "Bono",
+    "created_on": "2020-07-09T14:56:26.164Z",
+    "updated_on": "2020-08-23T03:23:38.429Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 8,
+  "fields": {
+    "name": "Bono East",
+    "created_on": "2020-07-09T14:56:43.863Z",
+    "updated_on": "2020-08-23T03:23:25.360Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 9,
+  "fields": {
+    "name": "Ahafo",
+    "created_on": "2020-07-09T14:56:53.789Z",
+    "updated_on": "2020-08-23T03:23:13.163Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 10,
+  "fields": {
+    "name": "Central",
+    "created_on": "2020-07-09T14:57:08.440Z",
+    "updated_on": "2020-07-09T14:57:08.440Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 11,
+  "fields": {
+    "name": "Western",
+    "created_on": "2020-07-09T14:57:15.536Z",
+    "updated_on": "2020-08-23T03:24:01.540Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 12,
+  "fields": {
+    "name": "Eastern",
+    "created_on": "2020-07-09T14:57:53.941Z",
+    "updated_on": "2020-07-09T14:57:53.942Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 13,
+  "fields": {
+    "name": "Northern",
+    "created_on": "2020-07-09T14:58:34.097Z",
+    "updated_on": "2020-07-09T14:58:34.097Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 14,
+  "fields": {
+    "name": "Savannah",
+    "created_on": "2020-07-09T14:58:51.883Z",
+    "updated_on": "2020-07-09T14:58:51.883Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 15,
+  "fields": {
+    "name": "North East",
+    "created_on": "2020-07-09T14:59:00.062Z",
+    "updated_on": "2020-07-09T14:59:00.062Z"
+  }
+},
+{
+  "model": "results.region",
+  "pk": 16,
+  "fields": {
+    "name": "Western North",
+    "created_on": "2020-07-09T14:59:17.333Z",
+    "updated_on": "2020-07-09T14:59:17.333Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 1,
+  "fields": {
+    "name": "Asunafo North",
+    "region": 9,
+    "created_on": "2020-08-23T03:05:31.322Z",
+    "updated_on": "2020-08-23T03:05:31.322Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 2,
+  "fields": {
+    "name": "Asunafo South",
+    "region": 9,
+    "created_on": "2020-08-23T03:05:47.428Z",
+    "updated_on": "2020-08-23T03:05:47.428Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 3,
+  "fields": {
+    "name": "Asutifi North",
+    "region": 9,
+    "created_on": "2020-08-23T03:06:04.935Z",
+    "updated_on": "2020-08-23T03:06:04.935Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 4,
+  "fields": {
+    "name": "Asutifi South",
+    "region": 9,
+    "created_on": "2020-08-23T03:06:29.398Z",
+    "updated_on": "2020-08-23T03:06:29.398Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 5,
+  "fields": {
+    "name": "Tano North",
+    "region": 9,
+    "created_on": "2020-08-23T03:06:50.549Z",
+    "updated_on": "2020-08-23T03:06:50.549Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 6,
+  "fields": {
+    "name": "Tano South",
+    "region": 9,
+    "created_on": "2020-08-23T03:07:00.438Z",
+    "updated_on": "2020-08-23T03:07:00.438Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 7,
+  "fields": {
+    "name": "Adansi North",
+    "region": 2,
+    "created_on": "2020-08-23T03:07:43.432Z",
+    "updated_on": "2020-08-23T03:07:43.432Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 8,
+  "fields": {
+    "name": "Adansi South",
+    "region": 2,
+    "created_on": "2020-08-23T03:08:04.077Z",
+    "updated_on": "2020-08-23T03:08:04.077Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 9,
+  "fields": {
+    "name": "Banda",
+    "region": 7,
+    "created_on": "2020-08-23T03:08:37.663Z",
+    "updated_on": "2020-08-23T03:08:37.663Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 10,
+  "fields": {
+    "name": "Berekum East",
+    "region": 7,
+    "created_on": "2020-08-23T03:08:55.928Z",
+    "updated_on": "2020-08-23T03:08:55.928Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 11,
+  "fields": {
+    "name": "Atebubu-Amantin",
+    "region": 8,
+    "created_on": "2020-08-23T03:09:42.652Z",
+    "updated_on": "2020-08-23T03:09:42.652Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 12,
+  "fields": {
+    "name": "Kintampo North",
+    "region": 8,
+    "created_on": "2020-08-23T03:10:03.345Z",
+    "updated_on": "2020-08-23T03:10:03.345Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 13,
+  "fields": {
+    "name": "Abura/Asebu/Kwamankese",
+    "region": 10,
+    "created_on": "2020-08-23T03:10:55.733Z",
+    "updated_on": "2020-08-23T03:10:55.733Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 14,
+  "fields": {
+    "name": "Agona East",
+    "region": 10,
+    "created_on": "2020-08-23T03:11:15.664Z",
+    "updated_on": "2020-08-23T03:11:15.664Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 15,
+  "fields": {
+    "name": "Akuapim North",
+    "region": 12,
+    "created_on": "2020-08-23T03:11:35.539Z",
+    "updated_on": "2020-08-23T03:11:35.539Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 16,
+  "fields": {
+    "name": "Akuapim South",
+    "region": 12,
+    "created_on": "2020-08-23T03:11:57.589Z",
+    "updated_on": "2020-08-23T03:11:57.589Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 17,
+  "fields": {
+    "name": "Accra",
+    "region": 1,
+    "created_on": "2020-08-23T03:12:29.758Z",
+    "updated_on": "2020-08-23T03:12:29.758Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 18,
+  "fields": {
+    "name": "Ada East",
+    "region": 1,
+    "created_on": "2020-08-23T03:12:44.749Z",
+    "updated_on": "2020-08-23T03:12:44.749Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 19,
+  "fields": {
+    "name": "Ada West",
+    "region": 1,
+    "created_on": "2020-08-23T03:12:58.828Z",
+    "updated_on": "2020-08-23T03:12:58.828Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 20,
+  "fields": {
+    "name": "Gushiegu",
+    "region": 13,
+    "created_on": "2020-08-23T03:13:32.046Z",
+    "updated_on": "2020-08-23T03:13:32.047Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 21,
+  "fields": {
+    "name": "Karaga",
+    "region": 13,
+    "created_on": "2020-08-23T03:13:44.159Z",
+    "updated_on": "2020-08-23T03:13:44.159Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 22,
+  "fields": {
+    "name": "Bunkpurugu-Nyankpanduri",
+    "region": 15,
+    "created_on": "2020-08-23T03:14:22.457Z",
+    "updated_on": "2020-08-23T03:14:59.564Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 23,
+  "fields": {
+    "name": "Biakoye",
+    "region": 6,
+    "created_on": "2020-08-23T03:15:41.445Z",
+    "updated_on": "2020-08-23T03:15:41.445Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 24,
+  "fields": {
+    "name": "Jasikan",
+    "region": 6,
+    "created_on": "2020-08-23T03:15:58.393Z",
+    "updated_on": "2020-08-23T03:15:58.393Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 25,
+  "fields": {
+    "name": "Bole",
+    "region": 14,
+    "created_on": "2020-08-23T03:16:15.895Z",
+    "updated_on": "2020-08-23T03:16:15.895Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 26,
+  "fields": {
+    "name": "Central Gonja",
+    "region": 14,
+    "created_on": "2020-08-23T03:16:35.912Z",
+    "updated_on": "2020-08-23T03:16:35.912Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 27,
+  "fields": {
+    "name": "Bawku",
+    "region": 4,
+    "created_on": "2020-08-23T03:17:01.528Z",
+    "updated_on": "2020-08-23T03:17:01.528Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 28,
+  "fields": {
+    "name": "Bawku West",
+    "region": 4,
+    "created_on": "2020-08-23T03:17:29.950Z",
+    "updated_on": "2020-08-23T03:17:29.950Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 29,
+  "fields": {
+    "name": "Daffiama-Bussie-Issa",
+    "region": 5,
+    "created_on": "2020-08-23T03:18:39.348Z",
+    "updated_on": "2020-08-23T03:18:39.348Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 30,
+  "fields": {
+    "name": "Jirapa",
+    "region": 5,
+    "created_on": "2020-08-23T03:18:54.129Z",
+    "updated_on": "2020-08-23T03:18:54.129Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 31,
+  "fields": {
+    "name": "Adaklu",
+    "region": 3,
+    "created_on": "2020-08-23T03:19:18.680Z",
+    "updated_on": "2020-08-23T03:19:35.396Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 32,
+  "fields": {
+    "name": "Afadjato South",
+    "region": 3,
+    "created_on": "2020-08-23T03:19:49.542Z",
+    "updated_on": "2020-08-23T03:19:58.072Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 33,
+  "fields": {
+    "name": "Ahanta West",
+    "region": 11,
+    "created_on": "2020-08-23T03:20:35.637Z",
+    "updated_on": "2020-08-23T03:20:35.637Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 34,
+  "fields": {
+    "name": "Ellembele",
+    "region": 11,
+    "created_on": "2020-08-23T03:20:52.388Z",
+    "updated_on": "2020-08-23T03:20:52.388Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 35,
+  "fields": {
+    "name": "Aowin",
+    "region": 16,
+    "created_on": "2020-08-23T03:21:15.882Z",
+    "updated_on": "2020-08-23T03:21:15.883Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 36,
+  "fields": {
+    "name": "Bia West",
+    "region": 16,
+    "created_on": "2020-08-23T03:21:32.753Z",
+    "updated_on": "2020-08-23T03:21:32.753Z"
+  }
+},
+{
+  "model": "results.district",
+  "pk": 37,
+  "fields": {
+    "name": "Bia East",
+    "region": 11,
+    "created_on": "2020-08-23T03:22:08.052Z",
+    "updated_on": "2020-08-23T03:22:08.053Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 1,
+  "fields": {
+    "name": "Bantama",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-07-08T23:13:49.475Z",
+    "updated_on": "2020-08-23T17:20:14.231Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 2,
+  "fields": {
+    "name": "Ayawaso West Wuogon",
+    "district": null,
+    "region": 1,
+    "created_on": "2020-07-08T23:14:53.681Z",
+    "updated_on": "2020-08-23T17:20:43.660Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 3,
+  "fields": {
+    "name": "Adansi-Asokwa",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:47:18.019Z",
+    "updated_on": "2020-08-23T17:47:18.019Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 4,
+  "fields": {
+    "name": "Fomena",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:47:35.867Z",
+    "updated_on": "2020-08-23T17:47:35.867Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 5,
+  "fields": {
+    "name": "New Edubease",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:47:51.837Z",
+    "updated_on": "2020-08-23T17:47:51.837Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 6,
+  "fields": {
+    "name": "Afigya Kwabre North",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:48:11.876Z",
+    "updated_on": "2020-08-23T17:48:11.877Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 7,
+  "fields": {
+    "name": "Kwabre West",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:48:31.626Z",
+    "updated_on": "2020-08-23T17:48:31.626Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 8,
+  "fields": {
+    "name": "Ahafo Ano North",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:48:49.891Z",
+    "updated_on": "2020-08-23T17:49:04.247Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 9,
+  "fields": {
+    "name": "Ahafo Ano South East",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:49:35.465Z",
+    "updated_on": "2020-08-23T17:49:35.466Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 10,
+  "fields": {
+    "name": "Ahafo Ano South West",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:49:56.258Z",
+    "updated_on": "2020-08-23T17:49:56.258Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 11,
+  "fields": {
+    "name": "Akrofuom",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:50:15.109Z",
+    "updated_on": "2020-08-23T17:50:15.109Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 12,
+  "fields": {
+    "name": "Odotobri",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:50:30.636Z",
+    "updated_on": "2020-08-23T17:50:30.636Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 13,
+  "fields": {
+    "name": "Manso Nkwanta",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:50:44.377Z",
+    "updated_on": "2020-08-23T17:50:44.377Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 14,
+  "fields": {
+    "name": "Manso Edubia",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:50:57.479Z",
+    "updated_on": "2020-08-23T17:50:57.480Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 15,
+  "fields": {
+    "name": "Asante-Akim Central",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:51:36.276Z",
+    "updated_on": "2020-08-23T17:51:36.276Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 16,
+  "fields": {
+    "name": "Asante-Akim North",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:51:53.682Z",
+    "updated_on": "2020-08-23T17:51:53.682Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 17,
+  "fields": {
+    "name": "Asante-Akim South",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:52:12.913Z",
+    "updated_on": "2020-08-23T17:52:12.913Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 18,
+  "fields": {
+    "name": "Asawase",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:52:29.279Z",
+    "updated_on": "2020-08-23T17:52:29.279Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 19,
+  "fields": {
+    "name": "Atwima-Kwanwoma",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:52:57.525Z",
+    "updated_on": "2020-08-23T17:52:57.525Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 20,
+  "fields": {
+    "name": "Atwima-Mponua",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:53:08.915Z",
+    "updated_on": "2020-08-23T17:53:38.082Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 21,
+  "fields": {
+    "name": "Atwima-Nwabiagya North",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:53:59.808Z",
+    "updated_on": "2020-08-23T17:53:59.808Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 22,
+  "fields": {
+    "name": "Atwima-Nwabiagya South",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:54:28.375Z",
+    "updated_on": "2020-08-23T17:54:28.375Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 23,
+  "fields": {
+    "name": "Bekwai",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:54:42.199Z",
+    "updated_on": "2020-08-23T17:54:42.199Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 24,
+  "fields": {
+    "name": "Bosome-Freho",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:55:05.414Z",
+    "updated_on": "2020-08-23T17:55:05.415Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 25,
+  "fields": {
+    "name": "Bosomtwe",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:55:35.235Z",
+    "updated_on": "2020-08-23T17:55:35.235Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 26,
+  "fields": {
+    "name": "Ejisu",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:55:53.442Z",
+    "updated_on": "2020-08-23T17:55:53.442Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 27,
+  "fields": {
+    "name": "Ejura",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:56:09.944Z",
+    "updated_on": "2020-08-23T17:56:09.944Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 28,
+  "fields": {
+    "name": "Juaben",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:56:19.459Z",
+    "updated_on": "2020-08-23T17:56:19.459Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 29,
+  "fields": {
+    "name": "Asokwa",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:56:48.455Z",
+    "updated_on": "2020-08-23T17:56:48.455Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 30,
+  "fields": {
+    "name": "Kwadaso",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:57:09.030Z",
+    "updated_on": "2020-08-23T17:57:09.030Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 31,
+  "fields": {
+    "name": "Manhyia North",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:57:29.299Z",
+    "updated_on": "2020-08-23T17:57:29.299Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 32,
+  "fields": {
+    "name": "Manhyia South",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:57:47.347Z",
+    "updated_on": "2020-08-23T17:57:47.347Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 33,
+  "fields": {
+    "name": "Nhyiaeso",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:58:11.748Z",
+    "updated_on": "2020-08-23T17:58:11.748Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 34,
+  "fields": {
+    "name": "Subin",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:58:27.093Z",
+    "updated_on": "2020-08-23T17:59:15.280Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 35,
+  "fields": {
+    "name": "Kwabre East",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:59:28.593Z",
+    "updated_on": "2020-08-23T17:59:28.593Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 36,
+  "fields": {
+    "name": "Mampong",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:59:39.911Z",
+    "updated_on": "2020-08-23T17:59:39.911Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 37,
+  "fields": {
+    "name": "Obuasi East",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:59:52.897Z",
+    "updated_on": "2020-08-23T17:59:52.898Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 38,
+  "fields": {
+    "name": "Obuasi West",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:00:54.494Z",
+    "updated_on": "2020-08-23T18:00:54.494Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 39,
+  "fields": {
+    "name": "Offinso North",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:01:20.989Z",
+    "updated_on": "2020-08-23T18:01:20.989Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 40,
+  "fields": {
+    "name": "Offinso South",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:02:09.644Z",
+    "updated_on": "2020-08-23T18:02:09.644Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 41,
+  "fields": {
+    "name": "Oforikrom",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:02:29.776Z",
+    "updated_on": "2020-08-23T18:02:29.776Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 42,
+  "fields": {
+    "name": "Old Tafo",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:02:44.825Z",
+    "updated_on": "2020-08-23T18:02:44.825Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 43,
+  "fields": {
+    "name": "Sekyere Afram Plains",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:03:04.130Z",
+    "updated_on": "2020-08-23T18:03:04.130Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 44,
+  "fields": {
+    "name": "Kumawu",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:03:22.256Z",
+    "updated_on": "2020-08-23T18:03:22.256Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 45,
+  "fields": {
+    "name": "Nsuta-Kwamang-Beposo",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:03:47.871Z",
+    "updated_on": "2020-08-23T18:03:47.871Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 46,
+  "fields": {
+    "name": "Afigya Sekyere West",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:04:04.936Z",
+    "updated_on": "2020-08-23T18:04:04.936Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 47,
+  "fields": {
+    "name": "Effiduase-Asokore",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:04:19.318Z",
+    "updated_on": "2020-08-23T18:04:19.318Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 48,
+  "fields": {
+    "name": "Afigya Sekyere East",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:04:39.439Z",
+    "updated_on": "2020-08-23T18:04:39.439Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 49,
+  "fields": {
+    "name": "Suame",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:04:54.632Z",
+    "updated_on": "2020-08-23T18:04:54.632Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 50,
+  "fields": {
+    "name": "Asutifi South",
+    "district": null,
+    "region": 9,
+    "created_on": "2020-08-23T18:05:56.543Z",
+    "updated_on": "2020-08-23T18:05:56.543Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 51,
+  "fields": {
+    "name": "Tano North",
+    "district": null,
+    "region": 9,
+    "created_on": "2020-08-23T18:06:15.226Z",
+    "updated_on": "2020-08-23T18:06:15.226Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 52,
+  "fields": {
+    "name": "Tano South",
+    "district": null,
+    "region": 9,
+    "created_on": "2020-08-23T18:06:31.555Z",
+    "updated_on": "2020-08-23T18:06:31.555Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 53,
+  "fields": {
+    "name": "Atebubu-Amantin",
+    "district": null,
+    "region": 8,
+    "created_on": "2020-08-23T21:11:47.019Z",
+    "updated_on": "2020-08-23T21:12:01.506Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 54,
+  "fields": {
+    "name": "Kintampo North",
+    "district": null,
+    "region": 8,
+    "created_on": "2020-08-23T21:12:13.670Z",
+    "updated_on": "2020-08-23T21:12:13.670Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 55,
+  "fields": {
+    "name": "Kintampo South",
+    "district": null,
+    "region": 8,
+    "created_on": "2020-08-23T21:12:30.335Z",
+    "updated_on": "2020-08-23T21:12:30.335Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 56,
+  "fields": {
+    "name": "Nkoranza North",
+    "district": null,
+    "region": 8,
+    "created_on": "2020-08-23T21:12:51.513Z",
+    "updated_on": "2020-08-23T21:12:51.513Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 57,
+  "fields": {
+    "name": "Nkoranza South",
+    "district": null,
+    "region": 8,
+    "created_on": "2020-08-23T21:13:14.240Z",
+    "updated_on": "2020-08-23T21:13:14.240Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 58,
+  "fields": {
+    "name": "Pru East",
+    "district": null,
+    "region": 8,
+    "created_on": "2020-08-23T21:13:32.101Z",
+    "updated_on": "2020-08-23T21:13:32.101Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 59,
+  "fields": {
+    "name": "Pru West",
+    "district": null,
+    "region": 8,
+    "created_on": "2020-08-23T21:13:50.519Z",
+    "updated_on": "2020-08-23T21:13:50.519Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 60,
+  "fields": {
+    "name": "Sene East",
+    "district": null,
+    "region": 8,
+    "created_on": "2020-08-23T21:14:05.891Z",
+    "updated_on": "2020-08-23T21:14:05.891Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 61,
+  "fields": {
+    "name": "Sene West",
+    "district": null,
+    "region": 8,
+    "created_on": "2020-08-23T21:14:24.218Z",
+    "updated_on": "2020-08-23T21:14:24.219Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 62,
+  "fields": {
+    "name": "Techiman North",
+    "district": null,
+    "region": 8,
+    "created_on": "2020-08-23T21:14:44.175Z",
+    "updated_on": "2020-08-23T21:14:44.175Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 63,
+  "fields": {
+    "name": "Techiman South",
+    "district": null,
+    "region": 8,
+    "created_on": "2020-08-23T21:15:18.026Z",
+    "updated_on": "2020-08-23T21:15:18.026Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 64,
+  "fields": {
+    "name": "Banda Ahenkro",
+    "district": null,
+    "region": 7,
+    "created_on": "2020-08-23T21:16:16.257Z",
+    "updated_on": "2020-08-23T21:16:16.257Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 65,
+  "fields": {
+    "name": "Berekum East",
+    "district": null,
+    "region": 7,
+    "created_on": "2020-08-23T21:16:38.276Z",
+    "updated_on": "2020-08-23T21:16:59.301Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 66,
+  "fields": {
+    "name": "Berekum West",
+    "district": null,
+    "region": 7,
+    "created_on": "2020-08-23T21:17:20.380Z",
+    "updated_on": "2020-08-23T21:17:20.380Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 67,
+  "fields": {
+    "name": "Dormaa Central",
+    "district": null,
+    "region": 7,
+    "created_on": "2020-08-23T21:17:35.059Z",
+    "updated_on": "2020-08-23T21:17:35.059Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 68,
+  "fields": {
+    "name": "Dormaa East",
+    "district": null,
+    "region": 7,
+    "created_on": "2020-08-23T21:17:55.043Z",
+    "updated_on": "2020-08-23T21:17:55.043Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 69,
+  "fields": {
+    "name": "Jaman North",
+    "district": null,
+    "region": 7,
+    "created_on": "2020-08-23T21:18:08.928Z",
+    "updated_on": "2020-08-23T21:18:08.928Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 70,
+  "fields": {
+    "name": "Jaman South",
+    "district": null,
+    "region": 7,
+    "created_on": "2020-08-23T21:18:21.245Z",
+    "updated_on": "2020-08-23T21:18:21.246Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 71,
+  "fields": {
+    "name": "Sunyani East",
+    "district": null,
+    "region": 7,
+    "created_on": "2020-08-23T21:18:35.697Z",
+    "updated_on": "2020-08-23T21:18:35.697Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 72,
+  "fields": {
+    "name": "Sunyani West",
+    "district": null,
+    "region": 7,
+    "created_on": "2020-08-23T21:18:49.746Z",
+    "updated_on": "2020-08-23T21:18:49.746Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 73,
+  "fields": {
+    "name": "Tain",
+    "district": null,
+    "region": 7,
+    "created_on": "2020-08-23T21:19:02.243Z",
+    "updated_on": "2020-08-23T21:19:02.243Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 74,
+  "fields": {
+    "name": "Wenchi",
+    "district": null,
+    "region": 7,
+    "created_on": "2020-08-23T21:19:18.316Z",
+    "updated_on": "2020-08-23T21:19:18.316Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 75,
+  "fields": {
+    "name": "Abura-Asebu-Kwamankese",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:23:12.969Z",
+    "updated_on": "2020-08-23T21:23:12.969Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 76,
+  "fields": {
+    "name": "Agona East",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:23:29.148Z",
+    "updated_on": "2020-08-23T21:23:29.148Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 77,
+  "fields": {
+    "name": "Agona West",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:23:45.214Z",
+    "updated_on": "2020-08-23T21:23:45.214Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 78,
+  "fields": {
+    "name": "Ajumako-Enyan-Essiam",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:24:07.685Z",
+    "updated_on": "2020-08-23T21:24:07.685Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 79,
+  "fields": {
+    "name": "Asikuma-Odoben-Brakwa",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:24:30.296Z",
+    "updated_on": "2020-08-23T21:24:30.296Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 80,
+  "fields": {
+    "name": "Assin Central",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:24:41.541Z",
+    "updated_on": "2020-08-23T21:24:41.541Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 81,
+  "fields": {
+    "name": "Assin North",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:24:50.876Z",
+    "updated_on": "2020-08-23T21:24:50.876Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 82,
+  "fields": {
+    "name": "Assin South",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:25:04.958Z",
+    "updated_on": "2020-08-23T21:25:04.958Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 83,
+  "fields": {
+    "name": "Awutu-Senya East",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:25:24.039Z",
+    "updated_on": "2020-08-23T21:25:24.039Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 84,
+  "fields": {
+    "name": "Awutu-Senya West",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:25:47.156Z",
+    "updated_on": "2020-08-23T21:25:47.156Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 85,
+  "fields": {
+    "name": "Cape Coast North",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:26:06.762Z",
+    "updated_on": "2020-08-23T21:26:06.762Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 86,
+  "fields": {
+    "name": "Cape Coast South",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:26:23.328Z",
+    "updated_on": "2020-08-23T21:26:23.328Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 87,
+  "fields": {
+    "name": "Effutu",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:26:35.980Z",
+    "updated_on": "2020-08-23T21:26:35.980Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 88,
+  "fields": {
+    "name": "Ekumfi",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:27:03.379Z",
+    "updated_on": "2020-08-23T21:27:03.379Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 89,
+  "fields": {
+    "name": "Gomoa Central",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:27:20.548Z",
+    "updated_on": "2020-08-23T21:27:20.548Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 90,
+  "fields": {
+    "name": "Gomoa East",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:27:36.357Z",
+    "updated_on": "2020-08-23T21:27:36.357Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 91,
+  "fields": {
+    "name": "Gomoa West",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:27:50.609Z",
+    "updated_on": "2020-08-23T21:27:50.609Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 92,
+  "fields": {
+    "name": "Komenda-Edina-Eguafo-Abirem",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:28:19.085Z",
+    "updated_on": "2020-08-23T21:28:19.085Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 93,
+  "fields": {
+    "name": "Mfantseman",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:28:34.381Z",
+    "updated_on": "2020-08-23T21:28:34.381Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 94,
+  "fields": {
+    "name": "Twifo-Atii Morkwaa",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:28:56.163Z",
+    "updated_on": "2020-08-23T21:28:56.163Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 95,
+  "fields": {
+    "name": "Hemang Lower Denkyira",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:29:18.075Z",
+    "updated_on": "2020-08-23T21:29:18.075Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 96,
+  "fields": {
+    "name": "Upper Denkyira East",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:29:36.241Z",
+    "updated_on": "2020-08-23T21:29:36.241Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 97,
+  "fields": {
+    "name": "Upper Denkyira West",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:29:55.264Z",
+    "updated_on": "2020-08-23T21:29:55.265Z"
+  }
+},
+{
+  "model": "results.electoralarea",
+  "pk": 1,
+  "fields": {
+    "name": "Bohyen",
+    "constituency": 1,
+    "created_on": "2020-07-08T23:16:18.981Z",
+    "updated_on": "2020-07-08T23:16:18.981Z"
+  }
+},
+{
+  "model": "results.electoralarea",
+  "pk": 2,
+  "fields": {
+    "name": "Ampabame",
+    "constituency": 1,
+    "created_on": "2020-07-08T23:16:40.646Z",
+    "updated_on": "2020-07-08T23:16:40.646Z"
+  }
+},
+{
+  "model": "results.electoralarea",
+  "pk": 3,
+  "fields": {
+    "name": "Abrepo",
+    "constituency": 1,
+    "created_on": "2020-07-08T23:16:57.857Z",
+    "updated_on": "2020-07-08T23:18:41.374Z"
+  }
+},
+{
+  "model": "results.electoralarea",
+  "pk": 4,
+  "fields": {
+    "name": "Atafoa Mpatasie",
+    "constituency": 1,
+    "created_on": "2020-07-08T23:17:27.587Z",
+    "updated_on": "2020-07-08T23:17:27.587Z"
+  }
+},
+{
+  "model": "results.electoralarea",
+  "pk": 5,
+  "fields": {
+    "name": "Amanfrom",
+    "constituency": 1,
+    "created_on": "2020-07-08T23:17:46.306Z",
+    "updated_on": "2020-07-08T23:17:46.306Z"
+  }
+},
+{
+  "model": "results.electoralarea",
+  "pk": 6,
+  "fields": {
+    "name": "Ohwim/Hwidiem",
+    "constituency": 1,
+    "created_on": "2020-07-08T23:18:28.344Z",
+    "updated_on": "2020-07-08T23:18:28.344Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "A1234567",
+  "fields": {
+    "name": "accra boy",
+    "voter_pop": 800,
+    "address": null,
+    "electoral_area": null,
+    "constituency": 2,
+    "district": null,
+    "region": 1,
+    "created_on": "2020-08-23T15:30:46.478Z",
+    "updated_on": "2020-08-23T15:30:46.478Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120601A",
+  "fields": {
+    "name": "Fundamental Baptist Church Bohyen",
+    "voter_pop": 868,
+    "address": "Adjacent Bohyen Central Mosque",
+    "electoral_area": 1,
+    "constituency": 1,
+    "district": null,
+    "region": 2,
+    "created_on": "2020-07-08T23:34:13.078Z",
+    "updated_on": "2020-07-09T01:21:41.281Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120601B",
+  "fields": {
+    "name": "Fundamental Baptist Church Bohyen",
+    "voter_pop": 926,
+    "address": "Adjacent Bohyen Central Mosque",
+    "electoral_area": 1,
+    "constituency": 1,
+    "district": null,
+    "region": 2,
+    "created_on": "2020-07-08T23:35:33.036Z",
+    "updated_on": "2020-07-09T01:21:41.273Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120601C",
+  "fields": {
+    "name": "Fundamental Baptist Church Bohyen",
+    "voter_pop": 661,
+    "address": "Adjacent Bohyen Central Mosque",
+    "electoral_area": 1,
+    "constituency": 1,
+    "district": null,
+    "region": 2,
+    "created_on": "2020-07-08T23:36:49.388Z",
+    "updated_on": "2020-07-09T01:21:41.265Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120602A",
+  "fields": {
+    "name": "M/A Upper Primary Bohyen",
+    "voter_pop": 740,
+    "address": "Bus station",
+    "electoral_area": 1,
+    "constituency": 1,
+    "district": null,
+    "region": 2,
+    "created_on": "2020-07-08T23:41:07.511Z",
+    "updated_on": "2020-07-09T01:21:41.257Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120602B",
+  "fields": {
+    "name": "M/A Upper Primary Bohyen",
+    "voter_pop": 717,
+    "address": "Bus station",
+    "electoral_area": 1,
+    "constituency": 1,
+    "district": null,
+    "region": 2,
+    "created_on": "2020-07-08T23:54:01.284Z",
+    "updated_on": "2020-07-09T01:21:41.249Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120603",
+  "fields": {
+    "name": "Fundamental Baptist School Bohyen",
+    "voter_pop": 473,
+    "address": null,
+    "electoral_area": 1,
+    "constituency": 1,
+    "district": null,
+    "region": 2,
+    "created_on": "2020-07-09T00:17:09.287Z",
+    "updated_on": "2020-07-09T01:21:41.241Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120604A",
+  "fields": {
+    "name": "Ampabame Clinic",
+    "voter_pop": 542,
+    "address": "Ampabame",
+    "electoral_area": 2,
+    "constituency": 1,
+    "district": null,
+    "region": 2,
+    "created_on": "2020-07-09T21:31:00.995Z",
+    "updated_on": "2020-07-09T21:31:00.995Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120604B",
+  "fields": {
+    "name": "Ampabame Clinic",
+    "voter_pop": 511,
+    "address": "Ampabame",
+    "electoral_area": 2,
+    "constituency": 1,
+    "district": null,
+    "region": 2,
+    "created_on": "2020-07-09T21:32:58.958Z",
+    "updated_on": "2020-07-09T21:32:58.958Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120605",
+  "fields": {
+    "name": "M/A JHS Ampabame",
+    "voter_pop": 293,
+    "address": null,
+    "electoral_area": 2,
+    "constituency": 1,
+    "district": null,
+    "region": 2,
+    "created_on": "2020-07-09T21:36:11.059Z",
+    "updated_on": "2020-07-09T21:36:11.059Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120606",
+  "fields": {
+    "name": "Methodist Church Ampabame",
+    "voter_pop": 688,
+    "address": null,
+    "electoral_area": 2,
+    "constituency": 1,
+    "district": null,
+    "region": 2,
+    "created_on": "2020-07-09T21:37:43.324Z",
+    "updated_on": "2020-07-09T21:37:43.324Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120607",
+  "fields": {
+    "name": "Ampabame Town Council",
+    "voter_pop": 754,
+    "address": null,
+    "electoral_area": 2,
+    "constituency": 1,
+    "district": null,
+    "region": 2,
+    "created_on": "2020-07-09T21:40:23.444Z",
+    "updated_on": "2020-07-09T21:40:23.444Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120608",
+  "fields": {
+    "name": "M/A Primary School Bohyen",
+    "voter_pop": 703,
+    "address": null,
+    "electoral_area": 1,
+    "constituency": 1,
+    "district": null,
+    "region": 2,
+    "created_on": "2020-07-09T00:19:52.967Z",
+    "updated_on": "2020-07-09T01:21:41.234Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120609A",
+  "fields": {
+    "name": "Methodist Church Bohyen",
+    "voter_pop": 528,
+    "address": null,
+    "electoral_area": 1,
+    "constituency": 1,
+    "district": null,
+    "region": 2,
+    "created_on": "2020-07-09T00:21:22.514Z",
+    "updated_on": "2020-07-09T01:21:41.221Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120609B",
+  "fields": {
+    "name": "Methodist Church Bohyen",
+    "voter_pop": 526,
+    "address": null,
+    "electoral_area": 1,
+    "constituency": 1,
+    "district": null,
+    "region": 2,
+    "created_on": "2020-07-09T00:23:37.338Z",
+    "updated_on": "2020-07-09T01:21:41.213Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120610",
+  "fields": {
+    "name": "R/C Church Ampabame",
+    "voter_pop": 483,
+    "address": null,
+    "electoral_area": 2,
+    "constituency": 1,
+    "district": null,
+    "region": 2,
+    "created_on": "2020-07-09T21:42:16.999Z",
+    "updated_on": "2020-07-09T21:42:16.999Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120611A",
+  "fields": {
+    "name": "Pentecost Church Bohyen Central",
+    "voter_pop": 585,
+    "address": null,
+    "electoral_area": 2,
+    "constituency": 1,
+    "district": null,
+    "region": 2,
+    "created_on": "2020-07-09T21:43:56.925Z",
+    "updated_on": "2020-07-09T21:43:56.925Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120611B",
+  "fields": {
+    "name": "Pentecost Church Bohyen Central",
+    "voter_pop": 587,
+    "address": null,
+    "electoral_area": 2,
+    "constituency": 1,
+    "district": null,
+    "region": 2,
+    "created_on": "2020-07-09T21:45:15.301Z",
+    "updated_on": "2020-07-09T21:45:42.406Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120612",
+  "fields": {
+    "name": "Bohyen Sakasaka Park",
+    "voter_pop": 915,
+    "address": "Adjacent the post office",
+    "electoral_area": 1,
+    "constituency": 1,
+    "district": null,
+    "region": 2,
+    "created_on": "2020-07-09T00:26:42.549Z",
+    "updated_on": "2020-07-09T01:21:41.205Z"
+  }
+},
+{
+  "model": "results.pollingstation",
+  "pk": "F120613",
+  "fields": {
+    "name": "Presby JHS Bohyen",
+    "voter_pop": 875,
+    "address": null,
+    "electoral_area": 1,
+    "constituency": 1,
+    "district": null,
+    "region": 2,
+    "created_on": "2020-07-09T00:32:34.166Z",
+    "updated_on": "2020-07-09T01:21:41.173Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "A1234567",
+  "fields": {
+    "NDC": 20,
+    "NPP": 20,
+    "CPP": 10,
+    "rejected": 5,
+    "pink_sheet": "uploads/2020/08/23/red_shoe.jpg",
+    "sheet": "picture",
+    "available": true,
+    "verified": false,
+    "valid_votes": 50,
+    "vote_cast": 55,
+    "voting_status": true,
+    "created_on": "2020-08-23T15:31:50.958Z",
+    "updated_on": "2020-08-23T15:31:50.959Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120601A",
+  "fields": {
+    "NDC": 210,
+    "NPP": 200,
+    "CPP": 100,
+    "rejected": 10,
+    "pink_sheet": "uploads/2020/08/05/casual.jpg",
+    "sheet": "picture",
+    "available": true,
+    "verified": false,
+    "valid_votes": 510,
+    "vote_cast": 520,
+    "voting_status": true,
+    "created_on": "2020-08-05T15:34:59.344Z",
+    "updated_on": "2020-08-16T21:44:55.203Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120601B",
+  "fields": {
+    "NDC": 30,
+    "NPP": 20,
+    "CPP": 21,
+    "rejected": 7,
+    "pink_sheet": "uploads/2020/08/05/furniture.jpg",
+    "sheet": "picture",
+    "available": true,
+    "verified": false,
+    "valid_votes": 71,
+    "vote_cast": 78,
+    "voting_status": true,
+    "created_on": "2020-08-05T15:36:17.106Z",
+    "updated_on": "2020-08-19T23:04:51.587Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120601C",
+  "fields": {
+    "NDC": 211,
+    "NPP": 180,
+    "CPP": 17,
+    "rejected": 2,
+    "pink_sheet": "uploads/2020/08/05/sparkle_shoe.jpg",
+    "sheet": "picture",
+    "available": true,
+    "verified": false,
+    "valid_votes": 408,
+    "vote_cast": 410,
+    "voting_status": true,
+    "created_on": "2020-08-05T15:37:30.393Z",
+    "updated_on": "2020-08-19T23:07:05.368Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120602A",
+  "fields": {
+    "NDC": 340,
+    "NPP": 300,
+    "CPP": 32,
+    "rejected": 2,
+    "pink_sheet": "uploads/2020/08/05/red_tea.jpg",
+    "sheet": "picture",
+    "available": true,
+    "verified": false,
+    "valid_votes": 672,
+    "vote_cast": 674,
+    "voting_status": true,
+    "created_on": "2020-08-05T17:52:24.122Z",
+    "updated_on": "2020-08-26T11:08:02.396Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120602B",
+  "fields": {
+    "NDC": 400,
+    "NPP": 10,
+    "CPP": 5,
+    "rejected": 1,
+    "pink_sheet": "uploads/2020/08/31/breeze_dLzHSaq.jpg",
+    "sheet": "picture",
+    "available": true,
+    "verified": false,
+    "valid_votes": 415,
+    "vote_cast": 416,
+    "voting_status": true,
+    "created_on": "2020-08-31T12:24:32.523Z",
+    "updated_on": "2020-09-10T13:26:17.297Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120603",
+  "fields": {
+    "NDC": 56,
+    "NPP": 49,
+    "CPP": 32,
+    "rejected": 2,
+    "pink_sheet": "uploads/2020/08/05/red_tea_CtISdyP.jpg",
+    "sheet": "picture",
+    "available": true,
+    "verified": false,
+    "valid_votes": 137,
+    "vote_cast": 139,
+    "voting_status": true,
+    "created_on": "2020-08-05T17:59:29.021Z",
+    "updated_on": "2020-08-26T11:08:39.964Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120604A",
+  "fields": {
+    "NDC": 500,
+    "NPP": 800,
+    "CPP": 50,
+    "rejected": 5,
+    "pink_sheet": "uploads/2020/09/07/bandeaux_SRGT25Y.jpg",
+    "sheet": "",
+    "available": true,
+    "verified": false,
+    "valid_votes": 1350,
+    "vote_cast": 1355,
+    "voting_status": false,
+    "created_on": "2020-09-07T11:17:20.626Z",
+    "updated_on": "2020-09-07T11:17:20.626Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120604B",
+  "fields": {
+    "NDC": 30,
+    "NPP": 20,
+    "CPP": 10,
+    "rejected": 0,
+    "pink_sheet": "uploads/2020/08/31/breeze.jpg",
+    "sheet": "picture",
+    "available": true,
+    "verified": false,
+    "valid_votes": 60,
+    "vote_cast": 60,
+    "voting_status": true,
+    "created_on": "2020-08-31T10:30:41.022Z",
+    "updated_on": "2020-08-31T10:30:41.022Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120605",
+  "fields": {
+    "NDC": 100,
+    "NPP": 50,
+    "CPP": 10,
+    "rejected": 5,
+    "pink_sheet": "uploads/2020/08/31/breeze_4a4gMUf.jpg",
+    "sheet": "picture",
+    "available": true,
+    "verified": false,
+    "valid_votes": 160,
+    "vote_cast": 165,
+    "voting_status": true,
+    "created_on": "2020-08-31T10:47:52.478Z",
+    "updated_on": "2020-08-31T10:47:52.478Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120606",
+  "fields": {
+    "NDC": 40,
+    "NPP": 20,
+    "CPP": 10,
+    "rejected": 5,
+    "pink_sheet": "uploads/2020/09/05/bandeaux.jpg",
+    "sheet": "",
+    "available": true,
+    "verified": false,
+    "valid_votes": 70,
+    "vote_cast": 75,
+    "voting_status": true,
+    "created_on": "2020-09-05T13:31:56.477Z",
+    "updated_on": "2020-09-05T13:31:56.477Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120608",
+  "fields": {
+    "NDC": 100,
+    "NPP": 20,
+    "CPP": 2,
+    "rejected": 0,
+    "pink_sheet": "uploads/2020/09/07/bandeaux.jpg",
+    "sheet": "",
+    "available": true,
+    "verified": false,
+    "valid_votes": 122,
+    "vote_cast": 122,
+    "voting_status": true,
+    "created_on": "2020-09-07T11:13:57.757Z",
+    "updated_on": "2020-09-07T11:13:57.757Z"
+  }
+},
+{
+  "model": "results.presidentialpollresult",
+  "pk": "F120613",
+  "fields": {
+    "NDC": 45,
+    "NPP": 35,
+    "CPP": 25,
+    "rejected": 5,
+    "pink_sheet": "uploads/2020/09/11/bandeaux.jpg",
+    "sheet": "",
+    "available": true,
+    "verified": false,
+    "valid_votes": 105,
+    "vote_cast": 110,
+    "voting_status": true,
+    "created_on": "2020-09-11T18:02:10.395Z",
+    "updated_on": "2020-09-11T18:02:10.395Z"
+  }
+},
+{
+  "model": "results.vote",
+  "pk": 1,
+  "fields": {
+    "name": "Bohyen Sakasaka Park",
+    "slug": "bohyen-sakasaka-park",
+    "vote": "235",
+    "photo": "vote/bedroom.jpg"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add agent",
+    "content_type": 7,
+    "codename": "add_agent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change agent",
+    "content_type": 7,
+    "codename": "change_agent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete agent",
+    "content_type": 7,
+    "codename": "delete_agent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view agent",
+    "content_type": 7,
+    "codename": "view_agent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Constituency",
+    "content_type": 8,
+    "codename": "add_constituency"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Constituency",
+    "content_type": 8,
+    "codename": "change_constituency"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Constituency",
+    "content_type": 8,
+    "codename": "delete_constituency"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Constituency",
+    "content_type": 8,
+    "codename": "view_constituency"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add electoral area",
+    "content_type": 9,
+    "codename": "add_electoralarea"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change electoral area",
+    "content_type": 9,
+    "codename": "change_electoralarea"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete electoral area",
+    "content_type": 9,
+    "codename": "delete_electoralarea"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view electoral area",
+    "content_type": 9,
+    "codename": "view_electoralarea"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add polling station",
+    "content_type": 10,
+    "codename": "add_pollingstation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change polling station",
+    "content_type": 10,
+    "codename": "change_pollingstation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete polling station",
+    "content_type": 10,
+    "codename": "delete_pollingstation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view polling station",
+    "content_type": 10,
+    "codename": "view_pollingstation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add region",
+    "content_type": 11,
+    "codename": "add_region"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change region",
+    "content_type": 11,
+    "codename": "change_region"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete region",
+    "content_type": 11,
+    "codename": "delete_region"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view region",
+    "content_type": 11,
+    "codename": "view_region"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add vote",
+    "content_type": 12,
+    "codename": "add_vote"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change vote",
+    "content_type": 12,
+    "codename": "change_vote"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete vote",
+    "content_type": 12,
+    "codename": "delete_vote"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view vote",
+    "content_type": 12,
+    "codename": "view_vote"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add poll result",
+    "content_type": 13,
+    "codename": "add_pollresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change poll result",
+    "content_type": 13,
+    "codename": "change_pollresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete poll result",
+    "content_type": 13,
+    "codename": "delete_pollresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view poll result",
+    "content_type": 13,
+    "codename": "view_pollresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add profile",
+    "content_type": 14,
+    "codename": "add_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change profile",
+    "content_type": 14,
+    "codename": "change_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete profile",
+    "content_type": 14,
+    "codename": "delete_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view profile",
+    "content_type": 14,
+    "codename": "view_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add Token",
+    "content_type": 15,
+    "codename": "add_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change Token",
+    "content_type": 15,
+    "codename": "change_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete Token",
+    "content_type": 15,
+    "codename": "delete_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view Token",
+    "content_type": 15,
+    "codename": "view_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add parliamentary poll result",
+    "content_type": 16,
+    "codename": "add_parliamentarypollresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change parliamentary poll result",
+    "content_type": 16,
+    "codename": "change_parliamentarypollresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete parliamentary poll result",
+    "content_type": 16,
+    "codename": "delete_parliamentarypollresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view parliamentary poll result",
+    "content_type": 16,
+    "codename": "view_parliamentarypollresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add presidential poll result",
+    "content_type": 17,
+    "codename": "add_presidentialpollresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change presidential poll result",
+    "content_type": 17,
+    "codename": "change_presidentialpollresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete presidential poll result",
+    "content_type": 17,
+    "codename": "delete_presidentialpollresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view presidential poll result",
+    "content_type": 17,
+    "codename": "view_presidentialpollresult"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add district",
+    "content_type": 18,
+    "codename": "add_district"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change district",
+    "content_type": 18,
+    "codename": "change_district"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete district",
+    "content_type": 18,
+    "codename": "delete_district"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view district",
+    "content_type": 18,
+    "codename": "view_district"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$2yhXHGRYZYnP$oXvmtw8yduun8Kyb9wMvaoHYFyp0JgvcuPRHlpiFXrg=",
+    "last_login": "2020-09-12T17:02:32.021Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@aimj.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-07-29T22:33:23.522Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$yVFj4KwalrAg$HWgWzChQb54vAYQkOQy1g0OQzzAMAO78oXKRnh7Z2lg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ab",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-08-09T13:34:03.077Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$oBV1zjHIAevV$Fs2qD516F54tllDV4vDkeb2D2kdtMdO/I7ZLPj5hyjI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "abb",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-08-09T13:34:57.131Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$d7rtgV6CTLxF$uJNA4N79PfyjRAggN9usPCPd+65UYwI/GwZmnelHSck=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "abbb",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-08-09T13:43:42.493Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$nv3o27xnwYUL$JBNRcJzrn6vBRtuKVNG1PdERcaYNawrogGSDMFvUo/U=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "adminn",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-08-09T14:02:23.567Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$XCTta0yw3Pqr$XUAiU0PvRnNgQJE4dqfmlosX8AelAF2k4yDNNWi9J4Y=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "admina",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-08-09T14:09:07.654Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$4repijEFM6dm$4mn6fZJGjZYlB+D/GvCXsg4kVLOUxZR6X93SMEogPFE=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "adminas",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-08-09T14:13:01.944Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$xDsowbvFQYbg$ONAjI4soxNM2Rh6RO/n5anLU2a64Mr8y2RE9bM2Akw8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "adminu",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-08-09T14:39:23.374Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$azlBVgsdvDza$G05HtHxuBhO6ZeJbtUs6pqpJMgP38XpMSPMnwWzc8UU=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "adminus",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-08-09T14:42:33.239Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 11,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$g7J2lvGdGz05$ZNajwcKBRb3REX4gP8J3xaniMbUhw2T0bWMP3vb8SmM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "adminah",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-08-09T14:52:51.337Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 13,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$a7fiFw1YCxaf$T/s4OUd4med1fDQ1rrNLqGBHO8sCNAzAkMA8hWY0xvM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "rukis",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-08-09T15:10:23.613Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 14,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$1yWP73OnrheD$8PlYR41aAPFO6uCvQJ6sLmDmkCqLB6xzjXTlhevyzmM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "adina",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-08-27T00:28:07.371Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 15,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$QYEro21FMLUP$3MLl2A7G+6N8W282EEa0YlJjv3jHxRA6dSNdHkVaXBI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "adam",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-08-27T00:30:52.690Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 16,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$BQipVxgQhtm7$EZfrGD3LhgIg3+6CvuqX2vsP7gyJoljTQFvM/vmQvak=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "adams",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-08-27T00:33:07.979Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 17,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$K8mr81No3Eiu$bzYBE7ZCSRe0x0iWcaJ5cxPtCO8iDt1fg+bULGomWZc=",
+    "last_login": "2020-09-14T12:02:31.614Z",
+    "is_superuser": false,
+    "username": "amir",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-08-27T00:39:30.561Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 18,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$o2aLKbBjvRrm$C8RBJ5fhtgYOIjyQLgj+znqKP1l1BLy7fMjOz52S6/o=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "samir",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-08-27T00:41:25.242Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 19,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$2Ghal21hoQHG$EWnq52UzpLYZMQqVs3IKEq6TBqVOWYtTvRDFuuv6DCs=",
+    "last_login": "2020-08-30T22:33:09.273Z",
+    "is_superuser": true,
+    "username": "amin",
+    "first_name": "",
+    "last_name": "",
+    "email": "amin@aimj.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-08-30T22:32:43.594Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 20,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$1Prpt7HVV5l5$e6+EmjE7+GvCccsgMmpM15wxCjvbmRwaIhl66+Yfmmw=",
+    "last_login": "2020-08-31T12:03:18.687Z",
+    "is_superuser": false,
+    "username": "ruki",
+    "first_name": "Rukaya",
+    "last_name": "Abdallah",
+    "email": "ruki@aimj.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-08-31T12:02:01.795Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 21,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$omEKlX7g8DOy$UOmBBo2PljbUly9Qvuy2pUTaQ/m8YwOAwLAQCogsNAU=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ruki1",
+    "first_name": "Abdall",
+    "last_name": "Rukaya",
+    "email": "rukis@aimj.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-08-31T12:09:45.838Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 22,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$yLnoWMyGKaLi$PtgFDSVBC8w+OMFHZiyZfYISwGBEg7Enr+XZ4QWwCeI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ruki2",
+    "first_name": "Rukaya",
+    "last_name": "Abdallah",
+    "email": "ruki2@aimj.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-08-31T12:10:41.632Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 23,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$cx5vDz4K0iN4$WywAOvSA/TegyIW0vLCWodhiVGluv6osCjw5pJcj3Rg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ruki3",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-08-31T12:11:52.917Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 24,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$muyYmiyev283$9OX4upZqeFlMknJ7Xon9N9Uwfu5ykFSdxB9FYvePRvY=",
+    "last_login": "2020-08-31T12:21:24.175Z",
+    "is_superuser": false,
+    "username": "ruki4",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-08-31T12:18:23.695Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 25,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$WSsN9JzBcIT1$TVppckGL+vKRRy7HX2cJbDowpWwYD4QwIwxV/WO3O0g=",
+    "last_login": "2020-08-31T20:15:42.986Z",
+    "is_superuser": false,
+    "username": "abukass",
+    "first_name": "abu",
+    "last_name": "adam",
+    "email": "abukass9@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-08-31T20:14:59.321Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 26,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$zsVEgBAxN3Gl$ctmZKFVaVSsaD/GdC15+UMovaVMgGs52oIe7fmAyVTU=",
+    "last_login": "2020-09-02T17:14:33.431Z",
+    "is_superuser": false,
+    "username": "samsung",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-09-02T17:08:03.032Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 27,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$5ExtftcA8YLg$R2CeYYRj0AeGXtDUp/4akNrC/Csiru7ftwFS7btSrAg=",
+    "last_login": "2020-09-07T10:57:36.762Z",
+    "is_superuser": false,
+    "username": "zaid",
+    "first_name": "Zaid",
+    "last_name": "Mohammed",
+    "email": "zaid@aimj.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-09-07T10:56:11.974Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 28,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$72EqNTT91jie$lAkTjjLI6s4QsEGNr7lMRvQg4Cm+PIXolovvZJqYWVY=",
+    "last_login": "2020-09-11T12:37:25.692Z",
+    "is_superuser": false,
+    "username": "Ram",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-09-11T10:51:22.451Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 1,
+  "fields": {
+    "phone": "0208604676",
+    "date_of_birth": "2018-06-04",
+    "photo": "users/2020/08/06/sparkle_shoe.jpg"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2020-07-29T22:57:49.122Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "F120601A",
+    "object_repr": "F120601A, Fundamental Baptist Church Bohyen  Polls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2020-08-02T11:47:06.812Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601A",
+    "object_repr": "F120601A Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Rejected\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2020-08-02T11:47:26.827Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601B",
+    "object_repr": "F120601B Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Rejected\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2020-08-02T11:52:57.605Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601A",
+    "object_repr": "F120601A Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2020-08-02T11:52:57.627Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601B",
+    "object_repr": "F120601B Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2020-08-05T15:00:56.802Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Bohyen Sakasaka Park",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2020-08-05T15:08:27.645Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120603",
+    "object_repr": "F120603 Polls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2020-08-05T15:10:25.087Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120604A",
+    "object_repr": "F120604A Polls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2020-08-05T15:15:03.410Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120603",
+    "object_repr": "F120603 Polls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2020-08-05T15:21:00.200Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120603",
+    "object_repr": "F120603 Polls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2020-08-05T15:30:34.246Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120603",
+    "object_repr": "F120603 Polls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2020-08-05T15:31:30.268Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601A",
+    "object_repr": "F120601A Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2020-08-05T15:31:30.303Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601B",
+    "object_repr": "F120601B Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2020-08-05T15:31:30.323Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601C",
+    "object_repr": "F120601C Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2020-08-05T15:31:30.346Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120602A",
+    "object_repr": "F120602A Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2020-08-05T15:31:30.369Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120602B",
+    "object_repr": "F120602B Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2020-08-05T15:32:20.123Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601A",
+    "object_repr": "F120601A Polls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2020-08-05T15:34:59.349Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601A",
+    "object_repr": "F120601A Polls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2020-08-05T15:36:17.110Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601B",
+    "object_repr": "F120601B Polls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2020-08-05T17:49:14.543Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601A",
+    "object_repr": "F120601A Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2020-08-05T17:49:31.674Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601B",
+    "object_repr": "F120601B Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2020-08-05T17:49:42.668Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601C",
+    "object_repr": "F120601C Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2020-08-05T18:27:54.757Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120602A",
+    "object_repr": "F120602A Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2020-08-05T18:28:06.604Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120603",
+    "object_repr": "F120603 Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2020-08-05T21:14:15.003Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120607",
+    "object_repr": "F120607 Polls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2020-08-05T21:16:11.054Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120608",
+    "object_repr": "F120608 Polls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2020-08-05T21:17:53.931Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120608",
+    "object_repr": "F120608 Polls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2020-08-06T17:59:59.162Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "Profile for user admin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2020-08-06T22:26:22.140Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601A",
+    "object_repr": "F120601A Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2020-08-06T22:26:58.826Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601A",
+    "object_repr": "F120601A Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Over voting\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2020-08-06T22:27:24.125Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601A",
+    "object_repr": "F120601A Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2020-08-06T23:37:19.916Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120609B",
+    "object_repr": "F120609B Polls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2020-08-06T23:41:14.416Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601A",
+    "object_repr": "F120601A Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2020-08-06T23:43:42.816Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120609B",
+    "object_repr": "F120609B Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2020-08-06T23:44:29.106Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120610",
+    "object_repr": "F120610 Polls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2020-08-06T23:45:09.976Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120609B",
+    "object_repr": "F120609B Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Rejected\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2020-08-06T23:45:40.486Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120609B",
+    "object_repr": "F120609B Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Rejected\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2020-08-06T23:46:50.847Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120609B",
+    "object_repr": "F120609B Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Rejected\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2020-08-06T23:46:52.241Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120609B",
+    "object_repr": "F120609B Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Rejected\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2020-08-06T23:48:09.698Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120609B",
+    "object_repr": "F120609B Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Rejected\", \"Valid votes\", \"Vote cast\", \"Over voting\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2020-08-06T23:50:09.970Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120611A",
+    "object_repr": "F120611A Polls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2020-08-07T15:19:06.646Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601A",
+    "object_repr": "F120601A Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2020-08-07T15:23:34.701Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601B",
+    "object_repr": "F120601B Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2020-08-07T15:24:54.761Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601C",
+    "object_repr": "F120601C Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2020-08-07T15:26:17.154Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120612",
+    "object_repr": "F120612 Polls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2020-08-07T15:27:39.543Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120610",
+    "object_repr": "F120610 Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"NDC\", \"NPP\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2020-08-07T15:29:52.683Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120603",
+    "object_repr": "F120603 Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2020-08-07T15:32:00.789Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601C",
+    "object_repr": "F120601C Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2020-08-07T15:32:27.186Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120605",
+    "object_repr": "F120605 Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2020-08-07T16:53:22.045Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120610",
+    "object_repr": "F120610 Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2020-08-07T16:56:03.345Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601A",
+    "object_repr": "F120601A Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"NDC\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2020-08-07T16:57:19.811Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120613",
+    "object_repr": "F120613 Polls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2020-08-07T17:00:03.006Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120613",
+    "object_repr": "F120613 Polls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2020-08-07T17:00:59.435Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120613",
+    "object_repr": "F120613 Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Rejected\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2020-08-07T17:02:06.967Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120613",
+    "object_repr": "F120613 Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"NPP\", \"CPP\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2020-08-07T17:02:42.847Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120612",
+    "object_repr": "F120612 Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"NDC\", \"CPP\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2020-08-07T17:03:18.145Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120611A",
+    "object_repr": "F120611A Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"NDC\", \"NPP\", \"CPP\", \"Rejected\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2020-08-07T17:04:19.902Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601B",
+    "object_repr": "F120601B Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"NDC\", \"NPP\", \"CPP\", \"Rejected\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2020-08-07T17:04:48.081Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120603",
+    "object_repr": "F120603 Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"NDC\", \"NPP\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2020-08-07T17:08:24.784Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601A",
+    "object_repr": "F120601A Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2020-08-07T17:11:55.777Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601A",
+    "object_repr": "F120601A Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2020-08-07T17:12:27.652Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120604A",
+    "object_repr": "F120604A Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2020-08-07T17:13:53.020Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120604A",
+    "object_repr": "F120604A Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2020-08-07T17:14:06.127Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601A",
+    "object_repr": "F120601A Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2020-08-07T17:19:17.292Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601B",
+    "object_repr": "F120601B Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2020-08-07T17:19:39.109Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601B",
+    "object_repr": "F120601B Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Rejected\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2020-08-07T17:20:50.764Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601B",
+    "object_repr": "F120601B Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2020-08-07T17:21:00.791Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601C",
+    "object_repr": "F120601C Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2020-08-07T17:21:11.635Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120602A",
+    "object_repr": "F120602A Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2020-08-07T17:21:23.506Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120603",
+    "object_repr": "F120603 Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2020-08-07T17:22:04.815Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120606",
+    "object_repr": "F120606 Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2020-08-07T17:22:18.915Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120608",
+    "object_repr": "F120608 Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2020-08-07T17:22:50.485Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120609B",
+    "object_repr": "F120609B Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2020-08-07T17:23:02.634Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120610",
+    "object_repr": "F120610 Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2020-08-07T17:23:13.428Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120611A",
+    "object_repr": "F120611A Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2020-08-07T17:23:23.848Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120612",
+    "object_repr": "F120612 Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2020-08-07T17:23:34.037Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120613",
+    "object_repr": "F120613 Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2020-08-07T18:09:52.618Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120609A",
+    "object_repr": "F120609A Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"NDC\", \"NPP\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2020-08-07T21:32:46.539Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120604A",
+    "object_repr": "F120604A Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2020-08-07T21:32:46.580Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120604B",
+    "object_repr": "F120604B Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2020-08-07T21:32:46.584Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120605",
+    "object_repr": "F120605 Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2020-08-07T21:32:46.588Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120606",
+    "object_repr": "F120606 Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2020-08-07T21:32:46.589Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120607",
+    "object_repr": "F120607 Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2020-08-08T15:21:08.760Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120610",
+    "object_repr": "F120610 Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2020-08-08T15:21:08.807Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120611A",
+    "object_repr": "F120611A Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2020-08-08T15:21:08.815Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120612",
+    "object_repr": "F120612 Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2020-08-08T15:21:08.820Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120613",
+    "object_repr": "F120613 Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2020-08-08T15:22:13.390Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120610",
+    "object_repr": "F120610 Polls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2020-08-08T15:23:26.083Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120611A",
+    "object_repr": "F120611A Polls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2020-08-08T15:23:46.601Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120611A",
+    "object_repr": "F120611A Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Available\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2020-08-08T15:24:36.353Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120611A",
+    "object_repr": "F120611A Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Available\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2020-08-08T15:24:53.695Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120611A",
+    "object_repr": "F120611A Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Verified\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2020-08-08T15:29:37.206Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120611A",
+    "object_repr": "F120611A Polls",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2020-08-08T15:31:15.830Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601A",
+    "object_repr": "F120601A Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Available\", \"Verified\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2020-08-08T15:31:34.224Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601A",
+    "object_repr": "F120601A Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Available\", \"Verified\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2020-08-08T15:32:51.149Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601A",
+    "object_repr": "F120601A Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Verified\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2020-08-08T17:00:40.027Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120609A",
+    "object_repr": "F120609A Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Available\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2020-08-08T17:01:22.176Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120612",
+    "object_repr": "F120612 Polls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2020-08-09T18:00:54.812Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120612",
+    "object_repr": "F120612 Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2020-08-09T21:00:01.888Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120611A",
+    "object_repr": "F120611A Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2020-08-09T22:01:35.558Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120611A",
+    "object_repr": "F120611A Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2020-08-09T22:06:47.351Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120611A",
+    "object_repr": "F120611A Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2020-08-16T21:32:52.623Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120602A",
+    "object_repr": "F120602A Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"NPP\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2020-08-16T21:33:37.312Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601C",
+    "object_repr": "F120601C Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"NDC\", \"NPP\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2020-08-16T21:36:34.950Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601B",
+    "object_repr": "F120601B Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"NDC\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2020-08-16T21:44:55.209Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601A",
+    "object_repr": "F120601A Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"NDC\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2020-08-16T21:50:35.944Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120603",
+    "object_repr": "F120603 Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"NDC\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2020-08-17T13:40:12.873Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601C",
+    "object_repr": "F120601C Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"NPP\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2020-08-17T13:41:58.388Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601B",
+    "object_repr": "F120601B Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"CPP\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2020-08-17T15:44:20.466Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120608",
+    "object_repr": "F120608 Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"NDC\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2020-08-17T16:33:13.971Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120602A",
+    "object_repr": "F120602A Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"NDC\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2020-08-19T23:03:47.769Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601B",
+    "object_repr": "F120601B Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Rejected\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2020-08-19T23:04:51.591Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601B",
+    "object_repr": "F120601B Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"CPP\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2020-08-19T23:07:05.374Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120601C",
+    "object_repr": "F120601C Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"NPP\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2020-08-23T03:05:31.350Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "1",
+    "object_repr": "Asunafo North",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2020-08-23T03:05:47.432Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "2",
+    "object_repr": "Asunafo South",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2020-08-23T03:06:04.938Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "3",
+    "object_repr": "Asutifi North",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2020-08-23T03:06:29.401Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "4",
+    "object_repr": "Asutifi South",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2020-08-23T03:06:50.552Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "5",
+    "object_repr": "Tano North",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2020-08-23T03:07:00.442Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "6",
+    "object_repr": "Tano South",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2020-08-23T03:07:43.435Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "7",
+    "object_repr": "Adansi North",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2020-08-23T03:08:04.080Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "8",
+    "object_repr": "Adansi South",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2020-08-23T03:08:37.684Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "9",
+    "object_repr": "Banda",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2020-08-23T03:08:55.931Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "10",
+    "object_repr": "Berekum East",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2020-08-23T03:09:42.655Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "11",
+    "object_repr": "Atebubu-Amantin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2020-08-23T03:10:03.348Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "12",
+    "object_repr": "Kintampo North",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2020-08-23T03:10:55.736Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "13",
+    "object_repr": "Abura/Asebu/Kwamankese",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2020-08-23T03:11:15.667Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "14",
+    "object_repr": "Agona East",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2020-08-23T03:11:35.542Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "15",
+    "object_repr": "Akuapim North",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2020-08-23T03:11:57.592Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "16",
+    "object_repr": "Akuapim South",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2020-08-23T03:12:29.761Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "17",
+    "object_repr": "Accra",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2020-08-23T03:12:44.752Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "18",
+    "object_repr": "Ada East",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2020-08-23T03:12:58.832Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "19",
+    "object_repr": "Ada West",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2020-08-23T03:13:32.050Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "20",
+    "object_repr": "Gushiegu",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2020-08-23T03:13:44.162Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "21",
+    "object_repr": "Karaga",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2020-08-23T03:14:22.460Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "22",
+    "object_repr": "Bunkpurugu-Nyankpanduri",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 137,
+  "fields": {
+    "action_time": "2020-08-23T03:14:59.567Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "22",
+    "object_repr": "Bunkpurugu-Nyankpanduri",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Region\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 138,
+  "fields": {
+    "action_time": "2020-08-23T03:15:41.448Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "23",
+    "object_repr": "Biakoye",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 139,
+  "fields": {
+    "action_time": "2020-08-23T03:15:58.396Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "24",
+    "object_repr": "Jasikan",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 140,
+  "fields": {
+    "action_time": "2020-08-23T03:16:15.898Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "25",
+    "object_repr": "Bole",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 141,
+  "fields": {
+    "action_time": "2020-08-23T03:16:35.915Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "26",
+    "object_repr": "Central Gonja",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 142,
+  "fields": {
+    "action_time": "2020-08-23T03:17:01.531Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "27",
+    "object_repr": "Bawku",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 143,
+  "fields": {
+    "action_time": "2020-08-23T03:17:29.953Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "28",
+    "object_repr": "Bawku West",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 144,
+  "fields": {
+    "action_time": "2020-08-23T03:18:39.351Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "29",
+    "object_repr": "Daffiama-Bussie-Issa",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 145,
+  "fields": {
+    "action_time": "2020-08-23T03:18:54.132Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "30",
+    "object_repr": "Jirapa",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 146,
+  "fields": {
+    "action_time": "2020-08-23T03:19:18.683Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "31",
+    "object_repr": "Adanku",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 147,
+  "fields": {
+    "action_time": "2020-08-23T03:19:35.400Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "31",
+    "object_repr": "Adaklu",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 148,
+  "fields": {
+    "action_time": "2020-08-23T03:19:49.544Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "32",
+    "object_repr": "Afadjato South",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 149,
+  "fields": {
+    "action_time": "2020-08-23T03:19:58.076Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "32",
+    "object_repr": "Afadjato South",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Region\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 150,
+  "fields": {
+    "action_time": "2020-08-23T03:20:35.640Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "33",
+    "object_repr": "Ahanta West",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 151,
+  "fields": {
+    "action_time": "2020-08-23T03:20:52.391Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "34",
+    "object_repr": "Ellembele",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 152,
+  "fields": {
+    "action_time": "2020-08-23T03:21:15.885Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "35",
+    "object_repr": "Aowin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 153,
+  "fields": {
+    "action_time": "2020-08-23T03:21:32.756Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "36",
+    "object_repr": "Bia West",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 154,
+  "fields": {
+    "action_time": "2020-08-23T03:22:08.056Z",
+    "user": 1,
+    "content_type": 18,
+    "object_id": "37",
+    "object_repr": "Bia East",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 155,
+  "fields": {
+    "action_time": "2020-08-23T03:23:13.221Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "9",
+    "object_repr": "Ahafo",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 156,
+  "fields": {
+    "action_time": "2020-08-23T03:23:25.364Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "8",
+    "object_repr": "Bono East",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 157,
+  "fields": {
+    "action_time": "2020-08-23T03:23:38.434Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "Bono",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 158,
+  "fields": {
+    "action_time": "2020-08-23T03:24:01.543Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "11",
+    "object_repr": "Western",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 159,
+  "fields": {
+    "action_time": "2020-08-23T15:30:46.607Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "A1234567",
+    "object_repr": "A1234567",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 160,
+  "fields": {
+    "action_time": "2020-08-23T15:31:51.064Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "A1234567",
+    "object_repr": "A1234567 Polls",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 161,
+  "fields": {
+    "action_time": "2020-08-23T17:20:14.308Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Bantama",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Region\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 162,
+  "fields": {
+    "action_time": "2020-08-23T17:20:43.663Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Ayawaso West Wuogon",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Region\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 163,
+  "fields": {
+    "action_time": "2020-08-23T17:47:18.061Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Adansi-Asokwa",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 164,
+  "fields": {
+    "action_time": "2020-08-23T17:47:35.871Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Fomena",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 165,
+  "fields": {
+    "action_time": "2020-08-23T17:47:51.840Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "New Edubease",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 166,
+  "fields": {
+    "action_time": "2020-08-23T17:48:11.880Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Afigya Kwabre North",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 167,
+  "fields": {
+    "action_time": "2020-08-23T17:48:31.629Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Kwabre West",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 168,
+  "fields": {
+    "action_time": "2020-08-23T17:48:49.894Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Ahafo Ano",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 169,
+  "fields": {
+    "action_time": "2020-08-23T17:49:04.250Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Ahafo Ano North",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 170,
+  "fields": {
+    "action_time": "2020-08-23T17:49:35.468Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Ahafo Ano South East",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 171,
+  "fields": {
+    "action_time": "2020-08-23T17:49:56.261Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Ahafo Ano South West",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 172,
+  "fields": {
+    "action_time": "2020-08-23T17:50:15.112Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "Akrofuom",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 173,
+  "fields": {
+    "action_time": "2020-08-23T17:50:30.639Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Odotobri",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 174,
+  "fields": {
+    "action_time": "2020-08-23T17:50:44.380Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "Manso Nkwanta",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 175,
+  "fields": {
+    "action_time": "2020-08-23T17:50:57.483Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "Manso Edubia",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 176,
+  "fields": {
+    "action_time": "2020-08-23T17:51:36.279Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "Asante-Akim Central",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 177,
+  "fields": {
+    "action_time": "2020-08-23T17:51:53.686Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "Asante-Akim North",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 178,
+  "fields": {
+    "action_time": "2020-08-23T17:52:12.916Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "17",
+    "object_repr": "Asante-Akim South",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 179,
+  "fields": {
+    "action_time": "2020-08-23T17:52:29.285Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "18",
+    "object_repr": "Asawase",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 180,
+  "fields": {
+    "action_time": "2020-08-23T17:52:57.529Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "19",
+    "object_repr": "Atwima-Kwanwoma",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 181,
+  "fields": {
+    "action_time": "2020-08-23T17:53:08.919Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "20",
+    "object_repr": "Atw",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 182,
+  "fields": {
+    "action_time": "2020-08-23T17:53:38.086Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "20",
+    "object_repr": "Atwima-Mponua",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Region\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 183,
+  "fields": {
+    "action_time": "2020-08-23T17:53:59.812Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "21",
+    "object_repr": "Atwima-Nwabiagya North",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 184,
+  "fields": {
+    "action_time": "2020-08-23T17:54:28.379Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "22",
+    "object_repr": "Atwima-Nwabiagya South",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 185,
+  "fields": {
+    "action_time": "2020-08-23T17:54:42.202Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "23",
+    "object_repr": "Bekwai",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 186,
+  "fields": {
+    "action_time": "2020-08-23T17:55:05.418Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "24",
+    "object_repr": "Bosome-Freho",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 187,
+  "fields": {
+    "action_time": "2020-08-23T17:55:35.238Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "25",
+    "object_repr": "Bosomtwe",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 188,
+  "fields": {
+    "action_time": "2020-08-23T17:55:53.445Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "26",
+    "object_repr": "Ejisu",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 189,
+  "fields": {
+    "action_time": "2020-08-23T17:56:09.948Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "27",
+    "object_repr": "Ejura",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 190,
+  "fields": {
+    "action_time": "2020-08-23T17:56:19.462Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "28",
+    "object_repr": "Juaben",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 191,
+  "fields": {
+    "action_time": "2020-08-23T17:56:48.458Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "29",
+    "object_repr": "Asokwa",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 192,
+  "fields": {
+    "action_time": "2020-08-23T17:57:09.033Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "30",
+    "object_repr": "Kwadaso",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 193,
+  "fields": {
+    "action_time": "2020-08-23T17:57:29.303Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "31",
+    "object_repr": "Manhyia North",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 194,
+  "fields": {
+    "action_time": "2020-08-23T17:57:47.350Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "32",
+    "object_repr": "Manhyia South",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 195,
+  "fields": {
+    "action_time": "2020-08-23T17:58:11.751Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "33",
+    "object_repr": "Nhyiaeso",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 196,
+  "fields": {
+    "action_time": "2020-08-23T17:58:27.097Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "34",
+    "object_repr": "00000000000000000000000000000000000000000000000000",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 197,
+  "fields": {
+    "action_time": "2020-08-23T17:59:15.284Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "34",
+    "object_repr": "Subin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Region\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 198,
+  "fields": {
+    "action_time": "2020-08-23T17:59:28.596Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "35",
+    "object_repr": "Kwabre East",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 199,
+  "fields": {
+    "action_time": "2020-08-23T17:59:39.915Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "36",
+    "object_repr": "Mampong",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 200,
+  "fields": {
+    "action_time": "2020-08-23T17:59:52.901Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "37",
+    "object_repr": "Obuasi East",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 201,
+  "fields": {
+    "action_time": "2020-08-23T18:00:54.497Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "38",
+    "object_repr": "Obuasi West",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 202,
+  "fields": {
+    "action_time": "2020-08-23T18:01:20.994Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "39",
+    "object_repr": "Offinso North",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 203,
+  "fields": {
+    "action_time": "2020-08-23T18:02:09.647Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "40",
+    "object_repr": "Offinso South",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 204,
+  "fields": {
+    "action_time": "2020-08-23T18:02:29.779Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "41",
+    "object_repr": "Oforikrom",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 205,
+  "fields": {
+    "action_time": "2020-08-23T18:02:44.828Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "42",
+    "object_repr": "Old Tafo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 206,
+  "fields": {
+    "action_time": "2020-08-23T18:03:04.135Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "43",
+    "object_repr": "Sekyere Afram Plains",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 207,
+  "fields": {
+    "action_time": "2020-08-23T18:03:22.259Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "44",
+    "object_repr": "Kumawu",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 208,
+  "fields": {
+    "action_time": "2020-08-23T18:03:47.874Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "45",
+    "object_repr": "Nsuta-Kwamang-Beposo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 209,
+  "fields": {
+    "action_time": "2020-08-23T18:04:04.940Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "46",
+    "object_repr": "Afigya Sekyere West",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 210,
+  "fields": {
+    "action_time": "2020-08-23T18:04:19.322Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "47",
+    "object_repr": "Effiduase-Asokore",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 211,
+  "fields": {
+    "action_time": "2020-08-23T18:04:39.444Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "48",
+    "object_repr": "Afigya Sekyere East",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 212,
+  "fields": {
+    "action_time": "2020-08-23T18:04:54.635Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "49",
+    "object_repr": "Suame",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 213,
+  "fields": {
+    "action_time": "2020-08-23T18:05:56.546Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "50",
+    "object_repr": "Asutifi South",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 214,
+  "fields": {
+    "action_time": "2020-08-23T18:06:15.229Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "51",
+    "object_repr": "Tano North",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 215,
+  "fields": {
+    "action_time": "2020-08-23T18:06:31.558Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "52",
+    "object_repr": "Tano South",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 216,
+  "fields": {
+    "action_time": "2020-08-23T21:11:47.037Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "53",
+    "object_repr": "Ate",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 217,
+  "fields": {
+    "action_time": "2020-08-23T21:12:01.512Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "53",
+    "object_repr": "Atebubu-Amantin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Region\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 218,
+  "fields": {
+    "action_time": "2020-08-23T21:12:13.674Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "54",
+    "object_repr": "Kintampo North",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 219,
+  "fields": {
+    "action_time": "2020-08-23T21:12:30.338Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "55",
+    "object_repr": "Kintampo South",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 220,
+  "fields": {
+    "action_time": "2020-08-23T21:12:51.516Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "56",
+    "object_repr": "Nkoranza North",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 221,
+  "fields": {
+    "action_time": "2020-08-23T21:13:14.242Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "57",
+    "object_repr": "Nkoranza South",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 222,
+  "fields": {
+    "action_time": "2020-08-23T21:13:32.105Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "58",
+    "object_repr": "Pru East",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 223,
+  "fields": {
+    "action_time": "2020-08-23T21:13:50.522Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "59",
+    "object_repr": "Pru West",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 224,
+  "fields": {
+    "action_time": "2020-08-23T21:14:05.894Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "60",
+    "object_repr": "Sene East",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 225,
+  "fields": {
+    "action_time": "2020-08-23T21:14:24.222Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "61",
+    "object_repr": "Sene West",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 226,
+  "fields": {
+    "action_time": "2020-08-23T21:14:44.179Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "62",
+    "object_repr": "Techiman North",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 227,
+  "fields": {
+    "action_time": "2020-08-23T21:15:18.030Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "63",
+    "object_repr": "Techiman South",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 228,
+  "fields": {
+    "action_time": "2020-08-23T21:16:16.260Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "64",
+    "object_repr": "Banda Ahenkro",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 229,
+  "fields": {
+    "action_time": "2020-08-23T21:16:38.280Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "65",
+    "object_repr": "Berekum East",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 230,
+  "fields": {
+    "action_time": "2020-08-23T21:16:59.305Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "65",
+    "object_repr": "Berekum East",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 231,
+  "fields": {
+    "action_time": "2020-08-23T21:17:20.384Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "66",
+    "object_repr": "Berekum West",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 232,
+  "fields": {
+    "action_time": "2020-08-23T21:17:35.062Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "67",
+    "object_repr": "Dormaa Central",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 233,
+  "fields": {
+    "action_time": "2020-08-23T21:17:55.046Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "68",
+    "object_repr": "Dormaa East",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 234,
+  "fields": {
+    "action_time": "2020-08-23T21:18:08.933Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "69",
+    "object_repr": "Jaman North",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 235,
+  "fields": {
+    "action_time": "2020-08-23T21:18:21.249Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "70",
+    "object_repr": "Jaman South",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 236,
+  "fields": {
+    "action_time": "2020-08-23T21:18:35.700Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "71",
+    "object_repr": "Sunyani East",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 237,
+  "fields": {
+    "action_time": "2020-08-23T21:18:49.750Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "72",
+    "object_repr": "Sunyani West",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 238,
+  "fields": {
+    "action_time": "2020-08-23T21:19:02.246Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "73",
+    "object_repr": "Tain",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 239,
+  "fields": {
+    "action_time": "2020-08-23T21:19:18.319Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "74",
+    "object_repr": "Wenchi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 240,
+  "fields": {
+    "action_time": "2020-08-23T21:23:12.974Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "75",
+    "object_repr": "Abura-Asebu-Kwamankese",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 241,
+  "fields": {
+    "action_time": "2020-08-23T21:23:29.151Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "76",
+    "object_repr": "Agona East",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 242,
+  "fields": {
+    "action_time": "2020-08-23T21:23:45.217Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "77",
+    "object_repr": "Agona West",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 243,
+  "fields": {
+    "action_time": "2020-08-23T21:24:07.689Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "78",
+    "object_repr": "Ajumako-Enyan-Essiam",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 244,
+  "fields": {
+    "action_time": "2020-08-23T21:24:30.300Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "79",
+    "object_repr": "Asikuma-Odoben-Brakwa",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 245,
+  "fields": {
+    "action_time": "2020-08-23T21:24:41.544Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "80",
+    "object_repr": "Assin Central",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 246,
+  "fields": {
+    "action_time": "2020-08-23T21:24:50.880Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "81",
+    "object_repr": "Assin North",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 247,
+  "fields": {
+    "action_time": "2020-08-23T21:25:04.962Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "82",
+    "object_repr": "Assin South",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 248,
+  "fields": {
+    "action_time": "2020-08-23T21:25:24.042Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "83",
+    "object_repr": "Awutu-Senya East",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 249,
+  "fields": {
+    "action_time": "2020-08-23T21:25:47.159Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "84",
+    "object_repr": "Awutu-Senya West",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 250,
+  "fields": {
+    "action_time": "2020-08-23T21:26:06.766Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "85",
+    "object_repr": "Cape Coast North",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 251,
+  "fields": {
+    "action_time": "2020-08-23T21:26:23.330Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "86",
+    "object_repr": "Cape Coast South",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 252,
+  "fields": {
+    "action_time": "2020-08-23T21:26:35.984Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "87",
+    "object_repr": "Effutu",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 253,
+  "fields": {
+    "action_time": "2020-08-23T21:27:03.382Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "88",
+    "object_repr": "Ekumfi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 254,
+  "fields": {
+    "action_time": "2020-08-23T21:27:20.552Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "89",
+    "object_repr": "Gomoa Central",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 255,
+  "fields": {
+    "action_time": "2020-08-23T21:27:36.361Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "90",
+    "object_repr": "Gomoa East",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 256,
+  "fields": {
+    "action_time": "2020-08-23T21:27:50.612Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "91",
+    "object_repr": "Gomoa West",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 257,
+  "fields": {
+    "action_time": "2020-08-23T21:28:19.088Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "92",
+    "object_repr": "Komenda-Edina-Eguafo-Abirem",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 258,
+  "fields": {
+    "action_time": "2020-08-23T21:28:34.385Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "93",
+    "object_repr": "Mfantseman",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 259,
+  "fields": {
+    "action_time": "2020-08-23T21:28:56.167Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "94",
+    "object_repr": "Twifo-Atii Morkwaa",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 260,
+  "fields": {
+    "action_time": "2020-08-23T21:29:18.079Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "95",
+    "object_repr": "Hemang Lower Denkyira",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 261,
+  "fields": {
+    "action_time": "2020-08-23T21:29:36.246Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "96",
+    "object_repr": "Upper Denkyira East",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 262,
+  "fields": {
+    "action_time": "2020-08-23T21:29:55.267Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "97",
+    "object_repr": "Upper Denkyira West",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 263,
+  "fields": {
+    "action_time": "2020-08-26T11:08:02.439Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120602A",
+    "object_repr": "F120602A Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"NPP\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 264,
+  "fields": {
+    "action_time": "2020-08-26T11:08:39.972Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120603",
+    "object_repr": "F120603 Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"NDC\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 265,
+  "fields": {
+    "action_time": "2020-08-30T22:35:04.548Z",
+    "user": 19,
+    "content_type": 17,
+    "object_id": "F120611A",
+    "object_repr": "F120611A Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"NDC\", \"NPP\", \"CPP\", \"Pink sheet\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 266,
+  "fields": {
+    "action_time": "2020-08-31T12:01:49.047Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "12",
+    "object_repr": "ruki",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 267,
+  "fields": {
+    "action_time": "2020-09-04T15:43:57.044Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120606",
+    "object_repr": "F120606 Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 268,
+  "fields": {
+    "action_time": "2020-09-04T15:43:57.134Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120607",
+    "object_repr": "F120607 Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 269,
+  "fields": {
+    "action_time": "2020-09-04T15:43:57.139Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120608",
+    "object_repr": "F120608 Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 270,
+  "fields": {
+    "action_time": "2020-09-04T15:43:57.139Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120609A",
+    "object_repr": "F120609A Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 271,
+  "fields": {
+    "action_time": "2020-09-04T15:43:57.144Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120609B",
+    "object_repr": "F120609B Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 272,
+  "fields": {
+    "action_time": "2020-09-04T15:43:57.149Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120610",
+    "object_repr": "F120610 Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 273,
+  "fields": {
+    "action_time": "2020-09-04T15:43:57.154Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120611A",
+    "object_repr": "F120611A Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 274,
+  "fields": {
+    "action_time": "2020-09-04T15:43:57.154Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120612",
+    "object_repr": "F120612 Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 275,
+  "fields": {
+    "action_time": "2020-09-04T15:43:57.159Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120613",
+    "object_repr": "F120613 Polls",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 276,
+  "fields": {
+    "action_time": "2020-09-10T13:26:17.352Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "F120602B",
+    "object_repr": "F120602B Polls",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"NDC\", \"NPP\", \"CPP\", \"Rejected\"]}}]"
+  }
+}
+]

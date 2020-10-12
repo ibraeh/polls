@@ -4,9 +4,10 @@
   "pk": 1,
   "fields": {
     "name": "Bantama",
+    "district": null,
     "region": 2,
     "created_on": "2020-07-08T23:13:49.475Z",
-    "updated_on": "2020-07-08T23:13:49.475Z"
+    "updated_on": "2020-08-23T17:20:14.231Z"
   }
 },
 {
@@ -14,9 +15,1055 @@
   "pk": 2,
   "fields": {
     "name": "Ayawaso West Wuogon",
+    "district": null,
     "region": 1,
     "created_on": "2020-07-08T23:14:53.681Z",
-    "updated_on": "2020-07-08T23:14:53.681Z"
+    "updated_on": "2020-08-23T17:20:43.660Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 3,
+  "fields": {
+    "name": "Adansi-Asokwa",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:47:18.019Z",
+    "updated_on": "2020-08-23T17:47:18.019Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 4,
+  "fields": {
+    "name": "Fomena",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:47:35.867Z",
+    "updated_on": "2020-08-23T17:47:35.867Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 5,
+  "fields": {
+    "name": "New Edubease",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:47:51.837Z",
+    "updated_on": "2020-08-23T17:47:51.837Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 6,
+  "fields": {
+    "name": "Afigya Kwabre North",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:48:11.876Z",
+    "updated_on": "2020-08-23T17:48:11.877Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 7,
+  "fields": {
+    "name": "Kwabre West",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:48:31.626Z",
+    "updated_on": "2020-08-23T17:48:31.626Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 8,
+  "fields": {
+    "name": "Ahafo Ano North",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:48:49.891Z",
+    "updated_on": "2020-08-23T17:49:04.247Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 9,
+  "fields": {
+    "name": "Ahafo Ano South East",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:49:35.465Z",
+    "updated_on": "2020-08-23T17:49:35.466Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 10,
+  "fields": {
+    "name": "Ahafo Ano South West",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:49:56.258Z",
+    "updated_on": "2020-08-23T17:49:56.258Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 11,
+  "fields": {
+    "name": "Akrofuom",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:50:15.109Z",
+    "updated_on": "2020-08-23T17:50:15.109Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 12,
+  "fields": {
+    "name": "Odotobri",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:50:30.636Z",
+    "updated_on": "2020-08-23T17:50:30.636Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 13,
+  "fields": {
+    "name": "Manso Nkwanta",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:50:44.377Z",
+    "updated_on": "2020-08-23T17:50:44.377Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 14,
+  "fields": {
+    "name": "Manso Edubia",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:50:57.479Z",
+    "updated_on": "2020-08-23T17:50:57.480Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 15,
+  "fields": {
+    "name": "Asante-Akim Central",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:51:36.276Z",
+    "updated_on": "2020-08-23T17:51:36.276Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 16,
+  "fields": {
+    "name": "Asante-Akim North",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:51:53.682Z",
+    "updated_on": "2020-08-23T17:51:53.682Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 17,
+  "fields": {
+    "name": "Asante-Akim South",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:52:12.913Z",
+    "updated_on": "2020-08-23T17:52:12.913Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 18,
+  "fields": {
+    "name": "Asawase",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:52:29.279Z",
+    "updated_on": "2020-08-23T17:52:29.279Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 19,
+  "fields": {
+    "name": "Atwima-Kwanwoma",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:52:57.525Z",
+    "updated_on": "2020-08-23T17:52:57.525Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 20,
+  "fields": {
+    "name": "Atwima-Mponua",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:53:08.915Z",
+    "updated_on": "2020-08-23T17:53:38.082Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 21,
+  "fields": {
+    "name": "Atwima-Nwabiagya North",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:53:59.808Z",
+    "updated_on": "2020-08-23T17:53:59.808Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 22,
+  "fields": {
+    "name": "Atwima-Nwabiagya South",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:54:28.375Z",
+    "updated_on": "2020-08-23T17:54:28.375Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 23,
+  "fields": {
+    "name": "Bekwai",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:54:42.199Z",
+    "updated_on": "2020-08-23T17:54:42.199Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 24,
+  "fields": {
+    "name": "Bosome-Freho",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:55:05.414Z",
+    "updated_on": "2020-08-23T17:55:05.415Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 25,
+  "fields": {
+    "name": "Bosomtwe",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:55:35.235Z",
+    "updated_on": "2020-08-23T17:55:35.235Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 26,
+  "fields": {
+    "name": "Ejisu",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:55:53.442Z",
+    "updated_on": "2020-08-23T17:55:53.442Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 27,
+  "fields": {
+    "name": "Ejura",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:56:09.944Z",
+    "updated_on": "2020-08-23T17:56:09.944Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 28,
+  "fields": {
+    "name": "Juaben",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:56:19.459Z",
+    "updated_on": "2020-08-23T17:56:19.459Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 29,
+  "fields": {
+    "name": "Asokwa",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:56:48.455Z",
+    "updated_on": "2020-08-23T17:56:48.455Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 30,
+  "fields": {
+    "name": "Kwadaso",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:57:09.030Z",
+    "updated_on": "2020-08-23T17:57:09.030Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 31,
+  "fields": {
+    "name": "Manhyia North",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:57:29.299Z",
+    "updated_on": "2020-08-23T17:57:29.299Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 32,
+  "fields": {
+    "name": "Manhyia South",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:57:47.347Z",
+    "updated_on": "2020-08-23T17:57:47.347Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 33,
+  "fields": {
+    "name": "Nhyiaeso",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:58:11.748Z",
+    "updated_on": "2020-08-23T17:58:11.748Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 34,
+  "fields": {
+    "name": "Subin",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:58:27.093Z",
+    "updated_on": "2020-08-23T17:59:15.280Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 35,
+  "fields": {
+    "name": "Kwabre East",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:59:28.593Z",
+    "updated_on": "2020-08-23T17:59:28.593Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 36,
+  "fields": {
+    "name": "Mampong",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:59:39.911Z",
+    "updated_on": "2020-08-23T17:59:39.911Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 37,
+  "fields": {
+    "name": "Obuasi East",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T17:59:52.897Z",
+    "updated_on": "2020-08-23T17:59:52.898Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 38,
+  "fields": {
+    "name": "Obuasi West",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:00:54.494Z",
+    "updated_on": "2020-08-23T18:00:54.494Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 39,
+  "fields": {
+    "name": "Offinso North",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:01:20.989Z",
+    "updated_on": "2020-08-23T18:01:20.989Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 40,
+  "fields": {
+    "name": "Offinso South",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:02:09.644Z",
+    "updated_on": "2020-08-23T18:02:09.644Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 41,
+  "fields": {
+    "name": "Oforikrom",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:02:29.776Z",
+    "updated_on": "2020-08-23T18:02:29.776Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 42,
+  "fields": {
+    "name": "Old Tafo",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:02:44.825Z",
+    "updated_on": "2020-08-23T18:02:44.825Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 43,
+  "fields": {
+    "name": "Sekyere Afram Plains",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:03:04.130Z",
+    "updated_on": "2020-08-23T18:03:04.130Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 44,
+  "fields": {
+    "name": "Kumawu",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:03:22.256Z",
+    "updated_on": "2020-08-23T18:03:22.256Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 45,
+  "fields": {
+    "name": "Nsuta-Kwamang-Beposo",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:03:47.871Z",
+    "updated_on": "2020-08-23T18:03:47.871Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 46,
+  "fields": {
+    "name": "Afigya Sekyere West",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:04:04.936Z",
+    "updated_on": "2020-08-23T18:04:04.936Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 47,
+  "fields": {
+    "name": "Effiduase-Asokore",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:04:19.318Z",
+    "updated_on": "2020-08-23T18:04:19.318Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 48,
+  "fields": {
+    "name": "Afigya Sekyere East",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:04:39.439Z",
+    "updated_on": "2020-08-23T18:04:39.439Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 49,
+  "fields": {
+    "name": "Suame",
+    "district": null,
+    "region": 2,
+    "created_on": "2020-08-23T18:04:54.632Z",
+    "updated_on": "2020-08-23T18:04:54.632Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 50,
+  "fields": {
+    "name": "Asutifi South",
+    "district": null,
+    "region": 9,
+    "created_on": "2020-08-23T18:05:56.543Z",
+    "updated_on": "2020-08-23T18:05:56.543Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 51,
+  "fields": {
+    "name": "Tano North",
+    "district": null,
+    "region": 9,
+    "created_on": "2020-08-23T18:06:15.226Z",
+    "updated_on": "2020-08-23T18:06:15.226Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 52,
+  "fields": {
+    "name": "Tano South",
+    "district": null,
+    "region": 9,
+    "created_on": "2020-08-23T18:06:31.555Z",
+    "updated_on": "2020-08-23T18:06:31.555Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 53,
+  "fields": {
+    "name": "Atebubu-Amantin",
+    "district": null,
+    "region": 8,
+    "created_on": "2020-08-23T21:11:47.019Z",
+    "updated_on": "2020-08-23T21:12:01.506Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 54,
+  "fields": {
+    "name": "Kintampo North",
+    "district": null,
+    "region": 8,
+    "created_on": "2020-08-23T21:12:13.670Z",
+    "updated_on": "2020-08-23T21:12:13.670Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 55,
+  "fields": {
+    "name": "Kintampo South",
+    "district": null,
+    "region": 8,
+    "created_on": "2020-08-23T21:12:30.335Z",
+    "updated_on": "2020-08-23T21:12:30.335Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 56,
+  "fields": {
+    "name": "Nkoranza North",
+    "district": null,
+    "region": 8,
+    "created_on": "2020-08-23T21:12:51.513Z",
+    "updated_on": "2020-08-23T21:12:51.513Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 57,
+  "fields": {
+    "name": "Nkoranza South",
+    "district": null,
+    "region": 8,
+    "created_on": "2020-08-23T21:13:14.240Z",
+    "updated_on": "2020-08-23T21:13:14.240Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 58,
+  "fields": {
+    "name": "Pru East",
+    "district": null,
+    "region": 8,
+    "created_on": "2020-08-23T21:13:32.101Z",
+    "updated_on": "2020-08-23T21:13:32.101Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 59,
+  "fields": {
+    "name": "Pru West",
+    "district": null,
+    "region": 8,
+    "created_on": "2020-08-23T21:13:50.519Z",
+    "updated_on": "2020-08-23T21:13:50.519Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 60,
+  "fields": {
+    "name": "Sene East",
+    "district": null,
+    "region": 8,
+    "created_on": "2020-08-23T21:14:05.891Z",
+    "updated_on": "2020-08-23T21:14:05.891Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 61,
+  "fields": {
+    "name": "Sene West",
+    "district": null,
+    "region": 8,
+    "created_on": "2020-08-23T21:14:24.218Z",
+    "updated_on": "2020-08-23T21:14:24.219Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 62,
+  "fields": {
+    "name": "Techiman North",
+    "district": null,
+    "region": 8,
+    "created_on": "2020-08-23T21:14:44.175Z",
+    "updated_on": "2020-08-23T21:14:44.175Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 63,
+  "fields": {
+    "name": "Techiman South",
+    "district": null,
+    "region": 8,
+    "created_on": "2020-08-23T21:15:18.026Z",
+    "updated_on": "2020-08-23T21:15:18.026Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 64,
+  "fields": {
+    "name": "Banda Ahenkro",
+    "district": null,
+    "region": 7,
+    "created_on": "2020-08-23T21:16:16.257Z",
+    "updated_on": "2020-08-23T21:16:16.257Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 65,
+  "fields": {
+    "name": "Berekum East",
+    "district": null,
+    "region": 7,
+    "created_on": "2020-08-23T21:16:38.276Z",
+    "updated_on": "2020-08-23T21:16:59.301Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 66,
+  "fields": {
+    "name": "Berekum West",
+    "district": null,
+    "region": 7,
+    "created_on": "2020-08-23T21:17:20.380Z",
+    "updated_on": "2020-08-23T21:17:20.380Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 67,
+  "fields": {
+    "name": "Dormaa Central",
+    "district": null,
+    "region": 7,
+    "created_on": "2020-08-23T21:17:35.059Z",
+    "updated_on": "2020-08-23T21:17:35.059Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 68,
+  "fields": {
+    "name": "Dormaa East",
+    "district": null,
+    "region": 7,
+    "created_on": "2020-08-23T21:17:55.043Z",
+    "updated_on": "2020-08-23T21:17:55.043Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 69,
+  "fields": {
+    "name": "Jaman North",
+    "district": null,
+    "region": 7,
+    "created_on": "2020-08-23T21:18:08.928Z",
+    "updated_on": "2020-08-23T21:18:08.928Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 70,
+  "fields": {
+    "name": "Jaman South",
+    "district": null,
+    "region": 7,
+    "created_on": "2020-08-23T21:18:21.245Z",
+    "updated_on": "2020-08-23T21:18:21.246Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 71,
+  "fields": {
+    "name": "Sunyani East",
+    "district": null,
+    "region": 7,
+    "created_on": "2020-08-23T21:18:35.697Z",
+    "updated_on": "2020-08-23T21:18:35.697Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 72,
+  "fields": {
+    "name": "Sunyani West",
+    "district": null,
+    "region": 7,
+    "created_on": "2020-08-23T21:18:49.746Z",
+    "updated_on": "2020-08-23T21:18:49.746Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 73,
+  "fields": {
+    "name": "Tain",
+    "district": null,
+    "region": 7,
+    "created_on": "2020-08-23T21:19:02.243Z",
+    "updated_on": "2020-08-23T21:19:02.243Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 74,
+  "fields": {
+    "name": "Wenchi",
+    "district": null,
+    "region": 7,
+    "created_on": "2020-08-23T21:19:18.316Z",
+    "updated_on": "2020-08-23T21:19:18.316Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 75,
+  "fields": {
+    "name": "Abura-Asebu-Kwamankese",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:23:12.969Z",
+    "updated_on": "2020-08-23T21:23:12.969Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 76,
+  "fields": {
+    "name": "Agona East",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:23:29.148Z",
+    "updated_on": "2020-08-23T21:23:29.148Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 77,
+  "fields": {
+    "name": "Agona West",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:23:45.214Z",
+    "updated_on": "2020-08-23T21:23:45.214Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 78,
+  "fields": {
+    "name": "Ajumako-Enyan-Essiam",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:24:07.685Z",
+    "updated_on": "2020-08-23T21:24:07.685Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 79,
+  "fields": {
+    "name": "Asikuma-Odoben-Brakwa",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:24:30.296Z",
+    "updated_on": "2020-08-23T21:24:30.296Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 80,
+  "fields": {
+    "name": "Assin Central",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:24:41.541Z",
+    "updated_on": "2020-08-23T21:24:41.541Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 81,
+  "fields": {
+    "name": "Assin North",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:24:50.876Z",
+    "updated_on": "2020-08-23T21:24:50.876Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 82,
+  "fields": {
+    "name": "Assin South",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:25:04.958Z",
+    "updated_on": "2020-08-23T21:25:04.958Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 83,
+  "fields": {
+    "name": "Awutu-Senya East",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:25:24.039Z",
+    "updated_on": "2020-08-23T21:25:24.039Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 84,
+  "fields": {
+    "name": "Awutu-Senya West",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:25:47.156Z",
+    "updated_on": "2020-08-23T21:25:47.156Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 85,
+  "fields": {
+    "name": "Cape Coast North",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:26:06.762Z",
+    "updated_on": "2020-08-23T21:26:06.762Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 86,
+  "fields": {
+    "name": "Cape Coast South",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:26:23.328Z",
+    "updated_on": "2020-08-23T21:26:23.328Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 87,
+  "fields": {
+    "name": "Effutu",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:26:35.980Z",
+    "updated_on": "2020-08-23T21:26:35.980Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 88,
+  "fields": {
+    "name": "Ekumfi",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:27:03.379Z",
+    "updated_on": "2020-08-23T21:27:03.379Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 89,
+  "fields": {
+    "name": "Gomoa Central",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:27:20.548Z",
+    "updated_on": "2020-08-23T21:27:20.548Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 90,
+  "fields": {
+    "name": "Gomoa East",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:27:36.357Z",
+    "updated_on": "2020-08-23T21:27:36.357Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 91,
+  "fields": {
+    "name": "Gomoa West",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:27:50.609Z",
+    "updated_on": "2020-08-23T21:27:50.609Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 92,
+  "fields": {
+    "name": "Komenda-Edina-Eguafo-Abirem",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:28:19.085Z",
+    "updated_on": "2020-08-23T21:28:19.085Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 93,
+  "fields": {
+    "name": "Mfantseman",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:28:34.381Z",
+    "updated_on": "2020-08-23T21:28:34.381Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 94,
+  "fields": {
+    "name": "Twifo-Atii Morkwaa",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:28:56.163Z",
+    "updated_on": "2020-08-23T21:28:56.163Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 95,
+  "fields": {
+    "name": "Hemang Lower Denkyira",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:29:18.075Z",
+    "updated_on": "2020-08-23T21:29:18.075Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 96,
+  "fields": {
+    "name": "Upper Denkyira East",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:29:36.241Z",
+    "updated_on": "2020-08-23T21:29:36.241Z"
+  }
+},
+{
+  "model": "results.constituency",
+  "pk": 97,
+  "fields": {
+    "name": "Upper Denkyira West",
+    "district": null,
+    "region": 10,
+    "created_on": "2020-08-23T21:29:55.264Z",
+    "updated_on": "2020-08-23T21:29:55.265Z"
   }
 }
 ]
