@@ -2,6 +2,11 @@ from django.db import models
 from django.utils.text import slugify
 from django.db.models import Sum
 
+from django.conf import settings
+from django.db.models.signals import post_save
+from django.dispatch import receiver
+from rest_framework.authtoken.models import Token
+
 # Class for the 16 regions in Ghana
 class Region(models.Model):
 	name=models.CharField(max_length=20, null=False, unique=True, db_index=True)
@@ -81,6 +86,7 @@ class PollingStation(models.Model):
 	def __str__(self):
 		return self.pscode      #f"{self.pscode}, {self.name} "
 
+
 		
 # Class for agents at the polling stations
 class Agent(models.Model):
@@ -96,12 +102,20 @@ class Agent(models.Model):
 # Class for the voting results
 class PresidentialPollResult(models.Model):
 	pscode=models.OneToOneField('PollingStation', on_delete=models.CASCADE,  verbose_name='Polling Station', primary_key=True, db_index=True)
-	NDC=models.PositiveSmallIntegerField(blank=True, default=0)
 	NPP=models.PositiveSmallIntegerField(blank=True, default=0)
+	NDC=models.PositiveSmallIntegerField(blank=True, default=0)
+	GUM=models.PositiveSmallIntegerField(blank=True, default=0)
 	CPP=models.PositiveSmallIntegerField(blank=True, default=0)
+	GFP=models.PositiveSmallIntegerField(blank=True, default=0)
+	GCPP=models.PositiveSmallIntegerField(blank=True, default=0)
+	APC=models.PositiveSmallIntegerField(blank=True, default=0)
+	LPG=models.PositiveSmallIntegerField(blank=True, default=0)
+	PNC=models.PositiveSmallIntegerField(blank=True, default=0)
+	PPP=models.PositiveSmallIntegerField(blank=True, default=0)
+	NDP=models.PositiveSmallIntegerField(blank=True, default=0)
+	IND=models.PositiveSmallIntegerField(blank=True, default=0)
 	rejected=models.PositiveSmallIntegerField( blank=True, default=0)
-	pink_sheet=models.FileField(upload_to='uploads/%Y/%m/%d/', help_text='Snap and upload image of the sheet')
-	sheet=models.ImageField(upload_to='uploads/%Y/%m/%d/', help_text='Take picture of the sheet', blank=True)
+	pink_sheet=models.FileField(upload_to='uploads/%Y/%m/%d/', help_text='Snap and upload image of the pink sheet')
 	available = models.BooleanField(default=True)
 	verified = models.BooleanField(default=False)
 	valid_votes=models.PositiveSmallIntegerField(default=0)
@@ -114,16 +128,16 @@ class PresidentialPollResult(models.Model):
 		ordering=['pscode']
 
 	def save(self, *args, **kwargs):
-		self.valid_votes = ((self.NDC)+(self.NPP) +(self.CPP))
-		self.vote_cast = ((self.NDC)+(self.NPP) +(self.CPP) + (self.rejected))
+		self.valid_votes = ((self.NPP)+(self.NDC)+(self.GUM) +(self.CPP)+(self.GFP)+(self.GCPP)+(self.APC)+(self.LPG)+(self.PNC)+(self.PPP)+(self.NDP)+(self.IND))
+		self.vote_cast = ((self.NPP)+(self.NDC)+(self.GUM) +(self.CPP)+(self.GFP)+(self.GCPP)+(self.APC)+(self.LPG)+(self.PNC)+(self.PPP)+(self.NDP)+(self.IND) + (self.rejected))
 		obj=PollingStation.objects.values('pscode','voter_pop').get(pscode=self.pscode)
 		ob=obj['voter_pop']
 		# print("The intented value")
 		# print(ob)
-		if self.vote_cast < ob:
-			self.voting_status=True
-		else:
-			self.voting_status=False
+		# if self.vote_cast < ob:
+		# 	self.voting_status=True
+		# else:
+		# 	self.voting_status=False
 
 		super(PresidentialPollResult, self).save(*args, **kwargs)
 
@@ -160,4 +174,7 @@ class Vote(models.Model):
 		return self.name
 
 
-
+@receiver(post_save, sender=settings.AUTH_USER_MODEL)
+def create_auth_token(sender, instance=None, created=False, **kwargs):
+    if created:
+        Token.objects.create(user=instance)

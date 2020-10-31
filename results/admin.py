@@ -21,7 +21,7 @@ admin.site.register(PollingStation, PollinStationAdmin)
 #Poll results
 @admin.register(PresidentialPollResult)
 class PollResultAdmin(admin.ModelAdmin):
-	list_display = ['pscode','NDC', 'NPP','CPP', 'rejected', 'valid_votes', 'vote_cast','available']
+	list_display = ['pscode','NPP','NDC','GUM', 'CPP','GFP','GCPP','APC','LPG','PNC','PPP','NDP','IND', 'rejected', 'valid_votes', 'vote_cast','available']
 	list_filter = ['created_on','pscode']
 	#list_editable=['voter_pop','pscode']
 	#autocomplete_fields = ['pscode']

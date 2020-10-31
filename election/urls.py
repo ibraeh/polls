@@ -18,6 +18,7 @@ from django.urls import path,include
 from django.conf import settings
 from django.conf.urls.static import static
 from accounts import views
+from rest_framework.authtoken.views import obtain_auth_token
 
 urlpatterns = [
     path('',views.Home, name='home'),
@@ -28,6 +29,7 @@ urlpatterns = [
     path('api-auth/', include('rest_framework.urls')),
     path('api/', include('results.api.urls')),
     path('rest-registration/', include('rest_registration.api.urls')),
+    path('api-token-auth/', obtain_auth_token, name='api_token_auth'),
 ]
 
 if settings.DEBUG:
