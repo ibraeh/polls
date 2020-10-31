@@ -130,8 +130,8 @@ class PresidentialPollResult(models.Model):
 	def save(self, *args, **kwargs):
 		self.valid_votes = ((self.NPP)+(self.NDC)+(self.GUM) +(self.CPP)+(self.GFP)+(self.GCPP)+(self.APC)+(self.LPG)+(self.PNC)+(self.PPP)+(self.NDP)+(self.IND))
 		self.vote_cast = ((self.NPP)+(self.NDC)+(self.GUM) +(self.CPP)+(self.GFP)+(self.GCPP)+(self.APC)+(self.LPG)+(self.PNC)+(self.PPP)+(self.NDP)+(self.IND) + (self.rejected))
-		obj=PollingStation.objects.values('pscode','voter_pop').get(pscode=self.pscode)
-		ob=obj['voter_pop']
+		# obj=PollingStation.objects.values('pscode','voter_pop').get(pscode=self.pscode)
+		# ob=obj['voter_pop']
 		# print("The intented value")
 		# print(ob)
 		# if self.vote_cast < ob:
