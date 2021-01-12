@@ -11,13 +11,19 @@ Profile
 <div class="container-fluid">
 <!-- <h1>Welcome to profile page</h1> -->
 	{% if user.username %}
-<h1>Welcome {{ user.username }}!</h1>
+<h1>Welcome {{ user.username }} !</h1>
 {% else %}
 <p>Welcome anonymous user!
 You need to <a href="{%url 'login'%}">login</a></p>
 {% endif %}
-<!-- <p><a href="{% url 'logout' %}">Logout</a></p>
-<p><a href="{% url 'dashboard' %}">Dashboard</a></p> -->
+<div class="jumbotron">
+	<div><a href="{% url 'dashboard' %}">View Election Summary</a></div>
+	<div><a href="{% url 'presidential' %}">View Presidential Results</a></div>
+	<div><a href="{% url '' %}">View Parliamentary Results</a></div>
+	<div><a href="{% url 'region' %}">View Results by Region</a></div>
+	<div><a href="{% url 'stations' %}">View Results by Polling Station</a></div>
+</div>
+
 </div>
 {% endblock content %}
 
