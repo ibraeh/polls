@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'n%!s8!ha0w^be$fn-mi#9m$^d6m89s
 DEBUG = False
 # bool(os.environ.get('DJANGO_DEBUG', 'False') != 'False')
 
-ALLOWED_HOSTS = ['djanpoll.herokuapp.com','*', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['djanpolls.herokuapp.com','*', 'localhost', '127.0.0.1']
 
 
 # Application definition
