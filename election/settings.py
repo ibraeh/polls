@@ -33,6 +33,9 @@ DEBUG = bool(os.environ.get('DJANGO_DEBUG', 'False') != 'False')
 ALLOWED_HOSTS = ['https://djanpolls.herokuapp.com/','djanpolls.herokuapp.com', 'localhost', '127.0.0.1']
 
 
+ADMINS = ( ('Ibrahim M', 'ibraeh@yahoo.com'), )
+
+
 # Application definition
 
 INSTALLED_APPS = [
