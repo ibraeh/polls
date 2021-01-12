@@ -21,7 +21,7 @@ from accounts import views
 from rest_framework.authtoken.views import obtain_auth_token
 
 urlpatterns = [
-    path('',views.Home, name='home'),
+    path('/',views.Home, name='home'),
     path('admin/', admin.site.urls),
     path('accounts/', include('django.contrib.auth.urls')),
     path('accounts/', include('accounts.urls')),
