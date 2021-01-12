@@ -24,7 +24,7 @@ urlpatterns = [
     path('',views.Home, name='home'),
     path('admin/', admin.site.urls),
     path('accounts/', include('django.contrib.auth.urls')),
-    path('accounts/', include('accounts.urls')),
+    path('account/', include('accounts.urls')),
     path('results/', include('results.urls')),
     path('api-auth/', include('rest_framework.urls')),
     path('api/', include('results.api.urls')),
