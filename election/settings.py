@@ -29,7 +29,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'n!s8!ha0w^be$fn-mi#9m$^d6m89su2ux$_!fv^99phy=k*kt')
 # DEBUG = bool(os.environ.get('DJANGO_DEBUG'))
-DEBUG=False
+DEBUG=True
 ALLOWED_HOSTS = ['*','djanpolls.herokuapp.com', 'localhost', '127.0.0.1']
 
 
