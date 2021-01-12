@@ -22,15 +22,15 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = 'n%!s8!ha0w^be$fn-mi#9m$^d6m89su2ux$_!fv^99phy=k*kt'
+SECRET_KEY = 'n%!s8!ha0w^be$fn-mi#9m$^d6m89su2ux$_!fv^99phy=k*kt'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
 
-SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'n!s8!ha0w^be$fn-mi#9m$^d6m89su2ux$_!fv^99phy=k*kt')
+#SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'n!s8!ha0w^be$fn-mi#9m$^d6m89su2ux$_!fv^99phy=k*kt')
 #DEBUG = bool(os.environ.get('DJANGO_DEBUG','')!= 'False')
 DEBUG=False
-ALLOWED_HOSTS = ['*','djanpolls.herokuapp.com', ]
+ALLOWED_HOSTS = ['djanpolls.herokuapp.com', ]
 
 
 ADMINS = ( ('Ibrahim M', 'ibraeh@yahoo.com'), )
