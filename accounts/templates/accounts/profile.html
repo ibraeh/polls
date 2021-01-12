@@ -9,9 +9,9 @@ Profile
 
 {% block content %}
 <div class="container-fluid">
-<h1>Welcome to profile page</h1>
+<!-- <h1>Welcome to profile page</h1> -->
 	{% if user.username %}
-<p>Welcome {{ user.username }}!</p>
+<h1>Welcome {{ user.username }}!</h1>
 {% else %}
 <p>Welcome anonymous user!
 You need to <a href="{%url 'login'%}">login</a></p>
