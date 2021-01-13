@@ -68,7 +68,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'election.urls'
-
+PARENT_HOST= "djanpolls.herokuapp.com"
+DEFAULT_REDIRECT_URL="https://djanpolls.herokuapp.com"
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
