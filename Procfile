@@ -1,1 +1,1 @@
-web: gunicorn election.wsgi --log-file -
+web: gunicorn election.wsgi 
