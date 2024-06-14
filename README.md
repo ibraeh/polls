@@ -26,7 +26,7 @@ This project is a mobile and web-based election collation system designed to aid
 * Reduced data entry errors by 20% through automation.
 * Enhanced data integrity and security through centralized management and privacy measures.
 
-* Screenshot (Mobile)
+### Screenshot (Mobile)
   
 ![1686311720671_login](https://github.com/ibraeh/polls/assets/29314702/54098707-9a04-4958-b57b-e347694dc1bb)
 
