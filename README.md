@@ -1,33 +1,44 @@
-# Title
-Election Collation System
 
-## Project Description
-This project is a mobile and web-based election collation system designed to aid polling agents and officials in real-time results analysis before the final declaration of election results. It addresses critical issues faced during poll result collection and collation, improving efficiency and accuracy.
+**Title**: Election Collation System  
+**Duration**: 01/2020 - 07/2020  
+**Team Size**: Solo Freelance Developer  
 
-## Key Features
-* Real-time data collection and analysis for informed decision-making.
-* Engaging user interfaces and dynamic visualizations with Highcharts.
-* Secure authentication and authorization for data protection.
-* Robust data verification and auditing for result accuracy.
-* Centralized database management for data integrity and security.
+**Objective**: Developed an election collation system to aid polling agents and officials in collecting, collation, analyzing of poll results before the final declaration by the electoral commissioner, addressing critical issues in poll results collection and collation.
 
-## Technology Specification
-* Development Environment: Windows OS, Sublime Text, MS Command Prompt, Python IDLE
-* Backend: Python, Django web framework, Django REST Framework
-* Frontend: HTML, CSS, JavaScript, jQuery, Bootstrap, Highcharts
-* Mobile App: jQuery Mobile, Apache Cordova (Android, iOS, Windows)
-* Database: SQLite (Development), PostgreSQL, MySQL (Production)
-* Deployment: Heroku cloud
-* Version Control: Git, GitHub
+**Scope**: The application was designed to provide real-time data analysis and visualization, enhancing transparency and accuracy during the electoral process.
 
-## Impact
-* Increased overall effectiveness of result collection and analysis by 15%.
-* Empowered stakeholders with real-time access to transparent voting data.
-* Reduced data entry errors by 20% through automation.
-* Enhanced data integrity and security through centralized management and privacy measures.
+**Role and Responsibilities**:
+- **Role**: Freelance Software Developer
+- **Responsibilities**:
+  - Developed mobile, frontend, and backend components using Python and Django web framework.
+  - Utilized Sublime Text, MS Command Prompt, and Python IDLE for development.
+  - Created engaging user interfaces with HTML, CSS, JavaScript, jQuery, Bootstrap, and Highcharts.
+  - Developed a mobile app using jQuery Mobile and Apache Cordova for cross-platform compatibility.
+  - Employed SQLite for development and PostgreSQL/MySQL for production databases.
+  - Deployed the web application on Heroku using Git and GitHub for version control.
+  - Tested the mobile app on various Android devices to ensure compatibility.
+  - Implemented dynamic visualizations with Highcharts for informative charts and graphs.
+  - Built RESTful APIs with Django REST Framework for seamless communication between mobile and central systems.
+  - Utilized jQuery AJAX and JavaScript Fetch API for efficient server connections.
+  - Implemented secure authentication and authorization mechanisms.
+  - Configured multiple authentication backends for user convenience.
+  - Integrated data verification and auditing mechanisms for result accuracy.
 
-### Screenshot (Mobile)
-  
-![1686311720671_login](https://github.com/ibraeh/polls/assets/29314702/54098707-9a04-4958-b57b-e347694dc1bb)
+**Technologies and Tools**:
+- **Programming Languages**: Python, JavaScript
+- **Frameworks and Libraries**: Django, jQuery, Bootstrap, Highcharts
+- **Databases**: SQLite (development), PostgreSQL, MySQL (production)
+- **Tools and Platforms**: Sublime Text, MS Command Prompt, Python IDLE, Git, GitHub, Heroku, Apache Cordova
+- **Other Technologies**: jQuery Mobile, Django REST Framework, Highcharts
 
-![1686312227544_presidential](https://github.com/ibraeh/polls/assets/29314702/ab891f8b-73c5-476f-818f-18159667b8f5)
+**Challenges and Solutions**:
+- **Challenges**: Ensuring data accuracy and secure real-time data access.
+- **Solutions**: Implemented robust data verification, secure authentication, and dynamic visualizations to enhance transparency and accuracy.
+
+**Achievements and Impact**:
+- **Key Achievements**: Increased overall effectiveness by 15%, reduced data entry errors by 10%.
+- **Impact**: Improved efficiency and accuracy in result collection, analysis, and display. Empowered stakeholders with real-time voting data, leading to increased engagement and informed decision-making.
+
+**Conclusion**:
+- **Lessons Learned**: Enhanced skills in cross-platform mobile development, data visualization, and secure authentication.
+- **Future Improvements**: Plan to integrate advanced data analytics and machine learning for predictive analysis and further enhance user experience.
