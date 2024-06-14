@@ -21,7 +21,7 @@ This project is a mobile and web-based election collation system designed to aid
 * Version Control: Git, GitHub
 
 ## Impact
-* Increased overall effectiveness of result collection and analysis by 25%.
+* Increased overall effectiveness of result collection and analysis by 15%.
 * Empowered stakeholders with real-time access to transparent voting data.
-* Reduced data entry errors by 40% through automation.
+* Reduced data entry errors by 20% through automation.
 * Enhanced data integrity and security through centralized management and privacy measures.
